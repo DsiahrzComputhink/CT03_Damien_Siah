@@ -8,7 +8,7 @@ body {
     padding: 2rem;
 }
 h1 {
-    color: #00ccff;
+    color: #b7f1ff;
 }
 .game-links {
     margin-top: 2rem;
@@ -17,10 +17,10 @@ h1 {
     gap: 1rem;
 }
 a {
-    color: #00ccff;
+    color: #76e4ff;
     text-decoration: none;
     font-size: 1.2rem;
-    border: 2px solid #00ccff;
+    border: 2px solid #bcf2ff;
     padding: 0.5rem 1rem;
     border-radius: 8px;
     transition: background 0.2s;
