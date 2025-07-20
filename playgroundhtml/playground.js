@@ -43,7 +43,7 @@ function setup() {
     ellipse.y = 500;
     ellipse.w = 50;
     ellipse.h = 50;
-    ellipse.color = "green";
+    ellipse.color = "pink";
     ellipse.collider = "static" // fixed but others can bounce off
 
 }
