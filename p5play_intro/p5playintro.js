@@ -9,11 +9,12 @@ function setup() {
 
   // Create a bouncing ball sprite
   // write your codes here
-  ball = new Sprite
+  ball = new Sprite();
 
 }
 
 function draw() {
   // write your codes here
+  ball = ne
 }
 
