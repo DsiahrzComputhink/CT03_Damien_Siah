@@ -43,8 +43,9 @@ function setup() {
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
 
+    // new sprite that is collidable
     square = new Sprite();
-    box.x = 100;
+    box.x = ;
     box.y = 100;
     box.w = 80;
     box.h = 80;
