@@ -1,6 +1,6 @@
 // Archive
 
-let startingvelocity;
+let startingvelocity; // global variable
 
 function setup() {
     // Set up the canvas
@@ -32,7 +32,7 @@ function setup() {
     ball.bounciness = 1;
     ball.collider = "dynamic"; // optional --> obeys the physics --> default
 
-    let startingvelocity = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y))
+    startingvelocity = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y))
 
     // another sprite that is a rectangle
     box = new Sprite();
