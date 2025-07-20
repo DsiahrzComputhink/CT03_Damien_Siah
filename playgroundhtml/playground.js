@@ -45,8 +45,9 @@ function draw() {
   textSize(16)
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
-  let ballvelocity = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y))
+  let totalvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
   text("Ball Velocity: ("+ totalvel + ")", 10,40);
+
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
   // Or operator --> ||
   if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
