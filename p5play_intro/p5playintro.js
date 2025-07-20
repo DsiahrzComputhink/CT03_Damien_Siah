@@ -44,7 +44,7 @@ function draw() {
       fill(0);
       textSize(16)
       text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
-      text("Velocity: ("+ int(ball.vel.x + ball.vel.y) + ")", 10,60);
+      text("Velocity: ("+ int(ball.vel.x + ball.vel.y) + ")", 10,40);
       text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
       // Or operator --> ||
     if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
