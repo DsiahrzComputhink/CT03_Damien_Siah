@@ -42,7 +42,7 @@ function draw() {
     background(250);
     // Or operator --> ||
   if ( ball.x < (ball.d / 2) + 0 || ball.x > (ball.d / 2) - width){
-    ball.vel.x *= -2;
+    ball.vel.x *= -1;
   }
   if ( ball.y < (ball.d / 2) + 0 || ball.y > (ball.d / 2) - height){
     ball.vel.y *= -1;
