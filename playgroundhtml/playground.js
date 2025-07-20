@@ -37,25 +37,29 @@ function setup() {
     box.h = 50;
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
-
-    ellipse = new Sprite();
-    ellipse.x = 300;
-    ellipse.y = 500;
-    ellipse.w = 50;
-    ellipse.h = 50;
-    ellipse.color = "pink";
-    ellipse.collider = "static" // fixed but others can bounce off
-
 }
 function draw() {
     // write your codes here
-        background(250);
-        // Or operator --> ||
+      background(250);
+
+      fill(0);
+      textSize(16)
+      text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
+      text("Velocity: ("+ (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) + ")", 10,40);
+      text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
+      // Or operator --> ||
     if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
-        ball.vel.x *= -1;
+      ball.vel.x *= -1;
     }
     if ( ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
-        ball.vel.y *= -1;
+      ball.vel.y *= -1;
+    }
+
+    if(box.x == ball.x){
+      ball.vel.x *= 1
+    }
+    if(box.y == ball.y){
+      ball.vel.y *= 1
     }
 
     box.x = mouseX;
