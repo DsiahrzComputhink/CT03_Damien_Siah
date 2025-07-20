@@ -38,6 +38,8 @@ function setup() {
     box.collider = "static" // fixed but others can bounce off
 }
 function draw() {
-  ellipse
+  ellipse(100,100,30,50);
+  ellipse(200,100,80,150);
+  
 }
 
