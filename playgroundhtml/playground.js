@@ -43,7 +43,7 @@ function setup() {
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
 
-    box = new Sprite();
+    square = new Sprite();
     box.x = 100;
     box.y = 100;
     box.w = 80;
