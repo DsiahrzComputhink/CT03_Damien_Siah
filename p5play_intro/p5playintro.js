@@ -36,8 +36,6 @@ function setup() {
     box.h = 50;
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
-    box.x = mouseX;
-    box.y = mouseY;
 }
 function draw() {
   // write your codes here
@@ -49,5 +47,7 @@ function draw() {
   if ( ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
     ball.vel.y *= -1;
   }
+  box.x = mouseX;
+  box.y = mouseY;
 }
 
