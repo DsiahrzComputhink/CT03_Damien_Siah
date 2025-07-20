@@ -55,7 +55,7 @@ function draw() {
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
 
-  text("Current Speed: ("+ (int((currentvel/startingvelocity)*100) + "%)", 10,80);
+  text("Current Speed: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
 
   // Or operator --> ||
   if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
