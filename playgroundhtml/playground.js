@@ -64,7 +64,7 @@ function draw() {
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
 
-  text("Current Speed: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
+  text("Energy: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
 
   // Or operator --> ||
   // ball
