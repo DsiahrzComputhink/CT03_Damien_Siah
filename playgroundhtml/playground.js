@@ -29,6 +29,8 @@ function setup() {
     ball.bounciness = 1;
     ball.collider = "dynamic"; // optional --> obeys the physics --> default
 
+    let startingvelocity = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y))
+
     // another sprite that is a rectangle
     box = new Sprite();
     box.x = 100;
@@ -45,8 +47,8 @@ function draw() {
   textSize(16)
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
-  let totalvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
-  text("Ball Velocity: ("+ totalvel + ")", 10,40);
+  let currentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
+  text("Ball Velocity: ("+ currentvel + ")", 10,40);
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
   // Or operator --> ||
@@ -63,6 +65,9 @@ function draw() {
   if(box.y == ball.y){
     ball.vel.y *= 1
   }
+
+  // to negate for velocity loss
+  if(currentvel)
 
   box.x = mouseX;
   box.y = mouseY;
