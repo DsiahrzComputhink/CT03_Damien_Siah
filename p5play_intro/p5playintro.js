@@ -39,12 +39,13 @@ function setup() {
     // box.color = "green";
     // box.collider = "static" // fixed but others can bounce off
 
-    
+
 }
 function draw() {
   ellipse(100,100,30,50);
   ellipse(200,100,80,150);
   circle(320,120,100);
   rect(30,20,55,50,0,0,20,0); // (x, y, width, height, [tl], [tr], [bl], [br])
+  triangle(30,75,58,20,86,75)
 }
 
