@@ -19,11 +19,11 @@ function setup() {
   // write your codes here
   ball = new Sprite();
   // location of ball
-  ball.x = 100;
+  ball.x = 400;
   ball.y = 200;
   ball.diameter = 40;
   ball.color = "blue";
-  ball.vel.x = 1;
+  ball.vel.x = -1;
   ball.vel.y = 9;
   ball.bounciness = 1;
   ball.collider = "dynamic"; // optional --> obeys the physics --> default
