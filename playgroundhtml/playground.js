@@ -41,10 +41,10 @@ function setup() {
     ellipse = new Sprite();
     ellipse.x = 100;
     ellipse.y = 100;
-    box.w = 50;
-    box.h = 50;
-    box.color = "green";
-    box.collider = "static" // fixed but others can bounce off
+    ellipse.w = 50;
+    ellipse.h = 50;
+    ellipse.color = "green";
+    ellipse.collider = "static" // fixed but others can bounce off
 
 }
 function draw() {
