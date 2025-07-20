@@ -12,7 +12,8 @@ function setup() {
   strokeWeight(10);
   
   circle(30,30,50); //(x, y, d)
-  
+  // x and y refers to the position in space
+  // d refers to the diameter of the object
   rect(50,50,100,200) //(x, y, w, h)
   
   // Create a bouncing ball sprite
