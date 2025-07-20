@@ -36,6 +36,8 @@ function setup() {
     box.h = 50;
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
+    box.x = MouseX;
+    box.y = MouseY;
 }
 function draw() {
   // write your codes here
