@@ -51,6 +51,9 @@ function draw() {
   text("Ball Velocity: ("+ currentvel + ")", 10,40);
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
+
+  text("Testing: ("+ currentvel + ")", 10,40);
+
   // Or operator --> ||
   if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
     ball.vel.x *= -1;
