@@ -41,10 +41,10 @@ function draw() {
   // write your codes here
     background(250);
     // Or operator --> ||
-  if ( ball.x < 0 || ball.x > width){
+  if ( ball.x < 0 || ball.x > width - ball.diameter / 2){
     ball.vel.x *= -1;
   }
-  if ( ball.y < + 0 || ball.x > - height){
+  if ( ball.y < 0 || ball.x > - height - ball.diameter / 2){
     ball.vel.y *= -1;
   }
 }
