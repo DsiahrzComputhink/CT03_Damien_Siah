@@ -35,7 +35,7 @@ function setup() {
   box.w = 50;
   box.h = 50;
   box.color = "green";
-  box.collider = "static" // fixed 
+  box.collider = "static" // fixed but others can bounce off
 }
 function draw() {
   // write your codes here
