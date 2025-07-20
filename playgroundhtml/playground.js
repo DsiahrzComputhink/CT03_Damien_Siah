@@ -47,8 +47,8 @@ function setup() {
     square = new Sprite();
     square.x = 100;
     square.y = 100;
-    square.w = 80;
-    square.h = 20;
+    square.w = 50;
+    square.h = 50;
     square.color = "yellow";
     square.collider = "dynamic" // fixed but others can bounce off
 }
