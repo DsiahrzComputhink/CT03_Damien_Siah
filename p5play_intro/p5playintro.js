@@ -40,11 +40,11 @@ function setup() {
 function draw() {
   // write your codes here
     background(250);
-    
+    // Or operator --> ||
   if ( ball.x < 0 || ball.x > width){
     ball.vel.x *= -1;
   }
-  if ( ball.x < 0 || ball.x > width){
+  if ( ball.x < 0 || ball.x > height){
     ball.vel.x *= -1;
   }
 }
