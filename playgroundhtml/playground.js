@@ -1,4 +1,4 @@
-//Anchored
+// Archive
 function setup() {
     // Set up the canvas
     new Canvas(800, 400); // top left is (0,0)
