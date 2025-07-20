@@ -46,11 +46,11 @@ function setup() {
     // new sprite that is collidable
     square = new Sprite();
     square.x = 100;
-    box.y = 100;
-    box.w = 80;
-    box.h = 20;
-    box.color = "yellow";
-    box.collider = "dynamic" // fixed but others can bounce off
+    square.y = 100;
+    square.w = 80;
+    square.h = 20;
+    square.color = "yellow";
+    square.collider = "dynamic" // fixed but others can bounce off
 }
 function draw() {
   // write your codes here
