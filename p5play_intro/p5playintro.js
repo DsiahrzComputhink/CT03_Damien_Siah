@@ -40,6 +40,7 @@ function setup() {
 function draw() {
   ellipse(100,100,30,50);
   ellipse(200,100,80,150);
-  
+  circle(320,120,100)
+  (rec)
 }
 
