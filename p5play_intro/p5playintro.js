@@ -10,7 +10,11 @@ function setup() {
   // Create a bouncing ball sprite
   // write your codes here
   ball = new Sprite();
-  // locari
+  // location of ball
+  ball.x = 100;
+  ball.y = 200;
+  ball.diameter = 40;
+  ball.color = "blue";
 
 }
 
