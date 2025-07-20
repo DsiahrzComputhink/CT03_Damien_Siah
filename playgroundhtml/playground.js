@@ -66,15 +66,14 @@ function draw() {
   }
 
   if(box.x == ball.x){
-    ball.vel.x *= 1
+    ball.vel.x *= 2
   }
   if(box.y == ball.y){
-    ball.vel.y *= 1
+    ball.vel.y *= 2
   }
 
   // to negate for velocity loss
   if(currentvel < startingvelocity){
-    energyloss = currentvel/startingvelocity
     ball.vel.x *= startingvelocity/currentvel
     ball.vel.y *= startingvelocity/currentvel
   }
