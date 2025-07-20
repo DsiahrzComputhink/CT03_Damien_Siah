@@ -44,7 +44,7 @@ function draw() {
   if ( ball.x < (ball.d / 2) + 0 || ball.x > (ball.d / 2) - width){
     ball.vel.x *= -2;
   }
-  if ( ball.y < 0 || ball.y > height){
+  if ( ball.y < (ball.d / 2) + 0 || ball.y > (ball.d / 2) - height){
     ball.vel.y *= -1;
   }
 }
