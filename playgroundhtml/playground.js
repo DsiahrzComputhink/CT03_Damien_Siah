@@ -38,8 +38,8 @@ function setup() {
     box = new Sprite();
     box.x = 100;
     box.y = 100;
-    box.w = 50;
-    box.h = 50;
+    box.w = 75;
+    box.h = 75;
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
 
