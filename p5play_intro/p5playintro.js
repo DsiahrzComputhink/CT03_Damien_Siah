@@ -26,7 +26,9 @@ function setup() {
   ball.bounciness = 1;
   ball.collider = "dynamic"; // optional --> obeys the physics --> default
 
-  // 
+  // another sprite that is a rectangle
+  box = new Sprite();
+  
 }
 
 function draw() {
