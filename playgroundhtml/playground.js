@@ -60,7 +60,7 @@ function draw() {
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
   let currentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
-  text("Ball Velocity: ("+ currentvel + ")", 10,40);
+  text("Ball Velocity: ("+ int(currentvel) + ")", 10,40);
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
 
