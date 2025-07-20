@@ -76,8 +76,8 @@ function draw() {
   }
 
   // square
-  if ( square.x < 0 + square.diameter / 2 || ball.x > width - ball.diameter / 2){
-    ball.vel.x *= -1;
+  if ( square.x < 0 + square.diameter / 2 || square.x > width - ball.diameter / 2){
+    square.vel.x *= -1;
   }
 
   // box
