@@ -39,8 +39,8 @@ function setup() {
     box.collider = "static" // fixed but others can bounce off
 
     ellipse = new Sprite();
-    ellipse.x = 100;
-    ellipse.y = 100;
+    ellipse.x = 300;
+    ellipse.y = 500;
     ellipse.w = 50;
     ellipse.h = 50;
     ellipse.color = "green";
