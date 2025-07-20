@@ -37,5 +37,6 @@ function setup() {
 
 function draw() {
   // write your codes here
+  f
 }
 
