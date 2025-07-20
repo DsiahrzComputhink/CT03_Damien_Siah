@@ -26,6 +26,7 @@ function setup() {
   ball.bounciness = 1;
   ball.collider = "dynamic"; // optional --> obeys the physics --> default
 
+  // 
 }
 
 function draw() {
