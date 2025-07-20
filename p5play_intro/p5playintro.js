@@ -39,6 +39,7 @@ function setup() {
 
 function draw() {
   // write your codes here
+  
   if ( ball.x < 0 || ball.x > width){
     ball.vel.x *= -1;
   }
