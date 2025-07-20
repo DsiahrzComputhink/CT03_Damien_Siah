@@ -47,10 +47,10 @@ function draw() {
       text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,40);
       // Or operator --> ||
     if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
-      ball.vel.x *= -1;
+      ball.vel.x *= -1.5;
     }
     if ( ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
-      ball.vel.y *= -1;
+      ball.vel.y *= -1.5;
     }
     box.x = mouseX;
     box.y = mouseY;
