@@ -75,10 +75,12 @@ function draw() {
     ball.vel.y *= -1;
   }
 
+  // square
   if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
     ball.vel.x *= -1;
   }
 
+  // box
   if(box.x == ball.x){
     ball.vel.x *= 2
   }
