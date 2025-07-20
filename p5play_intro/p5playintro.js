@@ -38,30 +38,6 @@ function setup() {
     box.collider = "static" // fixed but others can bounce off
 }
 function draw() {
-    // write your codes here
-      background(250);
-
-      fill(0);
-      textSize(16)
-      text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
-      text("Velocity: ("+ (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) + ")", 10,40);
-      text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
-      // Or operator --> ||
-    if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
-      ball.vel.x *= -1;
-    }
-    if ( ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
-      ball.vel.y *= -1;
-    }
-
-    if(box.x == ball.x){
-      ball.vel.x *= 1
-    }
-    if(box.y == ball.y){
-      ball.vel.y *= 1
-    }
-
-    box.x = mouseX;
-    box.y = mouseY;
+  ellipse
 }
 
