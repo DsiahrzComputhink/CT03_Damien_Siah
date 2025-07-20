@@ -50,7 +50,7 @@ function setup() {
     square.w = 50;
     square.h = 50;
     square.color = "yellow";
-    square.collider = "dynamic" // fixed but others can bounce off
+    square.collider = "dynamic"
 }
 function draw() {
   // write your codes here
