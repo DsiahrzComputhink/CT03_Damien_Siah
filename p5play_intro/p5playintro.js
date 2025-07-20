@@ -17,25 +17,29 @@ function setup() {
     
     // Create a bouncing ball sprite
     // write your codes here
-    ball = new Sprite();
-    // location of ball
-    ball.x = 400;
-    ball.y = 200;
-    ball.diameter = 40;
-    ball.color = "blue";
-    ball.vel.x = 3;
-    ball.vel.y = 9;
-    ball.bounciness = 1;
-    ball.collider = "dynamic"; // optional --> obeys the physics --> default
 
-    // another sprite that is a rectangle
-    box = new Sprite();
-    box.x = 100;
-    box.y = 100;
-    box.w = 50;
-    box.h = 50;
-    box.color = "green";
-    box.collider = "static" // fixed but others can bounce off
+
+    // ball = new Sprite();
+    // // location of ball
+    // ball.x = 400;
+    // ball.y = 200;
+    // ball.diameter = 40;
+    // ball.color = "blue";
+    // ball.vel.x = 3;
+    // ball.vel.y = 9;
+    // ball.bounciness = 1;
+    // ball.collider = "dynamic"; // optional --> obeys the physics --> default
+
+    // // another sprite that is a rectangle
+    // box = new Sprite();
+    // box.x = 100;
+    // box.y = 100;
+    // box.w = 50;
+    // box.h = 50;
+    // box.color = "green";
+    // box.collider = "static" // fixed but others can bounce off
+
+    
 }
 function draw() {
   ellipse(100,100,30,50);
