@@ -68,7 +68,7 @@ function draw() {
 
   // to negate for velocity loss
   if(currentvel < startingvelocity){
-    difference = currentvel/startingvelocity
+    energyloss = currentvel/startingvelocity
   }
 
   box.x = mouseX;
