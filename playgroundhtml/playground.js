@@ -37,6 +37,15 @@ function setup() {
     box.h = 50;
     box.color = "green";
     box.collider = "static" // fixed but others can bounce off
+
+    box = new Sprite();
+    box.x = 100;
+    box.y = 100;
+    box.w = 50;
+    box.h = 50;
+    box.color = "green";
+    box.collider = "static" // fixed but others can bounce off
+
 }
 function draw() {
     // write your codes here
