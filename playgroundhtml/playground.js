@@ -59,16 +59,17 @@ function draw() {
   textSize(16)
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
-  let currentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
-  text("Ball Velocity: ("+ int(currentvel) + ")", 10,40);
+  let ballcurrentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
+  text("Ball Velocity: ("+ int(ballcurrentvel) + ")", 10,40);
 
   text("Mouse: (" + int(mouseX) + ", " + int(mouseY) + ")", 10,60);
 
-  text("Energy: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
+  text("Energy: ("+ (int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,80);
 
 
   text("Square: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
 
+  let currentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
   text("Square Velocity: ("+ int(currentvel) + ")", 10,380);
   
 
