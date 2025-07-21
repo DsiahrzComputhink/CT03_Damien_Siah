@@ -67,7 +67,7 @@ function draw() {
   text("Energy: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
 
 
-  text("Ball: (" + int(square.x) + ", " + int(square.y) + ")", 10,380);
+  text("Ball: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
 
   text("Square Velocity: ("+ int(currentvel) + ")", 10,380);
   
