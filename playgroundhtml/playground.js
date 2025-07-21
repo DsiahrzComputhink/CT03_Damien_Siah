@@ -66,7 +66,7 @@ function draw() {
 
   text("Energy: ("+ (int((currentvel/startingvelocity)*100)) + "%)", 10,80);
 
-  text("Square Velocity: ("+ int(currentvel) + ")", 10,160);
+  text("Square Velocity: ("+ int(currentvel) + ")", 10,360);
 
   // Or operator --> ||
   // ball
