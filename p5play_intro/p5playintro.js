@@ -45,7 +45,8 @@ function setup() {
 
     console.log("Total Sum = " + totalsum);
 
-    age = 13
+    age = 13;
+    
 
 }
 
