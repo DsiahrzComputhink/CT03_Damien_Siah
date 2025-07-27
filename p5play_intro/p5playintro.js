@@ -27,6 +27,8 @@ function setup() {
     console.log("Product of a and b:",product)
     console.log("Area of Triangle:",areaoftriangle)
 
+
+    // logic
     for (let i = 1; i <= 10; i++) {
       console.log("Counting..." + i); // loop 10 times
     }
