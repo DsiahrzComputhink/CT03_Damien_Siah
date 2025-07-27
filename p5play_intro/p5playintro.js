@@ -41,7 +41,7 @@ function setup() {
       totalsum += i
     }
 
-    console.log("Counting..." + i); // loop 10 times
+    console.log("Total Sum = " + totalsum); // loop 10 times
 }
 
 function draw() {
