@@ -66,7 +66,7 @@ function setup() {
       num -= 1
     }
 
-    // array
+    // arrays
 }
 
 function draw() {
