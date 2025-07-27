@@ -25,7 +25,7 @@ function setup() {
     console.log("Area of Triangle:",areaoftriangle)
 
     for (let i = 1; i <= 10; i++) {
-      console.log("Counting..." + i);
+      console.log("Counting..." + i); // loop 10 times
     }
 }
 
