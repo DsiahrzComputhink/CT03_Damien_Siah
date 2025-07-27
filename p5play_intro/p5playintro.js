@@ -1,3 +1,9 @@
+    let a = 5;
+    let b = 10;
+
+    let sum = a + b;
+    let product = a * b;
+
 function setup() {
     // Set up the canvas
     new Canvas(800, 400); // top left is (0,0)
@@ -7,11 +13,6 @@ function setup() {
     textSize(16);
     fill(0);
 
-    let a = 5;
-    let b = 10;
-
-    let sum = a + b;
-    let product = a * b;
     console.log("Sum of a and b:", sum);
     console.log("Product of a and b:",product)
 
