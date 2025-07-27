@@ -8,7 +8,7 @@ let product = a * b;
 let base = 4;
 let height = 9;
 
-let areaoftriangle = 4
+let areaoftriangle = (base * height) / 2;
 
 
 function setup() {
