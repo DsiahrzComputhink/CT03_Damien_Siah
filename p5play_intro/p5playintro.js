@@ -50,8 +50,5 @@ function draw() {
   text("Product of a and b = " + product,500,110)
   text("Area of Triangle = " + areaoftriangle,500,130)
 
-  for (let i = 1; i <= 10; i++) {
-    console.log("Counting..." + i);
-  }
 }
 
