@@ -1,7 +1,6 @@
 
 // global variables
 let startingvelocity;
-let gravity = 3;
 
 function setup() {
     // Set up the canvas
@@ -105,9 +104,6 @@ function draw() {
     ball.vel.y *= startingvelocity/ballcurrentvel
   }
 
-
-  // attempt on gravity
-  ball.vel.y += 0.25 * gravity;
 
   box.x = mouseX;
   box.y = mouseY;
