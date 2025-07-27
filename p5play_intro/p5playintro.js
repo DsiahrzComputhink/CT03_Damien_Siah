@@ -10,6 +10,7 @@ let height = 9;
 
 let areaoftriangle = (base * height) / 2;
 
+let totalsum = 0
 
 function setup() {
     // Set up the canvas
