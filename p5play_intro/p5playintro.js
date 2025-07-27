@@ -45,6 +45,7 @@ function draw() {
   noStroke();
   fill(255,40,50); // rgb
   ellipse(100,100,30,50);
+  fill(90,255,0); // rgb
   ellipse(200,100,80,150);
   circle(320,120,100);
   rect(30,20,55,50,0,0,20,0); // (x, y, width, height, [tl], [tr], [bl], [br])
