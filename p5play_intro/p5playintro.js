@@ -54,6 +54,8 @@ function setup() {
       console.log("Secondary, Age:" + age)
     }
 
+    while
+
 }
 
 function draw() {
