@@ -4,6 +4,10 @@ function setup() {
     background(250); //background color
 
     console.log("Hello!");
+    textSie(16);
+    fill(0);
+
+    let a = 5 ;
     
 }
 
