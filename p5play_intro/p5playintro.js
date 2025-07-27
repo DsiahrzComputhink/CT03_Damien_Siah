@@ -7,10 +7,11 @@ function setup() {
     textSie(16);
     fill(0);
 
-    let a = 5 ;
+    let a = 5;
     let b = 10;
 
     
+
 }
 
 function draw() {
