@@ -47,6 +47,10 @@ function setup() {
 
     age = 13;
     if (condition){
+
+    }else if (condition){
+
+    }else {
       
     }
 
