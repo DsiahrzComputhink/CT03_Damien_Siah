@@ -35,6 +35,10 @@ function setup() {
     for (let i = 3; i <= 46; i+=3) {
       console.log("Counting..." + i); // loop 10 times
     }
+
+    for (let i = 2; i <= 46; i+=2) {
+      console.log("Counting..." + i); // loop 10 times
+    }
 }
 
 function draw() {
