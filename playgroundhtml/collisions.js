@@ -107,7 +107,7 @@ function draw() {
 
 
   // attempt on gravity
-  ball.vel.y -= gravity / 1000;
+  ball.vel.y -= gravity / 100;
 
   box.x = mouseX;
   box.y = mouseY;
