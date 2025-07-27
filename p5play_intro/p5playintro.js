@@ -5,7 +5,8 @@ let b = 10;
 let sum = a + b;
 let product = a * b; 
 
-let 
+let base = 4;
+let height = 9;
 
 
 function setup() {
