@@ -38,6 +38,7 @@ function setup() {
     }
 
     for (let i = 2; i <= 46; i+=2) {
+      totalsum += i
     }
 
     console.log("Counting..." + i); // loop 10 times
