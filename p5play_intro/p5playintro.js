@@ -41,9 +41,9 @@ function draw() {
   quad(65,90,340,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
 
 
-  text("a = " + a,600,50)
-  text("b = " + b,600,70)
-  text("Sum of a and b = " + sum,600,90)
-  text("Product of a and b = " + product,600,110)
+  text("a = " + a,500,50)
+  text("b = " + b,500,70)
+  text("Sum of a and b = " + sum,500,90)
+  text("Product of a and b = " + product,500,110)
 }
 
