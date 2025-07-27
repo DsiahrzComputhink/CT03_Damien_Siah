@@ -3,44 +3,9 @@ function setup() {
     new Canvas(800, 400); // top left is (0,0)
     background(250); //background color
 
-    // Basic shape testing
-    // write your codes here
-
-    // fill("skyblue");
-    // stroke("pink");
-    // strokeWeight(10);
     
-    // circle(30,30,50); //(x, y, d)
-    // rect(50,50,100,200) //(x, y, w, h)
-
-    // End Basic shape testing
-    
-    // Create a bouncing ball sprite
-    // write your codes here
-
-
-    // ball = new Sprite();
-    // // location of ball
-    // ball.x = 400;
-    // ball.y = 200;
-    // ball.diameter = 40;
-    // ball.color = "blue";
-    // ball.vel.x = 3;
-    // ball.vel.y = 9;
-    // ball.bounciness = 1;
-    // ball.collider = "dynamic"; // optional --> obeys the physics --> default
-
-    // // another sprite that is a rectangle
-    // box = new Sprite();
-    // box.x = 100;
-    // box.y = 100;
-    // box.w = 50;
-    // box.h = 50;
-    // box.color = "green";
-    // box.collider = "static" // fixed but others can bounce off
-
-
 }
+
 function draw() {
   noStroke();
   fill(255,40,50); // rgb
@@ -56,6 +21,5 @@ function draw() {
   fill(99,99,99); // rgb
   quad(65,90,340,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
 
-  console.log("Hello!");
 }
 
