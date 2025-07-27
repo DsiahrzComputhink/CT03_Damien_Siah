@@ -40,6 +40,9 @@ function draw() {
   fill(99,99,99); // rgb
   quad(65,90,340,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
 
+
+  text("a = " + sum,600,50)
+  text("b = " + product,600,70)
   text("Sum: " + sum,600,50)
   text("Product: " + product,600,70)
 }
