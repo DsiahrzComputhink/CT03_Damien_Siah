@@ -54,7 +54,9 @@ function setup() {
       console.log("Secondary, Age:" + age)
     }
 
-    while
+    while(num < 20){
+      
+    }
 
 }
 
