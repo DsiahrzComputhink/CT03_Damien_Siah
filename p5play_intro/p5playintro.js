@@ -58,7 +58,9 @@ function setup() {
     while(num > 0){
       if (num % 2 == 0){
         // do nothing
-      }else
+      }else {
+        console.log(num)
+      }
 
     }
 
