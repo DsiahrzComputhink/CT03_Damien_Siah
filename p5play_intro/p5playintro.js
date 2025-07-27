@@ -1,8 +1,9 @@
-    let a = 5;
-    let b = 10;
+let a = 5;
+let b = 10;
 
-    let sum = a + b;
-    let product = a * b;
+let sum = a + b;
+let product = a * b; 
+
 
 function setup() {
     // Set up the canvas
