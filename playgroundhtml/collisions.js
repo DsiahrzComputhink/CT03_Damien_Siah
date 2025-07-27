@@ -104,6 +104,9 @@ function draw() {
     ball.vel.y *= startingvelocity/ballcurrentvel
   }
 
+
+  // attempt on gravity
+  
   box.x = mouseX;
   box.y = mouseY;
 }
