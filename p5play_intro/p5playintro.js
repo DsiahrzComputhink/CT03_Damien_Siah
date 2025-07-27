@@ -30,18 +30,18 @@ function setup() {
     }
 
     for (let i = 20; i >= 10; i--) {
-      console.log("Counting..." + i); // loop 10 times
+      console.log("Counting..." + i);
     }
 
     for (let i = 3; i <= 46; i+=3) {
-      console.log("Counting..." + i); // loop 10 times
+      console.log("Counting..." + i);
     }
 
     for (let i = 2; i <= 46; i+=2) {
       totalsum += i
     }
 
-    console.log("Total Sum = " + totalsum); // loop 10 times
+    console.log("Total Sum = " + totalsum);
 }
 
 function draw() {
