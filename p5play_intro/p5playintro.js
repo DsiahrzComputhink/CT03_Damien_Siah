@@ -48,7 +48,7 @@ function setup() {
     age = 13;
     if (age < 9){
 
-      
+      console.log()
     }else if (condition){
 
     }else {
