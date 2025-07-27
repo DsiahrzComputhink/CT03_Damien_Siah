@@ -8,6 +8,8 @@ let product = a * b;
 let base = 4;
 let height = 9;
 
+let areaoftriangle = 4
+
 
 function setup() {
     // Set up the canvas
