@@ -1,6 +1,6 @@
-// Archive
 
-let startingvelocity; // global variable
+// global variable
+let startingvelocity;
 
 function setup() {
     // Set up the canvas
@@ -106,7 +106,7 @@ function draw() {
 
 
   // attempt on gravity
-  
+
   box.x = mouseX;
   box.y = mouseY;
 }
