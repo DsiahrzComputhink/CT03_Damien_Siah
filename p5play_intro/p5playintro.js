@@ -12,6 +12,8 @@ let areaoftriangle = (base * height) / 2;
 
 let totalsum = 0
 
+let age;
+
 function setup() {
     // Set up the canvas
     new Canvas(800, 400); // top left is (0,0)
@@ -42,6 +44,9 @@ function setup() {
     }
 
     console.log("Total Sum = " + totalsum);
+
+    age = 13
+
 }
 
 function draw() {
