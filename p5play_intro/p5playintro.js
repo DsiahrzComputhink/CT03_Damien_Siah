@@ -54,7 +54,7 @@ function draw() {
   fill(0,0,0); // rgb
   triangle(30,75,58,20,86,75) // (x1, y1, x2, y2, x3, y3) [Plots 3 points and creates a triangle]
   fill(99,99,99); // rgb
-  quad(65,90,140,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
+  quad(65,90,340,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
 
   console.log("Hello!");
 }
