@@ -12,6 +12,8 @@ let areaoftriangle = (base * height) / 2;
 
 let totalsum = 0
 
+let age;
+
 function setup() {
     // Set up the canvas
     new Canvas(800, 400); // top left is (0,0)
@@ -25,6 +27,8 @@ function setup() {
     console.log("Product of a and b:",product)
     console.log("Area of Triangle:",areaoftriangle)
 
+
+    // logic
     for (let i = 1; i <= 10; i++) {
       console.log("Counting..." + i); // loop 10 times
     }
@@ -42,6 +46,27 @@ function setup() {
     }
 
     console.log("Total Sum = " + totalsum);
+
+    age = 13;
+    if (age < 9){
+      console.log("Lower Primary, Age:" + age)
+    }else if (age > 9 || age < 13){
+      console.log("Upper Primary, Age:" + age)
+    }else {
+      console.log("Secondary, Age:" + age)
+    }
+
+    let num = 19;
+    while(num > 0){
+      if (num % 2 == 0){
+        // do nothing
+      }else {
+        console.log(num)
+      }
+      num -= 1
+    }
+
+    // arrays
 }
 
 function draw() {
@@ -69,5 +94,3 @@ function draw() {
   text("Area of Triangle = " + areaoftriangle,500,130)
 
 }
-
-
