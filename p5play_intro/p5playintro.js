@@ -46,7 +46,9 @@ function setup() {
     console.log("Total Sum = " + totalsum);
 
     age = 13;
-    
+    if (condition){
+      
+    }
 
 }
 
