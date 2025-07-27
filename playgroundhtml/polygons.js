@@ -10,6 +10,7 @@ let height = 9;
 
 let areaoftriangle = (base * height) / 2;
 
+let totalsum = 0
 
 function setup() {
     // Set up the canvas
@@ -24,6 +25,23 @@ function setup() {
     console.log("Product of a and b:",product)
     console.log("Area of Triangle:",areaoftriangle)
 
+    for (let i = 1; i <= 10; i++) {
+      console.log("Counting..." + i); // loop 10 times
+    }
+
+    for (let i = 20; i >= 10; i--) {
+      console.log("Counting..." + i);
+    }
+
+    for (let i = 3; i <= 46; i+=3) {
+      console.log("Counting..." + i);
+    }
+
+    for (let i = 2; i <= 20; i+=2) {
+      totalsum += i
+    }
+
+    console.log("Total Sum = " + totalsum);
 }
 
 function draw() {
@@ -42,10 +60,14 @@ function draw() {
   quad(65,90,340,300,400,500,90,150) // (x1, y1, x2, y2, x3, y3) [Plots 4 points and creates a polygon]
 
 
+  fill(0)
   text("inspect page",500,30)
   text("a = " + a,500,50)
   text("b = " + b,500,70)
   text("Sum of a and b = " + sum,500,90)
   text("Product of a and b = " + product,500,110)
   text("Area of Triangle = " + areaoftriangle,500,130)
+
 }
+
+
