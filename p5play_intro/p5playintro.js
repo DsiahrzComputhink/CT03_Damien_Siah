@@ -4,7 +4,7 @@ function setup() {
     background(250); //background color
 
     console.log("Hello!");
-    textSie(16);
+    textSize(16);
     fill(0);
 
     let a = 5;
@@ -13,7 +13,7 @@ function setup() {
     let sum = a + b;
     let product = a * b;
     console.log("Sum of a and b:", sum);
-    console.log("Product of a and b:",)
+    console.log("Product of a and b:",product)
 
 }
 
