@@ -13,6 +13,7 @@ let areaoftriangle = (base * height) / 2;
 let totalsum = 0
 
 let age;
+let num = 19;
 
 function setup() {
     // Set up the canvas
@@ -55,7 +56,7 @@ function setup() {
     }
 
     while(num < 20){
-      
+
     }
 
 }
