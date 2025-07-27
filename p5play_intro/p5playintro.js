@@ -55,8 +55,10 @@ function setup() {
       console.log("Secondary, Age:" + age)
     }
 
-    while(num < 20){
-      
+    while(num > 0){
+      if (num % 2 == 0){
+        // do nothing
+      }else
 
     }
 
