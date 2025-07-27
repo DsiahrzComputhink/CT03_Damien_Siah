@@ -44,6 +44,6 @@ function draw() {
   text("a = " + a,600,50)
   text("b = " + b,600,70)
   text("Sum of a + b = " + sum,600,90)
-  text("Product of a + b " + product,600,110)
+  text("Product of a and b = " + product,600,110)
 }
 
