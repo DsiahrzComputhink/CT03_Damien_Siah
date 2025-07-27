@@ -61,7 +61,7 @@ function setup() {
       }else {
         console.log(num)
       }
-
+      num -= 1
     }
 
 }
