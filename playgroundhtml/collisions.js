@@ -1,7 +1,7 @@
 
 // global variables
 let startingvelocity;
-let gravity = 1;
+let gravity = 3;
 
 function setup() {
     // Set up the canvas
