@@ -47,6 +47,6 @@ function draw() {
   text("b = " + b,500,70)
   text("Sum of a and b = " + sum,500,90)
   text("Product of a and b = " + product,500,110)
-  text("Product of a and b = " + product,500,110)
+  text("Area of Triangle = " + areaoftriangle,500,130)
 }
 
