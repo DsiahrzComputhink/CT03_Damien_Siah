@@ -38,8 +38,9 @@ function setup() {
     }
 
     for (let i = 2; i <= 46; i+=2) {
-      console.log("Counting..." + i); // loop 10 times
     }
+
+    console.log("Counting..." + i); // loop 10 times
 }
 
 function draw() {
