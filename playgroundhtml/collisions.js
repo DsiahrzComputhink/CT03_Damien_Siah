@@ -104,7 +104,7 @@ function draw() {
     ball.vel.y *= startingvelocity/ballcurrentvel
   }
 
-
+  if(mouseX)
   box.x = mouseX;
   box.y = mouseY;
 }
