@@ -104,7 +104,7 @@ function draw() {
     ball.vel.y *= startingvelocity/ballcurrentvel
   }
 
-  if(mouseX < Canvas.x || mouseY < height)
+  if(mouseX < width || mouseY < height)
   box.x = mouseX;
   box.y = mouseY;
 }
