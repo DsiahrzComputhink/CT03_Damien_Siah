@@ -112,7 +112,7 @@ function draw() {
 
   if(mouseY < height){
     if(mouseY > 0){
-      box.y = mo
+      box.y = mouseY;
     }
   }
 }
