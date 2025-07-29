@@ -62,7 +62,7 @@ function draw() {
   let ballcurrentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
   text("Ball Velocity: ("+ int(ballcurrentvel) + ")", 10,40);
 
-  text("Mouse: (" + int(box.x) + ", " + int(box.y) + ")", 10,60);
+  text("Box: (" + int(box.x) + ", " + int(box.y) + ")", 10,60);
 
   text("Energy: ("+ (int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,80);
 
