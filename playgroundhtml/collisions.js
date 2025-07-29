@@ -106,7 +106,7 @@ function draw() {
 
   if(mouseX < 800){
     if(mouseX > 0){
-
+      box.x = mouseX;
     }
   }
 }
