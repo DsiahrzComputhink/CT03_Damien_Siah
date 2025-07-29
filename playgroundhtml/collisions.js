@@ -106,7 +106,6 @@ function draw() {
 
   if(mouseX < width || mouseX > 0){
     box.x = mouseX;
-    box.y = mouseY;
   }
 }
 
