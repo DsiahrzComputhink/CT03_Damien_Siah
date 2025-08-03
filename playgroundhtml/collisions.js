@@ -90,13 +90,7 @@ function draw() {
     square.vel.y *= -1;
   }
 
-  // box
-  if(box.x == ball.x){
-    ball.vel.x *= 2
-  }
-  if(box.y == ball.y){
-    ball.vel.y *= 2
-  }
+
 
   // // to negate for velocity loss
   // if(ballcurrentvel < startingvelocity){
