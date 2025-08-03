@@ -121,7 +121,7 @@ function draw() {
     ball.vel.x *= -1;
   }
   if ( ball.y < (0 - 10) + ball.diameter / 2 || ball.y > (height + 10) - ball.diameter / 2){
-    ball.vel.y *= -1;
+    ball.y = height / 2;
   }
 
   // square
@@ -129,7 +129,7 @@ function draw() {
     square.x = width / 2;
   }
   if ( square.y < (0 - 10) + square.diameter / 2 || square.y > (height + 10) - ball.diameter / 2){
-    square.vel.y *= -1;
+    square.y = height / 2;
   }
   
 }
