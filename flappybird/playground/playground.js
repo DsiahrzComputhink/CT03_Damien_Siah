@@ -23,4 +23,5 @@ function setup(){
 
 function draw(){
 
+  bird.vel.y -= 0.01
 }
