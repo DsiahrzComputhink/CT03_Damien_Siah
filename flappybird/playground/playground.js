@@ -2,5 +2,5 @@ let bird,floor;
 let flapMidImg, bg, base;
 
 function preload(){
-  loadImage
+  loadImage('../assets/yellowbird-midflap')
 }
