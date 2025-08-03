@@ -67,7 +67,9 @@ function setup() {
     }
 
     // arrays
-    let groceries = ["apple","bread","milk"]
+    let groceries = ["apple","bread","milk"];
+    groceries.push("orange");
+    
 
 }
 
