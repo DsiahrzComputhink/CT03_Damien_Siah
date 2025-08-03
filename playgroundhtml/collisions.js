@@ -117,6 +117,7 @@ function draw() {
   }
 
   // gravity
-  ball.vel.x
+  ball.vel.x -= 1
+  ball
 }
 
