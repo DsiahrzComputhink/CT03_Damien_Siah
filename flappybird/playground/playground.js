@@ -12,5 +12,5 @@ function setup(){
 
   // bird sprite, location, size
   bird = new Sprite();
-  
+  bird.x = width / 2;
 }
