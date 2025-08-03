@@ -116,7 +116,7 @@ function draw() {
     }
   }
 
-  // gravity -- turn off velocity negator
+  // gravity -- turn off velocity loss controller
   ball.vel.y += 0.05
 
 }
