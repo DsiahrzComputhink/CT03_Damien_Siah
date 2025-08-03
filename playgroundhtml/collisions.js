@@ -118,7 +118,7 @@ function draw() {
 
   // gravity -- turn off velocity loss controller
   ball.vel.y += 0.05
-  sq
+  square.vel.y += 0.05
 
 }
 
