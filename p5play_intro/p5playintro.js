@@ -70,6 +70,7 @@ function setup() {
     let groceries = ["apple","bread","milk"];
     groceries.push("orange");
     groceries.push("butter");
+    groceries.sp
 
     for (let item in groceries){
       console.log(groceries[item])
