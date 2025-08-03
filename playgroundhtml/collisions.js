@@ -114,8 +114,6 @@ function draw() {
   ball.vel.y += 0.05
   square.vel.y += 0.05
 
-  ball.vel.x *= 10
-
 
 
   // to fix clipping
