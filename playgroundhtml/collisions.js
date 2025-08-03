@@ -114,5 +114,22 @@ function draw() {
   ball.vel.y += 0.05
   square.vel.y += 0.05
 
+
+
+  // to fix clipping
+  if ( ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){
+    ball.vel.x *= -1;
+  }
+  if ( ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
+    ball.vel.y *= -1;
+  }
+
+  // square
+  if ( square.x < 0 + square.diameter / 2 || square.x > width - ball.diameter / 2){
+    square.vel.x *= -1;
+  }
+  if ( square.y < 0 + square.diameter / 2 || square.y > height - ball.diameter / 2){
+    square.vel.y *= -1;
+  }
 }
 
