@@ -23,6 +23,13 @@ function setup(){
   bird.drag = 0.02;
   bird.bounciness = 0.5;
   world.gravity.y = 10;
+
+  floor = new Sprite();
+  floor.x = 200;
+  floor.y = height - 20;
+  floor.width = 400;
+  floor.height = 125;
+  floor.collider = "static";
 }
 
 function draw(){
