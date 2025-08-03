@@ -67,6 +67,7 @@ function setup() {
     }
 
     // arrays
+    
 }
 
 function draw() {
