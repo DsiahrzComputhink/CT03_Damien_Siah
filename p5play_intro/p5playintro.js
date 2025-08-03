@@ -72,7 +72,7 @@ function setup() {
     groceries.push("butter");
 
     for (let item in groceries){
-      console.log(item)
+      console.log(groceries[item])
     }
 
 }
