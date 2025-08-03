@@ -71,7 +71,9 @@ function setup() {
     groceries.push("orange");
     groceries.push("butter");
 
-    for (let item in groceries)
+    for (let item in groceries){
+      console.log(item)
+    }
 
 }
 
