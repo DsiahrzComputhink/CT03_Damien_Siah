@@ -70,7 +70,8 @@ function setup() {
     let groceries = ["apple","bread","milk"];
     groceries.push("orange");
     groceries.push("butter");
-    groceries.splice(groceries.indexOf(10),1)
+
+    for (let item in groceries)
 
 }
 
