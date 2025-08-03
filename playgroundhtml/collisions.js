@@ -115,5 +115,8 @@ function draw() {
       box.y = mouseY;
     }
   }
+
+  // gravity
+  ball.x
 }
 
