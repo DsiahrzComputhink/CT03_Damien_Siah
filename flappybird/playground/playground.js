@@ -15,5 +15,5 @@ function setup(){
   bird.x = width / 2;
   bird.y = 200;
   bird.width = 30;
-  
+  bird.height = 30
 }
