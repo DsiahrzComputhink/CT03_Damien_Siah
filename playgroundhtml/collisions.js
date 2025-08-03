@@ -131,5 +131,6 @@ function draw() {
   if ( square.y < 0 + square.diameter / 2 || square.y > height - ball.diameter / 2){
     square.vel.y *= -1;
   }
+  
 }
 
