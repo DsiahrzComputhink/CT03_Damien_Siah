@@ -78,6 +78,8 @@ function setup() {
       console.log(groceries[item])
     }
 
+    for(let i = 0; i<groceries.length; i++)
+
 }
 
 function draw() {
