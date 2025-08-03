@@ -114,8 +114,7 @@ function draw() {
   ball.vel.y += 0.05
   square.vel.y += 0.05
 
-  ball.vel.x *= 1.01
-  square.vel.x *= 1.01
+  ball.vel.x *= 10
 
 
 
