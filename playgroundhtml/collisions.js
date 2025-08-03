@@ -118,7 +118,7 @@ function draw() {
 
   // to fix clipping
   if ( ball.x < (0 - 10) + ball.diameter / 2 || ball.x > (width + 10) - ball.diameter / 2){
-    ball.vel.x *= -1;
+    ball.x = width / 2;
   }
   if ( ball.y < (0 - 10) + ball.diameter / 2 || ball.y > (height + 10) - ball.diameter / 2){
     ball.y = height / 2;
