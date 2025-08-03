@@ -67,7 +67,8 @@ function setup() {
     }
 
     // arrays
-    
+    let groceries = ["apple","bread","milk"]
+
 }
 
 function draw() {
