@@ -1,4 +1,3 @@
-// Testzone
 let bird,floor;
 let flapMidImg, bg, base;
 
@@ -6,6 +5,8 @@ function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
+  flapUpImg = loadImage('assets/bluebird-upflap.png');
+  flapDownImg = loadImage('assets/redbird-downflap.png');
 }
 
 function setup(){
@@ -38,14 +39,14 @@ function draw(){
   image(bg, 0, 0, width, height);
 
   // keybinds
-  if(kb.presses('space')){
+  if(kb.presses('space') || mouse.presses()){
     bird.vel.y = -15;
     bird.sleeping = false;
   }
 
-  if(mouse.presses()){
-    new Sprite(mouse.x, 200, 30, 30,'dynamic');
-  }
+//   if(mouse.presses()){
+//     new Sprite(mouse.x, 200, 30, 30,'dynamic');
+//   }
 
   fill("black");
   textSize(15);
