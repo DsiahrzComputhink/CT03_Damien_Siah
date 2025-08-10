@@ -47,5 +47,6 @@ function draw(){
   }
 
   fill("blue");
-  textSize(150000000000000000000000000000000)
+  textSize(14);
+  text('vel.')
 }
