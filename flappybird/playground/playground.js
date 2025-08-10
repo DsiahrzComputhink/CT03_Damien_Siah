@@ -45,7 +45,7 @@ function draw(){
   }
 
   if(bird.vel.y < -1){
-
+    bird.img = flap
   }
 
   fill("black");
