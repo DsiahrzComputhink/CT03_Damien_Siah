@@ -38,7 +38,7 @@ function draw(){
 
   // keybinds
   if(kb.presses('space')){
-    bird.vel.y = -15;
+    bird.vel.y += -15;
     bird.sleeping = false;
   }
 
@@ -48,8 +48,7 @@ function draw(){
 
   fill("blue");
   textSize(14);
-  text('Debug', 10, 20);
-  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 40);
-  text('isMoving' + bird.isMoving, 10, 60);
+  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+  text('isMoving' + bird.isMoving, 10, 40);
   text('sleeping' + bird.sleeping, 10, 60);
 }
