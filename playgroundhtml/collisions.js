@@ -92,11 +92,11 @@ function draw() {
 
 
 
-  // // to negate for velocity loss
-  // if(ballcurrentvel < startingvelocity){
-  //   ball.vel.x *= startingvelocity/ballcurrentvel
-  //   ball.vel.y *= startingvelocity/ballcurrentvel
-  // }
+  // to negate for velocity loss
+  if(ballcurrentvel < startingvelocity){
+    ball.vel.x *= startingvelocity/ballcurrentvel
+    ball.vel.y *= startingvelocity/ballcurrentvel
+  }
 
   if(mouseX < width){
     if(mouseX > 0){
@@ -109,11 +109,6 @@ function draw() {
       box.y = mouseY;
     }
   }
-
-  // gravity -- turn off velocity loss controller
-  ball.vel.y += 0.05
-  square.vel.y += 0.05
-
 
 
   // to fix clipping
