@@ -44,6 +44,7 @@ function draw(){
     bird.sleeping = false;
   }
 
+
   if (bird.vel.y < -1){
     bird.img = flapUpImg;
     // for(let i = 0; i<30; i++){
