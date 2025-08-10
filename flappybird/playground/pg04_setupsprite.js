@@ -49,5 +49,5 @@ function draw(){
   fill("blue");
   textSize(14);
   text('Developer Console')
-  text('vel.y: ' )
+  text('vel.y: ' + bel.y.toFixed(2))
 }
