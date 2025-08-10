@@ -65,15 +65,15 @@ function draw(){
   else{
     bird.img = flapMidImg;
     // bird.rotation = 0
-    // if(bird.rotation > 0){
-    //   bird.rotation -= 2;
-    // }
-    // else if(bird.rotation < 0){
-    //   bird.rotation += 2;
-    // }
-    // else{
-    //   bird.rotation = 0;
-    // }
+    if(bird.rotation > 0){
+      bird.rotation -= 2;
+    }
+    else if(bird.rotation < 0){
+      bird.rotation += 2;
+    }
+    else{
+      bird.rotation = 0;
+    }
   }
 
   console.log(bird.rotation)
