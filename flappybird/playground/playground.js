@@ -44,12 +44,17 @@ function draw(){
     bird.sleeping = false;
   }
 
-  if(bird.vel.y < -1){
-    bird.img = flapUpImg;
+  if (bird.vel.y < -1){
+    bird.img = flapUpImg
   }
+  else if(bird.vel.y ){
 
-  if(bird.vel.y > 0){
-    bird.img = flapDownImg;
+    bird.img = flapUpImg;
+
+  }
+  else{
+
+    bird.img = flapMidImg;
   }
 
   fill("black");
