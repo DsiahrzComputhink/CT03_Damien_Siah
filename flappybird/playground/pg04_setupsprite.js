@@ -42,8 +42,8 @@ function draw(){
     bird.sleeping = false;
   }
 
-  // if(mouse.presses()){
+  if(mouse.presses()){
     new Sprite(mouse.x, mouse.y, 20, 20,'dynamic');
-  // }
+  }
 
 }
