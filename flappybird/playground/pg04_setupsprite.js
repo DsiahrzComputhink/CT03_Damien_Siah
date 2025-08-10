@@ -50,5 +50,6 @@ function draw(){
   textSize(14);
   text('Debug', 10, 20);
   text('vel.y: ' + vel.y.toFixed(2), 10, 40);
+  text('isMoving' + bird.isMoving, 10, 60);
   
 }
