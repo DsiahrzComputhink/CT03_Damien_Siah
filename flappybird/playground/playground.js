@@ -48,7 +48,7 @@ function draw(){
     bird.img = flapUpImg;
   }
 
-  if(bird.vel.y =)
+  if(bird.vel.y = 0){}
 
   fill("black");
   textSize(15);
