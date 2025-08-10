@@ -23,7 +23,7 @@ function setup(){
   bird.collider = 'dynamic';
   bird.mass = 2;
   bird.drag = 0.02;
-  bird.bounciness = 0.9;
+  bird.bounciness = 0.99;
   world.gravity.y = 10;
 
   floor = new Sprite();
@@ -47,7 +47,7 @@ function draw(){
   if (bird.vel.y < -1){
     bird.img = flapUpImg
   }
-  else if(bird.vel.y > 2 ){
+  else if(bird.vel.y > 1 ){
 
     bird.img = flapDownImg;
 
