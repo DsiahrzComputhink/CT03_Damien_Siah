@@ -57,8 +57,9 @@ function draw(){
     }
   }
   else{
-    bird.img = flapMidImg;
-    bird.rotation = 0;
+    if(bird.rotation > 0){
+
+    }
   }
 
   console.log(bird.rotation)
