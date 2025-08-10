@@ -40,7 +40,7 @@ function draw(){
 
   // keybinds
   if(kb.presses('space') || mouse.presses()){
-    bird.vel.y = -15;
+    bird.vel.y = -5;
     bird.sleeping = false;
   }
 
