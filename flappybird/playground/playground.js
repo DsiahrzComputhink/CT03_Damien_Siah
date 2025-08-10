@@ -53,16 +53,12 @@ function draw(){
   // }
   // else if(bird.vel.y > 1 ){
   //   bird.img = flapDownImg;
-  //   // for(let i=0; i<30; i++){
-  //   //   bird.rotation += 5;
-  //   // }
   //   if(bird.rotation < 20){
   //     bird.rotation += 2;
   //   }
   // }
   // else{
   //   bird.img = flapMidImg;
-  //   // bird.rotation = 0
   //   if(bird.rotation > 0){
   //     bird.rotation -= 1;
   //   }
