@@ -58,18 +58,11 @@ function draw(){
   }
   else{
     bird.img = flapMidImg;
-    if(bird.rotation > 0){
-      bird.rotation -= 1;
-    }
-    else if(bird.rotation < 0){
-      bird.rotation += 1;
-    }
-    else{
-      bird.rotation = 0;
-    }
+    bird.rotation = 0
   }
 
-  // 
+  // Smooth Rotation
+
   // if (bird.vel.y < -1){
   //   bird.img = flapUpImg;
   //   if(bird.rotation > (-20)){
