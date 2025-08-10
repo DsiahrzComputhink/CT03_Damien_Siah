@@ -48,14 +48,13 @@ function draw(){
     bird.img = flapUpImg
   }
   else if(bird.vel.y > 1 ){
-
     bird.img = flapDownImg;
-
   }
   else{
-
     bird.img = flapMidImg;
   }
+
+  
 
   fill("black");
   textSize(15);
