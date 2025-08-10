@@ -58,9 +58,9 @@ function draw(){
     // for(let i=0; i<30; i++){
     //   bird.rotation += 5;
     // }
-    // if(bird.rotation < 20){
-    //   bird.rotation += 2;
-    // }
+    if(bird.rotation < 20){
+      bird.rotation += 2;
+    }
   }
   else{
     bird.img = flapMidImg;
