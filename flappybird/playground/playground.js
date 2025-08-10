@@ -50,7 +50,7 @@ function draw(){
     //   bird.rotation -= 5;
     // }
     if(bird.rotation > (-20)){
-      bird.rotation -= 2;
+      bird.rotation -= 4;
     }
   }
   else if(bird.vel.y > 1 ){
@@ -66,10 +66,10 @@ function draw(){
     bird.img = flapMidImg;
     // bird.rotation = 0
     if(bird.rotation > 0){
-      bird.rotation -= 2;
+      bird.rotation -= 1;
     }
     else if(bird.rotation < 0){
-      bird.rotation += 2;
+      bird.rotation += 1;
     }
     else{
       bird.rotation = 0;
