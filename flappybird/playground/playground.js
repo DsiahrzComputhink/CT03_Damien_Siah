@@ -44,10 +44,6 @@ function draw(){
     bird.sleeping = false;
   }
 
-//   if(mouse.presses()){
-//     new Sprite(mouse.x, 200, 30, 30,'dynamic');
-//   }
-
   fill("black");
   textSize(15);
   text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
