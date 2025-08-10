@@ -49,7 +49,7 @@ function draw(){
     // for(let i = 0; i<30; i++){
     //   bird.rotation -= 5;
     // }
-    if(bird.rotation > (-20)){
+    if(bird.rotation > (-20) || bird.rotation  20){
       bird.rotation -= 4;
     }
   }
@@ -75,8 +75,6 @@ function draw(){
       bird.rotation = 0;
     }
   }
-
-  console.log(bird.rotation)
 
   fill("black");
   textSize(15);
