@@ -43,7 +43,7 @@ function draw(){
   }
 
   // if(mouse.presses()){
-    new Sprite(mouse.x, 200, 30, 30,'dynamic');
+    new Sprite(mouse.x, 200, 50, 2,'dynamic');
   // }
 
 }
