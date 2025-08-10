@@ -48,6 +48,8 @@ function draw(){
     bird.img = flapUpImg;
   }
 
+  if(bird.vel.y =)
+
   fill("black");
   textSize(15);
   text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
