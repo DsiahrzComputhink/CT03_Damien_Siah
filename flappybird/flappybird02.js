@@ -6,6 +6,7 @@ function preload(){
   bg =loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/bluebird-upflap.png')
+  flapDownImg = loadImage('assets/redbird-')
 }
 
 function setup(){
