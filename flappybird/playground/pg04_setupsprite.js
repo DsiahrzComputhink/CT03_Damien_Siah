@@ -48,6 +48,6 @@ function draw(){
 
   fill("blue");
   textSize(14);
-  text()
-  text('vel.y')
+  text('Developer Console')
+  text('vel.y: ' )
 }
