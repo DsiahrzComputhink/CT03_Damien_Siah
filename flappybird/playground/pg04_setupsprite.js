@@ -48,5 +48,6 @@ function draw(){
 
   fill("blue");
   textSize(14);
-  text('vel.')
+  text()
+  text('vel.y')
 }
