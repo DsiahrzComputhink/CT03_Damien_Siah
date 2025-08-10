@@ -58,7 +58,13 @@ function draw(){
   }
   else{
     if(bird.rotation > 0){
-
+      bird.rotation -= 1;
+    }
+    else if(bird.rotation < 0){
+      bird.rotation += 1;
+    }
+    else{
+      bird.rotation = 0;
     }
   }
 
