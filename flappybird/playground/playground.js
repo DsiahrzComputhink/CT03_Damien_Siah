@@ -46,13 +46,18 @@ function draw(){
 
   if (bird.vel.y < -1){
     bird.img = flapUpImg;
-    for(let i = 0; i<30; i++)
+    for(let i = 0; i<30; i++){
+      bird.rotation -= 5;
+    }
     // if(bird.rotation > (-20)){
     //   bird.rotation -= 2;
     // }
   }
   else if(bird.vel.y > 1 ){
     bird.img = flapDownImg;
+    for(let i=0;i<30,i++){
+      bird.rotation += 5;
+    }
     // if(bird.rotation < 20){
     //   bird.rotation += 2;
     // }
