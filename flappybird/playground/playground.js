@@ -65,7 +65,7 @@ function draw(){
   bird.x = bird.x + 3;
   camera.x = bird.x;
 
-  if (bird.x % 400 > 400)
+  if (bird.x % 400 > 100)
   CreateFloor(bird.x - (bird.x % 400));
   
 
