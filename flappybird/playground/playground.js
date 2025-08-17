@@ -69,6 +69,8 @@ function draw(){
     CreateFloor(bird.x - (bird.x % 399));
   }
 
+  
+
   if (frameCount === 1) {
     spawnPipePair(); // custom function
   }
