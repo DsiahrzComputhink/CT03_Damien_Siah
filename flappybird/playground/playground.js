@@ -70,7 +70,7 @@ function draw(){
   }
 
   if (bird.x % 100 === 0) {
-    spawnPipePair(Xposition);
+    spawnPipePair();
   }
 
   if (frameCount === 1) {
