@@ -96,8 +96,9 @@ function spawnPipePair(Xposition) {
   let midY = random(250, height - 250); // random(min, max)
 
 
-  lastPipePosition = Xposition
   console.log(Xposition - lastPipePosition)
+  lastPipePosition = Xposition
+  
   // new sprite
   bottomPipe = new Sprite(400 + Xposition, midY + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
