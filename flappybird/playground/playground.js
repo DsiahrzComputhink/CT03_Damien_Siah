@@ -66,7 +66,7 @@ function draw(){
   camera.x = bird.x;
 
   if (bird.x % 400 > 100)
-  CreateFloor(bird.x);
+  CreateFloor(bird.x - (birdx) );
   
 
   if (frameCount === 1) {
