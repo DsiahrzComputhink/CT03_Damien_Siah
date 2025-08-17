@@ -47,7 +47,7 @@ function draw(){
 
   // Default Rotation
 
-  //   if (bird.vel.y < -1){
+  // if (bird.vel.y < -1){
   //   bird.img = flapUpImg;
   //   bird.rotation = -30
   // }
