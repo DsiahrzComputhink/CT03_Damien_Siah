@@ -96,7 +96,7 @@ function spawnPipePair(Xposition) {
   bottomPipe.img = pipeImg;
 
   // new sprite
-  topPipe = new Sprite(bird.x + Xposition, midY - gap/2 - 200, 52, 320, "static");
+  topPipe = new Sprite(Xposition + 400, midY - gap/2 - 200, 52, 320, "static");
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
 
