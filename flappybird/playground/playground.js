@@ -68,6 +68,8 @@ function draw(){
   }
 
   // bird movement
+  bird.x = bird.x + 3;
+  camera.x = bird.x;
   
 
   if (frameCount === 1) {
