@@ -47,7 +47,7 @@ function draw(){
 
   // if(kb.presses('enter')){
     square = new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
-    square.bounciness = 0.5
+    square.bounciness = 1.2
   // }
 
 
