@@ -6,7 +6,7 @@ let flapUpImg, flapDownImg; // flap image
 let pipeImg; // Pipes
 let pipeGroup; // Organisation
 let bottomPipe, topPipe;
-let pipeSpace = 50;
+let pipeSpace = 50; // Distance between each pipe
 
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
@@ -70,7 +70,7 @@ function draw(){
     CreateFloor(bird.x - (bird.x % 399));
   }
 
-  if (bird.x % 100 === 0) {
+  if (bird.x % 50 === 0) {
     spawnPipePair(bird.x - (bird.x % 100));
   }
 
