@@ -7,7 +7,7 @@ function preload(){
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/bluebird-upflap.png');
   flapDownImg = loadImage('assets/redbird-downflap.png');
-  
+  pipeImg = loadImage('assets/')
 }
 
 function setup(){
