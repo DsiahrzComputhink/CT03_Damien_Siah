@@ -80,7 +80,7 @@ function draw(){
 
 // write the step by step
 function spawnPipePair() {
-  let gap = 0;
+  let gap = 100;
   let midY = height/2;
 
   bottomPipe = new Sprite(100, height/2 + gap/2 + 200, 52, 320, "static");
