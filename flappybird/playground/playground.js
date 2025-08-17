@@ -70,7 +70,7 @@ function draw(){
   }
 
   if (frameCount % 90 === 0){
-    spawnPipePair();
+    spawnPipePair(); // spawns pipes every 1.5 seconds
   }
 
   if (frameCount === 1) {
