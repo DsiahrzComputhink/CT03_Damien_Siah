@@ -33,7 +33,7 @@ function setup(){
   bird.bounciness = 0.99;
   world.gravity.y = 10;
 
-  CreateFloor(0);
+  CreateFloor(0 - 399);
 
   pipeGroup = new Group();
 }
