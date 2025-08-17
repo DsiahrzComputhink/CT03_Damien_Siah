@@ -33,13 +33,7 @@ function setup(){
   bird.bounciness = 0.99;
   world.gravity.y = 10;
 
-  floor = new Sprite();
-  floor.x = 200;
-  floor.y = height - 20;
-  floor.width = 400;
-  floor.height = 125;
-  floor.collider = "static";
-  floor.img = base;
+  CreateFloor();
 
   pipeGroup = new Group();
 }
