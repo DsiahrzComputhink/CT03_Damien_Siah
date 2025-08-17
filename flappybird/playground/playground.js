@@ -93,12 +93,12 @@ function draw(){
 
 function spawnPipePair(Xposition) {
   let gap = 75;
-  let midY = random(250, height - 250); // random(min, max)
+  let midY = random(500, height - 500); // random(min, max)
 
 
   console.log(Xposition - lastPipePosition)
   lastPipePosition = Xposition
-  
+
   // new sprite
   bottomPipe = new Sprite(400 + Xposition, midY + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
