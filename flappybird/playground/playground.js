@@ -86,7 +86,7 @@ function draw(){
   text('sleeping' + bird.sleeping, 10, 60);
 }
 
-function spawnPipePair(Xposition) {
+function spawnPipePair() {
   let gap = 100;
   let midY = random(250, height - 250); // random(min, max)
 
