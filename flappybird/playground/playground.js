@@ -52,7 +52,8 @@ function draw(){
     bird.sleeping = false;
   }
 
-    if (bird.vel.y < -1){
+  // flap sequence
+  if (bird.vel.y < -1){
     bird.img = flapUpImg;
     bird.rotation = -30
   }
@@ -64,6 +65,7 @@ function draw(){
     bird.img = flapMidImg;
     bird.rotation = 0
   }
+  
 
   // Smooth Rotation
 
