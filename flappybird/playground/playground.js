@@ -83,10 +83,10 @@ function spawnPipePair() {
   let gap = 0;
   let midY = height/2;
 
-  bottomPipe = new Sprite(100, height/2 + gap + 200, 52, 320, "static");
+  bottomPipe = new Sprite(100, height/2 + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
 
-  topPipe = new Sprite(100, height/2 - gap - 200, 52, 320, "static");
+  topPipe = new Sprite(100, height/2 - gap/2 - 200, 52, 320, "static");
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
 
