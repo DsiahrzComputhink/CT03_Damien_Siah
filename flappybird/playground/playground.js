@@ -3,8 +3,8 @@ let flapMidImg, bg, base;
 
 let flapUpImg, flapDownImg; // flap image
 
-let pipeImg;
-let pipeGroup;
+let pipeImg; // Pipes
+let pipeGroup; // Organisation
 
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
