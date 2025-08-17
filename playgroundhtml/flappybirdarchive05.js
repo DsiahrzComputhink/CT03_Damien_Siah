@@ -44,6 +44,10 @@ function draw(){
     bird.sleeping = false;
   }
 
+  if(mouse.presses()){
+    new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
+  }
+
 
   // Default Rotation
 
