@@ -104,9 +104,9 @@ function spawnPipePair() {
 
 function CreateFloor(Xposition) {
   floor = new Sprite();
-  floor.x = Xposition;
+  floor.x = Xposition + 500;
   floor.y = height - 20;
-  floor.width = 400;
+  floor.width = 399;
   floor.height = 125;
   floor.collider = "static";
   floor.img = base;
