@@ -87,7 +87,7 @@ function draw(){
 }
 
 function spawnPipePair(Xposition) {
-  let gap = 100;
+  let gap = 25;
   let midY = random(250, height - 250); // random(min, max)
 
   // new sprite
