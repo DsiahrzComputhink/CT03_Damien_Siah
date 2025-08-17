@@ -70,7 +70,7 @@ function draw(){
   }
 
   if (bird.x % 1 === 0) {
-    spawnPipePair(bird.x - (bird.x % 100));
+    spawnPipePair(bird.x - (bird.x % 1));
   }
 
   // if (frameCount === 1) {
