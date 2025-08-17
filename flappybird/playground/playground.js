@@ -73,8 +73,8 @@ function draw(){
     CreateFloor(bird.x - (bird.x % 399));
   }
 
-  if (bird.x % 1[] === 0) {
-    spawnPipePair(bird.x - (bird.x % 1));
+  if (bird.x % pipeSpace === 0) {
+    spawnPipePair(bird.x - (bird.x % pipeSpace));
   }
 
   // if (frameCount === 1) {
