@@ -66,10 +66,17 @@ function draw(){
     bird.rotation = 0
   }
 
-  
+  if (frameCount === 1) {
+    spawnPipePair(); // custom function
+  }
+
   fill("black");
   textSize(15);
   text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
   text('isMoving' + bird.isMoving, 10, 40);
   text('sleeping' + bird.sleeping, 10, 60);
+}
+
+function spawnPipePair() {
+  
 }
