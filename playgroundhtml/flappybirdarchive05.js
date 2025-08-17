@@ -45,8 +45,8 @@ function draw(){
   }
 
   if(kb.presses('enter')){
-    new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
-    
+    let square = new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
+
   }
 
 
