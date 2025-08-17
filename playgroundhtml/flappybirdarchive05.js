@@ -45,10 +45,10 @@ function draw(){
     bird.sleeping = false;
   }
 
-  if(kb.presses('enter')){
+  // if(kb.presses('enter')){
     square = new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
     square.bounciness = 0.5
-  }
+  // }
 
 
   // Default Rotation
