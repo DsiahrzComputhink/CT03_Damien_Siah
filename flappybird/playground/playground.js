@@ -8,6 +8,9 @@ let pipeGroup; // Organisation
 let bottomPipe, topPipe;
 let pipeSpace = 50; // Distance between each pipe
 
+let lastPipePosition; // debug
+
+
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
