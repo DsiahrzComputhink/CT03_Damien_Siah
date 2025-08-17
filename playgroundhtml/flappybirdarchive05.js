@@ -44,18 +44,21 @@ function draw(){
     bird.sleeping = false;
   }
 
-    if (bird.vel.y < -1){
-    bird.img = flapUpImg;
-    bird.rotation = -30
-  }
-  else if(bird.vel.y > 1 ){
-    bird.img = flapDownImg;
-    bird.rotation = 30
-  }
-  else{
-    bird.img = flapMidImg;
-    bird.rotation = 0
-  }
+
+  // Default Rotation
+
+  //   if (bird.vel.y < -1){
+  //   bird.img = flapUpImg;
+  //   bird.rotation = -30
+  // }
+  // else if(bird.vel.y > 1 ){
+  //   bird.img = flapDownImg;
+  //   bird.rotation = 30
+  // }
+  // else{
+  //   bird.img = flapMidImg;
+  //   bird.rotation = 0
+  // }
 
   // Smooth Rotation
 
