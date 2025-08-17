@@ -34,10 +34,6 @@ function setup(){
   floor.collider = "static";
   floor.img = base;
 
-
-  line1 = new Sprite(350, height/2 + gap/2 + 200, 52, 320, "static");
-
-  line2 = new Sprite(50, height/2 + gap/2 + 200, 52, 320, "static");
 }
 
 function draw(){
