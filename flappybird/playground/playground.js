@@ -65,9 +65,9 @@ function draw(){
   bird.x = bird.x + 3;
   camera.x = bird.x;
 
-  if (bird.x % 399 > 100)
-  CreateFloor(bird.x - (bird.x % 399));
-  
+  if (bird.x % 399 > 100) {
+    CreateFloor(bird.x - (bird.x % 399));
+  }
 
   if (frameCount === 1) {
     spawnPipePair(); // custom function
