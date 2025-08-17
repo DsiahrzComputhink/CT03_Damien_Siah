@@ -73,7 +73,7 @@ function draw(){
     CreateFloor(bird.x - (bird.x % 399));
   }
 
-  if (bird.x % 1 === 0) {
+  if (bird.x % 1[] === 0) {
     spawnPipePair(bird.x - (bird.x % 1));
   }
 
