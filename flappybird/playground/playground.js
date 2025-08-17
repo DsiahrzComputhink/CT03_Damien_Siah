@@ -91,11 +91,11 @@ function spawnPipePair(Xposition) {
   let midY = random(250, height - 250); // random(min, max)
 
   // new sprite
-  bottomPipe = new Sprite(bird.x + Xposition, height/2 + gap/2 + 200, 52, 320, "static");
+  bottomPipe = new Sprite(bird.x + Xposition, midY + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
 
   // new sprite
-  topPipe = new Sprite(bird.x + Xposition, height/2 - gap/2 - 200, 52, 320, "static");
+  topPipe = new Sprite(bird.x + Xposition, midY - gap/2 - 200, 52, 320, "static");
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
 
