@@ -80,6 +80,7 @@ function draw(){
 
 // write the step by step
 function spawnPipePair() {
+  
   bottomPipe = new Sprite(100, height/2, 52, 320, "static");
   bottomPipe.img = pipeImg;
 
