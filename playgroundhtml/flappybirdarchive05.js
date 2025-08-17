@@ -15,7 +15,7 @@ function setup(){
   // bird sprite, location, size
   bird = new Sprite();
   bird.x = width / 2;
-  bird.y = 200;
+  bird.y = 500;
   bird.width = 30;
   bird.height = 30;
   bird.img = flapMidImg;
@@ -23,7 +23,7 @@ function setup(){
   bird.collider = 'dynamic';
   bird.mass = 2;
   bird.drag = 0.02;
-  bird.bounciness = 0.5;
+  bird.bounciness = 0.99;
   world.gravity.y = 10;
 
   floor = new Sprite();
@@ -40,13 +40,49 @@ function draw(){
 
   // keybinds
   if(kb.presses('space') || mouse.presses()){
-    bird.vel.y = -15;
+    bird.vel.y = -5;
     bird.sleeping = false;
   }
 
-//   if(mouse.presses()){
-//     new Sprite(mouse.x, 200, 30, 30,'dynamic');
-//   }
+    if (bird.vel.y < -1){
+    bird.img = flapUpImg;
+    bird.rotation = -30
+  }
+  else if(bird.vel.y > 1 ){
+    bird.img = flapDownImg;
+    bird.rotation = 30
+  }
+  else{
+    bird.img = flapMidImg;
+    bird.rotation = 0
+  }
+
+  // Smooth Rotation
+
+  // if (bird.vel.y < -1){
+  //   bird.img = flapUpImg;
+  //   if(bird.rotation > (-20)){
+  //     bird.rotation -= 4;
+  //   }
+  // }
+  // else if(bird.vel.y > 1 ){
+  //   bird.img = flapDownImg;
+  //   if(bird.rotation < 20){
+  //     bird.rotation += 2;
+  //   }
+  // }
+  // else{
+  //   bird.img = flapMidImg;
+  //   if(bird.rotation > 0){
+  //     bird.rotation -= 1;
+  //   }
+  //   else if(bird.rotation < 0){
+  //     bird.rotation += 1;
+  //   }
+  //   else{
+  //     bird.rotation = 0;
+  //   }
+  // }
 
   fill("black");
   textSize(15);
