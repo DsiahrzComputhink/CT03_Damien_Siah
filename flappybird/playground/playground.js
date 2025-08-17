@@ -77,7 +77,7 @@ function draw(){
   text('sleeping' + bird.sleeping, 10, 60);
 }
 
-
+// write the step by step
 function spawnPipePair() {
 
 }
