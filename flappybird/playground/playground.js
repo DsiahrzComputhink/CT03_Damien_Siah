@@ -99,7 +99,7 @@ function spawnPipePair(Xposition) {
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
 
-  pipeGroup.add(topPipe)
+  pipeGroup.add(topPipe);
 
   pipeGroup.add(bottomPipe);
   pipeGroup.layer = 0; // backmost layer
