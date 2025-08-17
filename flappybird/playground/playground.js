@@ -103,7 +103,7 @@ function spawnPipePair() {
 
 function CreateFloor(Xposition) {
   floor = new Sprite();
-  floor.x = position;
+  floor.x = Xposition;
   floor.y = height - 20;
   floor.width = 400;
   floor.height = 125;
