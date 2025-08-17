@@ -77,7 +77,9 @@ function draw(){
     spawnPipePair(bird.x - (bird.x % pipeSpace));
   }
 
-  if (bird.collides(pipeGroup) || bird.collides)
+  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    noLoop():
+  }
 
   // if (frameCount === 1) {
   //   spawnPipePair(bird.x + 400); // custom function
