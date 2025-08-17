@@ -70,7 +70,7 @@ function draw(){
   }
 
   if (bird.x % 100 === 0) {
-    spawnPipePair();
+    spawnPipePair(Xposition);
   }
 
   if (frameCount === 1) {
@@ -86,7 +86,7 @@ function draw(){
   text('sleeping' + bird.sleeping, 10, 60);
 }
 
-function spawnPipePair() {
+function spawnPipePair(Xposition) {
   let gap = 100;
   let midY = height/2; // middle
 
