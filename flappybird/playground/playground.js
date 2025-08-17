@@ -71,6 +71,8 @@ function draw(){
     spawnPipePair(); // custom function
   }
 
+
+
   fill("black");
   textSize(15);
   text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
@@ -78,7 +80,6 @@ function draw(){
   text('sleeping' + bird.sleeping, 10, 60);
 }
 
-// write the step by step
 function spawnPipePair() {
   let gap = 100;
   let midY = height/2;
