@@ -44,7 +44,7 @@ function draw(){
     bird.sleeping = false;
   }
 
-  if(kb.presses('e')){
+  if(kb.presses('enter')){
     new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
   }
 
