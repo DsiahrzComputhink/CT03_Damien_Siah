@@ -1,7 +1,7 @@
 let bird,floor;
 let flapMidImg, bg, base;
 
-let flapUpImg, flapDownImg;
+let flapUpImg, flapDownImg; // flap image
 
 let pipeImg;
 let pipeGroup;
