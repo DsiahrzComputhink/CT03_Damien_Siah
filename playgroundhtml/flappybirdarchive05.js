@@ -35,9 +35,9 @@ function setup(){
   floor.img = base;
 
 
-  bottomPipe = new Sprite(350, height/2 + gap/2 + 200, 52, 320, "static");
+  line1 = new Sprite(350, height/2 + gap/2 + 200, 52, 320, "static");
 
-  LINE = new Sprite(50, height/2 + gap/2 + 200, 52, 320, "static");
+  line2 = new Sprite(50, height/2 + gap/2 + 200, 52, 320, "static");
 }
 
 function draw(){
