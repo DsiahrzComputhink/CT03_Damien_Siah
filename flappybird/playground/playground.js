@@ -67,6 +67,9 @@ function draw(){
     bird.rotation = 0
   }
 
+  // bird movement
+  
+
   if (frameCount === 1) {
     spawnPipePair(); // custom function
   }
