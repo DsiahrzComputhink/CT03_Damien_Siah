@@ -94,7 +94,7 @@ function spawnPipePair(Xposition) {
 
 
   lastPipePosition = Xposition
-  console.log(bird.x + Xposition)
+  console.log(Xposition - lastPipePosition)
   // new sprite
   bottomPipe = new Sprite(400 + Xposition, midY + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
