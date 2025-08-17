@@ -84,6 +84,7 @@ function spawnPipePair() {
   let gap = 100;
   let midY = height/2;
 
+  // new sprite
   bottomPipe = new Sprite(100, height/2 + gap/2 + 200, 52, 320, "static");
   bottomPipe.img = pipeImg;
 
