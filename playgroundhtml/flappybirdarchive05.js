@@ -33,6 +33,11 @@ function setup(){
   floor.height = 125;
   floor.collider = "static";
   floor.img = base;
+
+
+  bottomPipe = new Sprite(100, height/2 + gap/2 + 200, 52, 320, "static");
+
+  bottomPipe = new Sprite(100, height/2 + gap/2 + 200, 52, 320, "static");
 }
 
 function draw(){
