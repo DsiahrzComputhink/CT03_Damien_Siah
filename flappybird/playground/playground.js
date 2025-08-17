@@ -69,8 +69,8 @@ function draw(){
     CreateFloor(bird.x - (bird.x % 399));
   }
 
-  if (frameCount % 90 === 0){
-    spawnPipePair(); // spawns pipes every 1.5 seconds
+  if (bird.x % 100 === 0) {
+    CreateFloor(bird.x - (bird.x % 399));
   }
 
   if (frameCount === 1) {
