@@ -46,6 +46,7 @@ function draw(){
 
   if(kb.presses('enter')){
     new Sprite(mouse.x, mouse.y, 30, 30,'dynamic');
+    
   }
 
 
