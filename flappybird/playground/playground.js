@@ -77,6 +77,8 @@ function draw(){
     spawnPipePair(bird.x - (bird.x % pipeSpace));
   }
 
+  if 
+
   // if (frameCount === 1) {
   //   spawnPipePair(bird.x + 400); // custom function
   // }
