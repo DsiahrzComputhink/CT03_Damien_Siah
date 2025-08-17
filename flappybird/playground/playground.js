@@ -98,3 +98,13 @@ function spawnPipePair() {
   pipeGroup.layer = 0; // backmost layer
 
 }
+
+function CreateFloor(position) {
+  floor = new Sprite();
+  floor.x = 200;
+  floor.y = height - 20;
+  floor.width = 400;
+  floor.height = 125;
+  floor.collider = "static";
+  floor.img = base;
+}
