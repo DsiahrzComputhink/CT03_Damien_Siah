@@ -93,7 +93,7 @@ function draw(){
 
 function spawnPipePair(Xposition) {
   let gap = 75;
-  let midY = random(500, height - 500); // random(min, max)
+  let midY = random(300, height - 300); // random(min, max)
 
 
   console.log(Xposition - lastPipePosition)
