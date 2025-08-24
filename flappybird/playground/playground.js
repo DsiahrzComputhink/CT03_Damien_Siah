@@ -53,16 +53,12 @@ function setup(){
   pipeGroup = new Group();
 
   startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
-  startscreenImg = startscreenImg;
+  startscreenLabel = startscreenImg;
 
 }
 
 
 function draw(){
-
-  startscreenLabel.img = startscreenImg;
-  startscreenImg.layer = 100;
-  startscreenImg.x = camera.x;
 
   image(bg, 0, 0, width, height);
 
