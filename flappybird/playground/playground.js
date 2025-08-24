@@ -46,7 +46,7 @@ function setup(){
 
   CreateFloor(-799);
   CreateFloor(-399);
-  CreateFloor(-799);
+  CreateFloor(0);
   CreateFloor(399);
 
   pipeGroup = new Group();
