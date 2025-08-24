@@ -10,6 +10,7 @@ let pipeSpace = 50; // Distance between each pipe
 
 let lastPipePosition; // debug
 
+let startscreen
 let gameoverImg;
 
 function preload(){
