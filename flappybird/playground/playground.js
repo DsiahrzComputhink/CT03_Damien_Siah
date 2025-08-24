@@ -63,7 +63,7 @@ function draw(){
   bird.visible = true;
   }
 
-  if(startGame == true){
+  if(startGame){
     image(bg, 0, 0, width, height);
 
   // keybinds
