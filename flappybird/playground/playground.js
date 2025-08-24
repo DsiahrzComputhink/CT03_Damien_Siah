@@ -10,7 +10,9 @@ let pipeSpace = 50; // Distance between each pipe
 
 let lastPipePosition; // debug
 
-let startscreen
+let startscreenLabel;
+let startscreenImg;
+
 let gameoverImg;
 
 function preload(){
@@ -20,7 +22,8 @@ function preload(){
   flapUpImg = loadImage('assets/bluebird-upflap.png');
   flapDownImg = loadImage('assets/redbird-downflap.png');
   pipeImg = loadImage('assets/pipe-green.png');
-  gameoverImg = loadImage('assets/gameover.png')
+  gameoverImg = loadImage('assets/gameover.png');
+  
 }
 
 function setup(){
