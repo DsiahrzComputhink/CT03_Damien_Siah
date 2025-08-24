@@ -87,7 +87,6 @@ function draw(){
     // bird movement
     bird.x += 3;
     camera.x = bird.x;
-    bird.y = height / 2
 
     if (bird.x % 399 > 100) {
       CreateFloor(bird.x - (bird.x % 399));
