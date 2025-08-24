@@ -80,7 +80,8 @@ function draw(){
   }
 
   if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-    gameOverPNG = new Sprite(200, 300, 52, 320, "static");
+    newsprite = new Sprite(200, 300, 52, 320, "static");
+    g
     noLoop();
   }
 
