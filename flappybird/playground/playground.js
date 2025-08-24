@@ -45,6 +45,7 @@ function setup(){
   world.gravity.y = 10;
 
   CreateFloor(0 - 399);
+  CreateFloor(0 - 799);
 
   pipeGroup = new Group();
 
