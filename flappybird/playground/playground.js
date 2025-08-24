@@ -16,6 +16,10 @@ let startscreenImg;
 
 let gameoverImg;
 
+let score = 0;
+let numberImages = []
+
+
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
