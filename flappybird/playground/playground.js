@@ -18,6 +18,7 @@ function preload(){
   flapUpImg = loadImage('assets/bluebird-upflap.png');
   flapDownImg = loadImage('assets/redbird-downflap.png');
   pipeImg = loadImage('assets/pipe-green.png');
+  gameOver
 }
 
 function setup(){
