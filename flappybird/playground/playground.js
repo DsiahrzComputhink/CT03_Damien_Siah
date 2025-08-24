@@ -23,7 +23,7 @@ function preload(){
   flapDownImg = loadImage('assets/redbird-downflap.png');
   pipeImg = loadImage('assets/pipe-green.png');
   gameoverImg = loadImage('assets/gameover.png');
-  
+  startscreenImg = loadImage('')
 }
 
 function setup(){
