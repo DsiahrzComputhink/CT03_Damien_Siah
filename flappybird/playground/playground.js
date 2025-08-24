@@ -10,6 +10,7 @@ let pipeGroup; // Organisation
 let bottomPipe, topPipe;
 let pipeSpace = 50; // Distance between each pipe
 
+let startGame = false;
 let lastPipePosition; // debug
 
 let startscreenLabel;
