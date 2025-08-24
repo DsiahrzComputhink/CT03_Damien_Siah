@@ -37,6 +37,7 @@ function setup(){
   bird.width = 30;
   bird.height = 30;
   bird.img = flapMidImg;
+  bird.
 
   bird.collider = 'dynamic';
   bird.mass = 2;
@@ -61,8 +62,8 @@ function draw(){
   if(kb.presses('space') || mouse.presses()){
   startGame = true;
   startscreenLabel.visible = false;
+  bird.collider = "dynamic";
   bird.visible = true;
-  bird.collider = "dynamic"
   }
 
   if(startGame){
