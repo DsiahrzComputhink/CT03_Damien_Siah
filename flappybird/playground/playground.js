@@ -66,58 +66,58 @@ function draw(){
   if(startGame){
     image(bg, 0, 0, width, height);
 
-      // keybinds
-      if(kb.presses('space') || mouse.presses()){
-        bird.vel.y = -5;
-        bird.sleeping = false;
-      }
+    // keybinds
+    if(kb.presses('space') || mouse.presses()){
+      bird.vel.y = -5;
+      bird.sleeping = false;
+    }
 
-      // flap sequence
-      if (bird.vel.y < -1){
-        bird.img = flapUpImg;
-        bird.rotation = -30
-      }
-      else if(bird.vel.y > 1 ){
-        bird.img = flapDownImg;
-        bird.rotation = 30
-      }
-      else{
-        bird.img = flapMidImg;
-        bird.rotation = 0
-      }
+    // flap sequence
+    if (bird.vel.y < -1){
+      bird.img = flapUpImg;
+      bird.rotation = -30
+    }
+    else if(bird.vel.y > 1 ){
+      bird.img = flapDownImg;
+      bird.rotation = 30
+    }
+    else{
+      bird.img = flapMidImg;
+      bird.rotation = 0
+    }
 
-      // bird movement
-      bird.x += 3;
-      camera.x = bird.x;
+    // bird movement
+    bird.x += 3;
+    camera.x = bird.x;
 
-      if (bird.x % 399 > 100) {
-        CreateFloor(bird.x - (bird.x % 399));
-      }
+    if (bird.x % 399 > 100) {
+      CreateFloor(bird.x - (bird.x % 399));
+    }
 
-      if (bird.x % pipeSpace === 0) {
-        spawnPipePair(bird.x - (bird.x % pipeSpace));
-      }
+    if (bird.x % pipeSpace === 0) {
+      spawnPipePair(bird.x - (bird.x % pipeSpace));
+    }
 
-      if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-        gameoverLabel = new Sprite(width/2, height/2, 192, 42);
-        gameoverLabel.img = gameoverImg;
-        gameoverLabel.layer = 100;
-        gameoverLabel.x = camera.x;
-        noLoop();
-      }
+    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+      gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100;
+      gameoverLabel.x = camera.x;
+      noLoop();
+    }
 
-      // if (frameCount === 1) {
-      //   spawnPipePair(bird.x + 400); // custom function
-      // }
+    // if (frameCount === 1) {
+    //   spawnPipePair(bird.x + 400); // custom function
+    // }
 
 
 
-      fill("black");
-      textSize(15);
-      text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-      text('isMoving' + bird.isMoving, 10, 40);
-      text('sleeping' + bird.sleeping, 10, 60);
-      text('bird.x: ' + bird.x.toFixed(2), 10, 80);
+    fill("black");
+    textSize(15);
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving' + bird.isMoving, 10, 40);
+    text('sleeping' + bird.sleeping, 10, 60);
+    text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
 }
 
