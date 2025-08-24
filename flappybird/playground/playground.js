@@ -65,7 +65,7 @@ function setup(){
 
   scoreDigits = new Group();
   scoreDigits.collider = 'none';
-  scoreDigits.layer = 101;
+  scoreDigits.layer = 1000;
 
 }
 
