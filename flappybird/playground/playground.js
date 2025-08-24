@@ -64,7 +64,8 @@ function setup(){
   startscreenLabel = startscreenImg;
 
   scoreDigits = new Group();
-  scoreDigits.collider = none
+  scoreDigits.collider = 'none';
+  scoreDigits.layer = 101;
 
 }
 
