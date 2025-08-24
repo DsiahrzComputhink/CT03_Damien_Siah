@@ -37,10 +37,9 @@ function setup(){
   bird.width = 30;
   bird.height = 30;
   bird.img = flapMidImg;
-  bird.collider = "static";
   bird.visible = false;
 
-  bird.collider = 'dynamic';
+  bird.collider = "static";
   bird.mass = 2;
   bird.drag = 0.02;
   bird.bounciness = 0.99;
