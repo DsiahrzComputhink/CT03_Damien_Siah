@@ -60,8 +60,7 @@ function setup(){
 
 function draw(){
 
-  startscreenLabel = new Sprite(width/2, height/2, 192, 42);
-  startscreenImg.img = startscreenImg;
+  startscreenLabel.img = startscreenImg;
   startscreenImg.layer = 100;
   startscreenImg.x = camera.x;
 
