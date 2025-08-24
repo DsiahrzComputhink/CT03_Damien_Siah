@@ -171,3 +171,7 @@ function CreateFloor(Xposition) {
   floor.collider = "static";
   floor.img = base;
 }
+
+function drawScore(x, y, score, digitWidth, digitHeight){
+  
+}
