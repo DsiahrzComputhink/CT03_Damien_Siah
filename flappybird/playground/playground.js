@@ -54,7 +54,10 @@ function setup(){
   startscreenImg = startscreenImg;
 }
 
-if(kb.presses('space') || mouse.presses())
+if(kb.presses('space') || mouse.presses()){
+  startGame = true;
+  startScreen
+}
 
 function draw(){
   image(bg, 0, 0, width, height);
