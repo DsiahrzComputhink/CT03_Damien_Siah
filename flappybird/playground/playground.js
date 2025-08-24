@@ -46,6 +46,8 @@ function setup(){
   CreateFloor(0 - 399);
 
   pipeGroup = new Group();
+
+  startScreen
 }
 
 function draw(){
