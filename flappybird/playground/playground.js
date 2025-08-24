@@ -56,6 +56,13 @@ function setup(){
 
 
 function draw(){
+
+  if(kb.presses('space') || mouse.presses()){
+  startGame = true;
+  startscreenLabel.visible = false;
+  bird.visible = true;
+  }
+
   image(bg, 0, 0, width, height);
 
   // keybinds
