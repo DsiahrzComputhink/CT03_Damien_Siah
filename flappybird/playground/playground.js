@@ -63,6 +63,9 @@ function draw(){
   bird.visible = true;
   }
 
+  if(startGame){
+    image(bg, 0, 0, width, height);
+
   // keybinds
   if(kb.presses('space') || mouse.presses()){
     bird.vel.y = -5;
@@ -115,6 +118,7 @@ function draw(){
   text('isMoving' + bird.isMoving, 10, 40);
   text('sleeping' + bird.sleeping, 10, 60);
   text('bird.x: ' + bird.x.toFixed(2), 10, 80);
+  }
 }
 
 function spawnPipePair(Xposition) {
