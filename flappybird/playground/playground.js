@@ -54,13 +54,18 @@ function setup(){
 
   startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
   startscreenImg = startscreenImg;
+
+  gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+  gameoverLabel.img = gameoverImg;
+  gameoverLabel.layer = 100;
+  gameoverLabel.x = camera.x;
 }
 
 
 function draw(){
 
   image(bg, 0, 0, width, height);
-  
+
   if(kb.presses('space') || mouse.presses()){
   startGame = true;
   startscreenLabel.visible = false;
