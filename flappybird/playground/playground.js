@@ -80,6 +80,7 @@ function draw(){
   }
 
   if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    print(Canvas.x / 2)
     newsprite = new Sprite(Canvas.x / 2, Canvas.y / 2, 99, 99, "static");
     noLoop();
   }
