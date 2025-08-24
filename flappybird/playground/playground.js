@@ -69,66 +69,59 @@ function draw(){
     bird.visible = true;
   }
 
-  if (startGame){
-    // new code to make bird dynamic only when game start
-    bird.collider = "dynamic"; 
-  // make the bird move "forward"
-    bird.x += 2; // make the bird move forward
-    camera.x = bird.x; // "lock" the camera pos to the bird.x pos
-    floor.x = camera.x;// "lock" the floor pos to the bird.x pos
+  if(startGame){
 
-      // Apply upward push when space is pressed
-    if (kb.presses('space') || mouse.presses()) {
-      bird.vel.y = -5; // which direction do you think this is?
-      bird.sleeping = false; // wake up if sleeping
-    }
-    
-    // Activity: Change image according to flying action/ falling
-    if (bird.vel.y < -1) {
-      bird.img = flapUpImg; // flying upward
-      bird.rotation = -30; // rotate up
-    } 
-    else if (bird.vel.y > 1) {
-      bird.img = flapDownImg; // falling
-      bird.rotation = 30; // rotate down
-    } 
-    else {
-      bird.img = flapMidImg; // neutral
-      bird.rotation = 0;
+    // keybinds
+    if(kb.presses('space') || mouse.presses()){
+      bird.vel.y = -5;
+      bird.sleeping = false;
     }
 
-    if (frameCount === 1){
-      spawnPipePair();
+    // flap sequence
+    if (bird.vel.y < -1){
+      bird.img = flapUpImg;
+      bird.rotation = -30
+    }
+    else if(bird.vel.y > 1 ){
+      bird.img = flapDownImg;
+      bird.rotation = 30
+    }
+    else{
+      bird.img = flapMidImg;
+      bird.rotation = 0
     }
 
-    if (frameCount % 120 === 0){
-      spawnPipePair();
+    // bird movement
+    bird.x += 3;
+    camera.x = bird.x;
+
+    if (bird.x % 399 > 100) {
+      CreateFloor(bird.x - (bird.x % 399));
     }
 
-    // remove offscreenpipes
-    for (let pipe of pipeGroup){
-      if (pipe.x < -50){
-        pipe.remove();
-      }
+    if (bird.x % pipeSpace === 0) {
+      spawnPipePair(bird.x - (bird.x % pipeSpace));
     }
 
-    // End Game on Collision
-    // note that this is checking collision against the group
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
+    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
       gameoverLabel = new Sprite(width/2, height/2, 192, 42);
       gameoverLabel.img = gameoverImg;
-      gameoverLabel.layer = 100; // make the game over text come to front
+      gameoverLabel.layer = 100;
       gameoverLabel.x = camera.x;
-
-      noLoop(); 
+      noLoop();
     }
 
-    // Debug info (optional)
-    fill("blue");
-    textSize(14);
+    // if (frameCount === 1) {
+    //   spawnPipePair(bird.x + 400); // custom function
+    // }
+
+
+
+    fill("black");
+    textSize(15);
     text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-    text('isMoving: ' + bird.isMoving, 10, 40);
-    text('sleeping: ' + bird.sleeping , 10, 60);
+    text('isMoving' + bird.isMoving, 10, 40);
+    text('sleeping' + bird.sleeping, 10, 60);
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
 }
