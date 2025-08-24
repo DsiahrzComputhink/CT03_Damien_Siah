@@ -66,7 +66,7 @@ function draw(){
   }
 
   // bird movement
-  bird.x = bird.x + 3;
+  bird.x += 3;
   camera.x = bird.x;
 
   if (bird.x % 399 > 100) {
