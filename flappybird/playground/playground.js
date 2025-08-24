@@ -80,6 +80,7 @@ function draw(){
   }
 
   if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    bottomPipe = new Sprite(400 + Xposition, midY + gap/2 + 200, 52, 320, "static");
     noLoop();
   }
 
