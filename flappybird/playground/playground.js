@@ -1,3 +1,5 @@
+const { isValidElement } = require("react");
+
 let bird,floor;
 let flapMidImg, bg, base;
 
@@ -51,6 +53,7 @@ function setup(){
   startscreenImg = startscreenImg;
 }
 
+isValidElement(kb.presses('space') || mouse.presses())
 function draw(){
   image(bg, 0, 0, width, height);
 
