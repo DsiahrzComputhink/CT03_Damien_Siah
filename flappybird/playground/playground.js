@@ -173,5 +173,7 @@ function CreateFloor(Xposition) {
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight){
-  
+  scoreDigits.removeAll;
+
+  let
 }
