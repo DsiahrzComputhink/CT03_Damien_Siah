@@ -141,7 +141,7 @@ function draw(){
 }
 
 function spawnPipePair(Xposition) {
-  let gap = 75;
+  let gap = -100;
   let midY = random(250, height - 250); // random(min, max)
 
 
