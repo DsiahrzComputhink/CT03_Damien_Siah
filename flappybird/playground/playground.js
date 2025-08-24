@@ -59,6 +59,8 @@ function setup(){
 
 function draw(){
 
+  image(bg, 0, 0, width, height);
+  
   if(kb.presses('space') || mouse.presses()){
   startGame = true;
   startscreenLabel.visible = false;
@@ -67,7 +69,6 @@ function draw(){
   }
 
   if(startGame){
-    image(bg, 0, 0, width, height);
 
     // keybinds
     if(kb.presses('space') || mouse.presses()){
