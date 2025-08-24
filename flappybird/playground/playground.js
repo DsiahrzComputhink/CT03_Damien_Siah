@@ -1,5 +1,3 @@
-const { isValidElement } = require("react");
-
 let bird,floor;
 let flapMidImg, bg, base;
 
