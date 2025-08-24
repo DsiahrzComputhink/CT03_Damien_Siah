@@ -55,8 +55,8 @@ function setup(){
   startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
   startscreenImg = startscreenImg;
 
-  gameoverLabel = new Sprite(width/2, height/2, 192, 42);
-  gameoverLabel.img = gameoverImg;
+  startscreenLabel = new Sprite(width/2, height/2, 192, 42);
+  gameoverLabel.img = startscreenImg;
   gameoverLabel.layer = 100;
   gameoverLabel.x = camera.x;
 }
