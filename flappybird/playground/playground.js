@@ -54,11 +54,6 @@ function setup(){
   startscreenImg = startscreenImg;
 }
 
-if(kb.presses('space') || mouse.presses()){
-  startGame = true;
-  startscreenLabel.visible = false;
-  bird.visible = true;
-}
 
 function draw(){
   image(bg, 0, 0, width, height);
