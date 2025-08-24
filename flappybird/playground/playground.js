@@ -55,14 +55,15 @@ function setup(){
   startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
   startscreenImg = startscreenImg;
 
-  startscreenLabel = new Sprite(width/2, height/2, 192, 42);
-  startscreenImg.img = startscreenImg;
-  startscreenImg.layer = 100;
-  startscreenImg.x = camera.x;
 }
 
 
 function draw(){
+
+  startscreenLabel = new Sprite(width/2, height/2, 192, 42);
+  startscreenImg.img = startscreenImg;
+  startscreenImg.layer = 100;
+  startscreenImg.x = camera.x;
 
   image(bg, 0, 0, width, height);
 
