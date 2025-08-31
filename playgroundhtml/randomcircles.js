@@ -19,4 +19,4 @@ function destroyall(){
 
 }
 
-remember to do this 
+//remember to finish this up
