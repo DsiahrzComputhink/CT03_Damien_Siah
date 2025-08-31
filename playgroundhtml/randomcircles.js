@@ -72,37 +72,3 @@ function draw(){
   text('sleeping' + bird.sleeping, 10, 60);
   text('bird.x: ' + bird.x.toFixed(2), 10, 80);
 }
-
-function spawnPipePair(Xposition) {
-  let gap = 75;
-  let midY = random(250, height - 250); // random(min, max)
-
-
-  console.log(Xposition - lastPipePosition)
-  lastPipePosition = Xposition
-
-  // new sprite
-  bottomPipe = new Sprite(400 + Xposition, midY + gap/2 + 200, 52, 320, "static");
-  bottomPipe.img = pipeImg;
-
-  // new sprite
-  topPipe = new Sprite(400 + Xposition, midY - gap/2 - 200, 52, 320, "static");
-  topPipe.img = pipeImg;
-  topPipe.rotation = 180;
-
-  pipeGroup.add(topPipe);
-
-  pipeGroup.add(bottomPipe);
-  pipeGroup.layer = 0; // backmost layer
-
-}
-
-function CreateFloor(Xposition) {
-  floor = new Sprite();
-  floor.x = Xposition + 500;
-  floor.y = height - 20;
-  floor.width = 399;
-  floor.height = 125;
-  floor.collider = "static";
-  floor.img = base;
-}
