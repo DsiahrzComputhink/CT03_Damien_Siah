@@ -1,24 +1,3 @@
-let bird,floor;
-let flapMidImg, bg, base;
-
-let flapUpImg, flapDownImg; // flap image
-
-let pipeImg; // Pipes
-let pipeGroup; // Organisation
-let bottomPipe, topPipe;
-let pipeSpace = 50; // Distance between each pipe
-
-let lastPipePosition; // debug
-
-
-function preload(){
-  flapMidImg = loadImage('assets/yellowbird-midflap.png');
-  bg =loadImage('assets/background-day.png');
-  base = loadImage('assets/base.png');
-  flapUpImg = loadImage('assets/bluebird-upflap.png');
-  flapDownImg = loadImage('assets/redbird-downflap.png');
-  pipeImg = loadImage('assets/pipe-green.png');
-}
 
 function setup(){
   new Canvas(400,600);
