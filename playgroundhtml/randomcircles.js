@@ -16,5 +16,7 @@ function randomcircle(){
 }
 
 function destroyall(){
-  
+
 }
+
+remember to do this 
