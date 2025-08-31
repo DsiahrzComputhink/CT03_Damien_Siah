@@ -21,4 +21,5 @@ function destroyall(){
 
 //remember to finish this up
 // requirements:
+// different size, different colour, different position
 // 
