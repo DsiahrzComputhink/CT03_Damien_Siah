@@ -11,6 +11,10 @@ function draw(){
   }
 }
 
-function randomcircles(){
+function randomcircle(){
 
+}
+
+function destroyall(){
+  
 }
