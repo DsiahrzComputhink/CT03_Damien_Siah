@@ -98,6 +98,8 @@ function draw() {
   if((totalvel) < startingvelocity){
     ball.vel.x *= totalvel/ballcurrentvel
     ball.vel.y *= totalvel/ballcurrentvel
+    box.vel.x *= totalvel/boxcurrentvel
+    box.vel.y *= totalvel/boxcurrentvel
   }
 
   if(mouseX < width){
