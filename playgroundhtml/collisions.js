@@ -60,6 +60,8 @@ function draw() {
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
   let ballcurrentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)); // Total Velocity of the ball
+  let squarecurrentvel = (Math.abs(square.vel.x) + Math.abs(square.vel.y)) // Total Velocity of the square
+  
   text("Ball Velocity: ("+ int(ballcurrentvel) + ")", 10,40);
 
   text("Box: (" + int(box.x) + ", " + int(box.y) + ")", 10,60);
@@ -71,7 +73,6 @@ function draw() {
 
   text("Square: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
 
-  let squarecurrentvel = (Math.abs(square.vel.x) + Math.abs(square.vel.y)) // Total Velocity of the square
   text("Square Velocity: ("+ int(squarecurrentvel) + ")", 10,380);
   
 
