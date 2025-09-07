@@ -7,6 +7,7 @@ function setup() {
     new Canvas(600, 400);
     background("blue");
 
+    floor = new Sprite()
     
     let abc = new Sprite()
     // abc.diameter = 50;
