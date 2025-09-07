@@ -17,5 +17,5 @@ function setup() {
 function draw() {
     background("blue");
 
-    
+    if ( mouse.presses() )
 }
