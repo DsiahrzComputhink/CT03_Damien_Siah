@@ -67,7 +67,7 @@ function draw() {
 
   text("Total Energy: ("+ (int(((ballcurrentvel + boxcurrentvel)/startingvelocity)*100)) + "%)", 10,100);
   text("Circle Energy: ("+ (int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,120);
-  text("Circle Energy: ("+ (int((boxcurrentvel/startingvelocity)*100)) + "%)", 10,140);
+  text("Box Energy: ("+ (int((boxcurrentvel/startingvelocity)*100)) + "%)", 10,140);
 
 
   text("Square: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
