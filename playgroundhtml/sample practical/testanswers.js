@@ -11,9 +11,9 @@ function setup() {
     // abc.diameter = 50;
     // abc.y = 50;
 
-    // world.gravity.y = 1;
+    // world.gravity.y = 1; // speed of dropping
 }
 
 function draw() {
-    background("blue");
+    //background("blue");
 }
