@@ -65,7 +65,7 @@ function draw() {
   text("Box: (" + int(box.x) + ", " + int(box.y) + ")", 10,60);
   let boxcurrentvel = (Math.abs(box.vel.x) + Math.abs(ball.vel.y));
 
-  text("Total Momentum: ("+ (int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,80);
+  text("Total Momentum: ("+ (int((ballcurrentvel + boxcurrentvel/startingvelocity)*100)) + "%)", 10,100);
 
 
   text("Square: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
