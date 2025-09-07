@@ -67,7 +67,7 @@ function draw() {
 
   text("Total Energy: ("+ (int((ballcurrentvel + boxcurrentvel/startingvelocity*2)*100)) + "%)", 10,100);
   text("Circle Energy: ("+ (int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,120);
-  text("Box Energy: ("+(int((ballcurrentvel/startingvelocity)*100)) + "%)", 10,140);
+  text("Square Energy: ("+(int((square/startingvelocity)*100)) + "%)", 10,140);
 
 
   text("Square: (" + int(square.x) + ", " + int(square.y) + ")", 10,360);
@@ -96,7 +96,7 @@ function draw() {
 
 
   // to negate for velocity loss. boxcurrentvel is 0
-  let totalvel = ballcurrentvel + boxcurrentvel;
+  let totalvel = ballcurrentvel + squarecurrentvel;
   if((totalvel) < startingvelocity){
     ball.vel.x *= totalvel/ballcurrentvel
     ball.vel.y *= totalvel/ballcurrentvel
