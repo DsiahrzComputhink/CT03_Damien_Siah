@@ -6,6 +6,10 @@ function setup() {
     //          h    w
     new Canvas(600, 400);
     background("blue");
+
+    let abc = new SpeechRecognitionResult()
+
+    
 }
 
 function draw() {
