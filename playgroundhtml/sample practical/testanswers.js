@@ -18,6 +18,7 @@ function draw() {
     background("blue");
 
     if ( mouse.presses() ) {
-        
+        let b = new Sprite( mouseX, mouseY )
+        b.diameter = 15;
     }
 }
