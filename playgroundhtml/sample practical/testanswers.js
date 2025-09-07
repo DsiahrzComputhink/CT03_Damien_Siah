@@ -8,8 +8,10 @@ function setup() {
     background("blue");
 
     let abc = new SpeechRecognitionResult()
+    // abc.diameter = 50;
+    // abc.y = 50;
 
-    
+    // world.gravity.y = 1;
 }
 
 function draw() {
