@@ -93,7 +93,7 @@ function draw() {
 
 
   // to negate for velocity loss
-  if(ballcurrentvel < startingvelocity){
+  if((ballcurrentvel + boxcurrentvel) < startingvelocity){
     ball.vel.x *= startingvelocity/ballcurrentvel
     ball.vel.y *= startingvelocity/ballcurrentvel
   }
