@@ -7,9 +7,10 @@ function setup() {
     new Canvas(600, 400);
     background("blue");
 
-    floor = new Sprite(width / 2, height, width, 50, "none");
+    floor = new Sprite(width / 2, height, width, 50, "static");
 
-    let abc = new Sprite()
+    let a = new Sprite(25, 0, 50, 50, "dynamic")
+    let b = new Sprite(width - 25, 0, 50, 50, "dynamic")
     // abc.diameter = 50;
     // abc.y = 50;
 
@@ -19,7 +20,7 @@ function setup() {
 function draw() {
     background("blue");
 
-    if ( mouse.presses() ) {
+    if ( keyboard.presses("k") || keyboard.presses("j") || mouse.presses()) {
         let b = new Sprite( mouseX, mouseY )
         b.diameter = 15;
     }
