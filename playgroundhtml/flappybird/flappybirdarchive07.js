@@ -8,16 +8,31 @@ let pipeGroup; // Organisation
 let bottomPipe, topPipe;
 let pipeSpace = 50; // Distance between each pipe
 
+let startGame = false;
 let lastPipePosition; // debug
 
+let startscreenLabel;
+let startscreenImg;
+
+let gameoverImg;
+
+let score = 0;
+let numberImages = [];
+let scoreDigits;
 
 function preload(){
-  flapMidImg = loadImage('assets/yellowbird-midflap.png');
+  flapMidImg =loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/bluebird-upflap.png');
   flapDownImg = loadImage('assets/redbird-downflap.png');
   pipeImg = loadImage('assets/pipe-green.png');
+  gameoverImg = loadImage('assets/gameover.png');
+  startscreenImg = loadImage('assets/message.png');
+
+  for(let i = 0; i < 10; i++){
+    numberImages[i] = loadImage('assets/' + i + '.png');
+  }
 }
 
 function setup(){
@@ -26,73 +41,103 @@ function setup(){
   // bird sprite, location, size
   bird = new Sprite();
   bird.x = width / 2;
-  bird.y = 500;
+  bird.y = height / 2;
   bird.width = 30;
   bird.height = 30;
   bird.img = flapMidImg;
+  bird.visible = false;
 
-  bird.collider = 'dynamic';
+  bird.collider = "static";
   bird.mass = 2;
   bird.drag = 0.02;
   bird.bounciness = 0.99;
   world.gravity.y = 10;
 
-  CreateFloor(0 - 399);
+  CreateFloor(-799);
+  CreateFloor(-399);
+  CreateFloor(0);
+  CreateFloor(399);
 
   pipeGroup = new Group();
+
+  startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
+  startscreenLabel = startscreenImg;
+
+  scoreDigits = new Group();
+  scoreDigits.collider = 'none';
+  scoreDigits.layer = 1000;
+
 }
 
+
 function draw(){
+
   image(bg, 0, 0, width, height);
 
-  // keybinds
   if(kb.presses('space') || mouse.presses()){
-    bird.vel.y = -5;
-    bird.sleeping = false;
+    startGame = true;
+    startscreenLabel.visible = false;
+    bird.collider = "dynamic";
+    bird.visible = true;
   }
 
-  // flap sequence
-  if (bird.vel.y < -1){
-    bird.img = flapUpImg;
-    bird.rotation = -30
+  if(startGame){
+
+    // keybinds
+    if(kb.presses('space') || mouse.presses()){
+      bird.vel.y = -5;
+      bird.sleeping = false;
+    }
+
+    // flap sequence
+    if (bird.vel.y < -1){
+      bird.img = flapUpImg;
+      bird.rotation = -30
+    }
+    else if(bird.vel.y > 1 ){
+      bird.img = flapDownImg;
+      bird.rotation = 30
+    }
+    else{
+      bird.img = flapMidImg;
+      bird.rotation = 0
+    }
+
+    // bird movement
+    bird.x += 3;
+    camera.x = bird.x;
+
+    if (bird.x % 399 > 100) {
+      CreateFloor(bird.x - (bird.x % 399));
+    }
+
+    if (bird.x % pipeSpace === 0) {
+      spawnPipePair(bird.x - (bird.x % pipeSpace));
+    }
+
+    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+      gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100;
+      gameoverLabel.x = camera.x;
+      noLoop();
+    }
+
+    // if (frameCount === 1) {
+    //   spawnPipePair(bird.x + 400); // custom function
+    // }
+
+
+
+    fill("black");
+    textSize(15);
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving' + bird.isMoving, 10, 40);
+    text('sleeping' + bird.sleeping, 10, 60);
+    text('bird.x: ' + bird.x.toFixed(2), 10, 80);
+
+    drawScore(width/2, 20, score, 24, 36)
   }
-  else if(bird.vel.y > 1 ){
-    bird.img = flapDownImg;
-    bird.rotation = 30
-  }
-  else{
-    bird.img = flapMidImg;
-    bird.rotation = 0
-  }
-
-  // bird movement
-  bird.x = bird.x + 3;
-  camera.x = bird.x;
-
-  if (bird.x % 399 > 100) {
-    CreateFloor(bird.x - (bird.x % 399));
-  }
-
-  if (bird.x % pipeSpace === 0) {
-    spawnPipePair(bird.x - (bird.x % pipeSpace));
-  }
-
-  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-    noLoop();
-  }
-
-  // if (frameCount === 1) {
-  //   spawnPipePair(bird.x + 400); // custom function
-  // }
-
-
-
-  fill("black");
-  textSize(15);
-  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-  text('isMoving' + bird.isMoving, 10, 40);
-  text('sleeping' + bird.sleeping, 10, 60);
-  text('bird.x: ' + bird.x.toFixed(2), 10, 80);
 }
 
 function spawnPipePair(Xposition) {
@@ -127,4 +172,12 @@ function CreateFloor(Xposition) {
   floor.height = 125;
   floor.collider = "static";
   floor.img = base;
+}
+
+function drawScore(x, y, score, digitWidth, digitHeight){
+  scoreDigits.removeAll;
+
+  let scoreStr = str(score);
+  let totalWidth = scoreStr.length * digitWidth;
+  let startX = x - totalWidth / 2;
 }
