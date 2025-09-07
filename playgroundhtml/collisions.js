@@ -59,7 +59,7 @@ function draw() {
   textSize(16)
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10,20);
 
-  let ballcurrentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)) // Total Velocity of the ball
+  let ballcurrentvel = (Math.abs(ball.vel.x) + Math.abs(ball.vel.y)); // Total Velocity of the ball
   text("Ball Velocity: ("+ int(ballcurrentvel) + ")", 10,40);
 
   text("Box: (" + int(box.x) + ", " + int(box.y) + ")", 10,60);
