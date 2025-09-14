@@ -162,6 +162,7 @@ function spawnPipePair(Xposition) {
   pipeGroup.add(bottomPipe);
   pipeGroup.layer = 0; // backmost layer
 
+  drawScore
 }
 
 function CreateFloor(Xposition) {
