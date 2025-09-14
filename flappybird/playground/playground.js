@@ -117,7 +117,7 @@ function draw(){
       spawnPipePair(bird.x - (bird.x % pipeSpace));
     }
 
-    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)) {
       gameoverLabel = new Sprite(width/2, height/2, 192, 42, "none");
       gameoverLabel.img = gameoverImg;
       gameoverLabel.layer = 100;
