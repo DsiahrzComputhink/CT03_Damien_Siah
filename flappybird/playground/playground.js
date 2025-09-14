@@ -19,7 +19,7 @@ let gameoverImg;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-
+score += 1
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
