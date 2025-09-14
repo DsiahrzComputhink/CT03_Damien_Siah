@@ -61,7 +61,7 @@ function setup(){
   pipeGroup = new Group();
 
   startscreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
-  startscreenLabel = startscreenImg;
+  startscreenLabel.img = startscreenImg;
 
   scoreDigits = new Group();
   scoreDigits.collider = 'none';
