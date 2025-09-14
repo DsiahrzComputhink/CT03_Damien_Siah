@@ -136,7 +136,7 @@ function draw(){
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
 
     for (let pipe of pipeGroup){
-      if (pipe.x < -50){
+      if (pipe.x < camera.x - 250){
         pipe.remove();
       }
     }
