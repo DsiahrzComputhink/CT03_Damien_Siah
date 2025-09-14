@@ -19,6 +19,7 @@ let gameoverImg;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
+let sky;
 
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
@@ -68,7 +69,7 @@ function setup(){
   scoreDigits.layer = 1000;
 
   // sky
-  let sky = new Sprite(0, -25, 99999999, 50, 'static');
+  sky = new Sprite(0, -25, 99999999, 50, 'static');
 }
 
 
