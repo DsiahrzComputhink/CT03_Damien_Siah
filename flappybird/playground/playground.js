@@ -162,7 +162,8 @@ function spawnPipePair(Xposition) {
   pipeGroup.add(bottomPipe);
   pipeGroup.layer = 0; // backmost layer
 
-  score *= 2
+  score += 1
+  console.log(score)
   drawScore(width/2, score, 24, 36)
 }
 
