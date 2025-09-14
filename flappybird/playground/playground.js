@@ -68,7 +68,7 @@ function setup(){
   scoreDigits.layer = 1000;
 
   // sky
-  let sky = new Sprite(0, -25, 99999999, 50)
+  let sky = new Sprite(0, -25, 99999999, 50, 'static');
 }
 
 
