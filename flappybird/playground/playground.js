@@ -143,7 +143,6 @@ function draw(){
     }
     drawScore(width/2, 20, score, 24, 36)
 
-    score += 1;
   }
 }
 
