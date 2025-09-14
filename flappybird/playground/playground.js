@@ -20,7 +20,7 @@ let score = 0;
 let numberImages = [];
 let scoreDigits;
 
-let skyl
+let sky = 0;
 
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
