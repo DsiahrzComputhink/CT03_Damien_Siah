@@ -96,13 +96,11 @@ function draw() {
 
 
   // to negate for velocity loss. boxcurrentvel is 0
-  let totalvel = ballcurrentvel + squarecurrentvel;
+  let totalvel = ballcurrentvel;
   console.log(totalvel, ballcurrentvel, squarecurrentvel)
   if((totalvel) < startingvelocity){
     ball.vel.x *= totalvel/ballcurrentvel
     ball.vel.y *= totalvel/ballcurrentvel
-    square.vel.x *= totalvel/squarecurrentvel
-    square.vel.y *= totalvel/squarecurrentvel
   }
 
   if(mouseX < width){
