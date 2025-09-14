@@ -126,8 +126,6 @@ function draw(){
     // if (frameCount === 1) {
     //   spawnPipePair(bird.x + 400); // custom function
     // }
-    score += 1;
-
 
 
     fill("black");
