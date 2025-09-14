@@ -20,6 +20,8 @@ let score = 0;
 let numberImages = [];
 let scoreDigits;
 
+let skyl
+
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
@@ -68,7 +70,6 @@ function setup(){
   scoreDigits.layer = 1000;
 
   // sky
-  sky = new Sprite
 }
 
 
