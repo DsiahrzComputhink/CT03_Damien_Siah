@@ -67,6 +67,8 @@ function setup(){
   scoreDigits.collider = 'none';
   scoreDigits.layer = 1000;
 
+  // sky
+  sky = new Sprite
 }
 
 
