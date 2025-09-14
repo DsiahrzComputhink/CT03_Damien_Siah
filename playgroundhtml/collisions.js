@@ -99,8 +99,8 @@ function draw() {
   let totalvel = ballcurrentvel;
   console.log(totalvel, ballcurrentvel, squarecurrentvel)
   if((totalvel) < startingvelocity){
-    ball.vel.x *= totalvel/ballcurrentvel
-    ball.vel.y *= totalvel/ballcurrentvel
+    ball.vel.x *= startingvelocity/ballcurrentvel
+    ball.vel.y *= startingvelocity/ballcurrentvel
   }
 
   if(mouseX < width){
