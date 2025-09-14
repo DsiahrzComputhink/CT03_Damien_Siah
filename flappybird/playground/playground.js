@@ -20,8 +20,6 @@ let score = 0;
 let numberImages = [];
 let scoreDigits;
 
-let sky = 0;
-
 function preload(){
   flapMidImg =loadImage('assets/yellowbird-midflap.png');
   bg =loadImage('assets/background-day.png');
