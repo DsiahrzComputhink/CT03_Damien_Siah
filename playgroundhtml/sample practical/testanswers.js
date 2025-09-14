@@ -9,8 +9,8 @@ function setup() {
 
     floor = new Sprite(width / 2, height, width, 50, "static");
 
-    let a = new Sprite(25, 0, 50, 50, "dynamic")
-    let b = new Sprite(width - 25, 0, 50, 50, "dynamic")
+    let a = new Sprite(50, 0, 50, 50, "dynamic")
+    let b = new Sprite(width - 50, 0, 50, 50, "dynamic")
     // abc.diameter = 50;
     // abc.y = 50;
 
