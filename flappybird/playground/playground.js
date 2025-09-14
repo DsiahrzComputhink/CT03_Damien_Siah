@@ -136,6 +136,11 @@ function draw(){
     text('sleeping' + bird.sleeping, 10, 60);
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
 
+    for (let pipe of pipeGroup){
+      if (pipe.x < -50){
+        pipe.remove();
+      }
+    }
     drawScore(width/2, 20, score, 24, 36)
   }
 }
