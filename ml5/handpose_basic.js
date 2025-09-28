@@ -33,4 +33,6 @@ function setup(){
         audio: false,
         flipped: true,
     };
+
+    // Create the webcam video and hide it
 }
