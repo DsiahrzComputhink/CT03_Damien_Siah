@@ -14,5 +14,5 @@ function preload(){
 }
 
 function setup(){
-    
+    c
 }
