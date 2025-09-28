@@ -27,5 +27,7 @@ function setup(){
 
         },
 
+        audio: false,
+        flipped: true,
     };
 }
