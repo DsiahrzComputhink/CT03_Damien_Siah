@@ -21,7 +21,11 @@ function setup(){
         video: {
             mandatory: {
                 minWidth: VideoW
-            }
-        }
-    }
+            },
+
+            optional: [{minFrameRate: 60}]
+
+        },
+
+    };
 }
