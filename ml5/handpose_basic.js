@@ -15,5 +15,11 @@ function preload(){
 }
 
 function setup(){
-    createCanvas()
+    createCanvas(VideoW, VideoH)
+
+    let constraints = {
+        video: {
+            
+        }
+    }
 }
