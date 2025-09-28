@@ -23,6 +23,6 @@ function draw() {
     if ( keyboard.presses("k") || keyboard.presses("j") || mouse.presses()) {
         let b = new Sprite( mouseX, mouseY )
         b.diameter = 15;
-        b.elast
+        b.bounciness = 0.25
     }
 }
