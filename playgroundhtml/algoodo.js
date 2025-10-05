@@ -30,7 +30,7 @@ function draw() {
     // Menu
     if (menu == true){
         Menu.visible = true;
-        textSize(13)
+        textSize(20)
         text("World Settings", 10,20)
     }else {
         Menu.visible = false;
