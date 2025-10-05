@@ -89,19 +89,19 @@ function draw() {
         }
 
         if ( keyboard.presses("a")) { // Size Decrease
-            elasticity -= 5;
+            elasticity -= 0.05;
         }
 
         if ( keyboard.presses("d")) { // Size Decrease
-            elasticity += 5;
+            elasticity += 0.05;
         }
 
         if ( keyboard.presses("-")) { // Size Decrease
-            size -= 5;
+            gravity -= 5;
         }
 
         if ( keyboard.presses("=")) { // Size Decrease
-            size += 5;
+            gravity += 0.5;
         }
     }
 
