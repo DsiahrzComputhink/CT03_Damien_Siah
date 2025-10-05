@@ -84,15 +84,15 @@ function draw() {
             size -= 5;
         }
 
-        if ( keyboard.presses("=")) { // Size Decrease
+        if ( keyboard.presses("=")) { // Size Increase
             size += 5;
         }
 
-        if ( keyboard.presses("a")) { // Size Decrease
+        if ( keyboard.presses("a")) { // Elasticity Decrease
             elasticity -= 0.05;
         }
 
-        if ( keyboard.presses("d")) { // Size Decrease
+        if ( keyboard.presses("d")) { // Elasticity Increase
             elasticity += 0.05;
         }
 
@@ -100,7 +100,7 @@ function draw() {
             gravity -= 0.5;
         }
 
-        if ( keyboard.presses("=")) { // Size Decrease
+        if ( keyboard.presses("=")) { // Size 
             gravity += 0.5;
         }
     }
