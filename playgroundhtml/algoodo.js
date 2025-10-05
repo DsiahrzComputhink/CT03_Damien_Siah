@@ -30,6 +30,8 @@ function draw() {
     // Menu
     if (menu = true){
 
+    }else {
+        
     }
 
     background("black");
