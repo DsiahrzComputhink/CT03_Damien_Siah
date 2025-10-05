@@ -58,7 +58,7 @@ function draw() {
     // Variable Adjustment
     if ( keyboard.presses("+") || keyboard.presses("-")) {
 
-                if ( keyboard.presses("r")) {
+        if ( keyboard.presses("-")) {
             let s = new Sprite( mouseX, mouseY ) // Circle
             s.diameter = size;
             s.bounciness = elasticity;
