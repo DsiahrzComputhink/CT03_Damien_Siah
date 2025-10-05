@@ -32,7 +32,7 @@ function draw() {
 
     text("'-' or '+' to Adjust Size",10,85)
 
-    text("Keybinds",600, 20)
+    text("Constants",600, 20)
     text("Size - " + size,600,35)
     text("Elasticity - " + (elasticity * 100) + "%", 600, 50)
 
