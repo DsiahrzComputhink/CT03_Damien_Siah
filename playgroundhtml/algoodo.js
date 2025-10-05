@@ -64,12 +64,14 @@ function draw() {
             let e = new Sprite(mouseX, mouseY, size, size); // Square
             e.collider = "dynamic";
             e.bounciness = elasticity;
+            e.layer = -1;
         }
 
         else if ( keyboard.presses("y")) {
-            let e = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
+            let  = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
             e.collider = "dynamic";
             e.bounciness = elasticity;
+            e.layer = -1;
         }
     }
 
