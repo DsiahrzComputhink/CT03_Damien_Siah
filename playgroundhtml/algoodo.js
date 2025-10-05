@@ -88,15 +88,15 @@ function draw() {
             size += 5;
         }
 
-                if ( keyboard.presses("-")) { // Size Decrease
+        if ( keyboard.presses("a")) { // Size Decrease
             size -= 5;
         }
 
-        if ( keyboard.presses("=") || keyboard.presses("+")) { // Size Decrease
+        if ( keyboard.presses("d")) { // Size Decrease
             size += 5;
         }
 
-                if ( keyboard.presses("-")) { // Size Decrease
+        if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
         }
 
