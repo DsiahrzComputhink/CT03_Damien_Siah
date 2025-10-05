@@ -19,7 +19,9 @@ function preload(){
 
 function setup(){
 
-    
+    fingerTip = new SpeechRecognitionResult();
+    fingerTip.diameter = 60;
+    fingerTip.collider - 
     createCanvas(VideoW, VideoH)
 
     let constraints = {
