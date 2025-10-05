@@ -57,6 +57,7 @@ function draw() {
             let s = new Sprite( mouseX, mouseY ) // Circle
             s.diameter = size;
             s.bounciness = elasticity;
+            s.layer = -1;
         }
 
         else if ( keyboard.presses("t")) {
