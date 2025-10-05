@@ -54,7 +54,7 @@ function draw() {
 
 
     // Sprite Creation
-    if ( keyboard.presses("R") || keyboard.presses("t") || keyboard.presses("y")) {
+    if ( keyboard.presses("r") || keyboard.presses("t") || keyboard.presses("y")) {
 
         if ( keyboard.presses("r")) {
             let s = new Sprite( mouseX, mouseY ) // Circle
