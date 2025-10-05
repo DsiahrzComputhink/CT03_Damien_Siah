@@ -3,6 +3,7 @@ let ball;
 
 let size = 15;
 let elasticity = 0.25;
+world
 
 function setup() {
     console.log("called once");
