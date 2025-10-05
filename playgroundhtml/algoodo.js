@@ -34,7 +34,7 @@ function draw() {
 
     // Text
     fill('white')
-    textSize(16)
+    textSize(14)
     text("Keybinds", 10,20)
     textSize(13)
     text("R - Circle", 10,35);
@@ -45,7 +45,7 @@ function draw() {
     text("'A' or 'S' to Adjust Elasticity",10,100)
     text("'Z' or 'X' to Adjust Gravity",10,115)
 
-    textSize(16)
+    textSize(14)
     text("Constants",10, 135)
     textSize(13)
     text("Size - " + size,10, 150)
