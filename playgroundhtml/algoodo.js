@@ -25,10 +25,10 @@ function draw() {
     textSize(13)
 
     fill('white')
-    
-    text("R - Circle", 10,20);
-    text("T - Square", 10,35);
-    text("Y - Rectangle", 10,50);
+    text("Keybinds", 10,20)
+    text("R - Circle", 10,35);
+    text("T - Square", 10,50);
+    text("Y - Rectangle", 10,65);
 
     text("'-' or '+' to Adjust Size",10,70)
 
