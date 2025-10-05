@@ -19,7 +19,7 @@ function preload(){
 
 function setup(){
 
-    fingerTip = new SpeechRecognitionResult();
+    fingerTip = new Sprite();
     fingerTip.diameter = 60;
     fingerTip.collider = 'kinematic';
     fingerTip.color = 'rgba(52, 255, 2, 0.35)'
@@ -65,11 +65,11 @@ function draw(){
     if (hands.length > 0) {
         let hand = hands[0]
         let keypoint = hand.keypoints[8]
-        fingerTip.x = keypoint.x
-        fingerTip.y = keypoint.y
-        fingerTip.visible = true
+        fingerTip.x = keypoint.x;
+        fingerTip.y = keypoint.y;
+        fingerTip.visible = true;
     } else {
-        fingerTip.visible = false
+        fingerTip.visible = false;
     }
 }
 
