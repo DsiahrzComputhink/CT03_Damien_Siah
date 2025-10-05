@@ -67,6 +67,9 @@ function draw(){
         let keypoint = hand.keypoints[8]
         fingerTip.x = keypoint.x
         fingerTip.y = keypoint.y
+        fingerTip.visible = true
+    } else {
+        fingerTip.visible = false
     }
 }
 
