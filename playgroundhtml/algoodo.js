@@ -31,8 +31,9 @@ function draw() {
 
     text("'-' or '+' to Adjust Size",10,70)
 
-    text("Size - " + size,10,85)
-    text("Elasticity - " + (elasticity * 100) + "%", 300, 20)
+    text("")
+    text("Size - " + size,300,20)
+    text("Elasticity - " + (elasticity * 100) + "%", 300, 35)
 
 
     // Sprite Creation
