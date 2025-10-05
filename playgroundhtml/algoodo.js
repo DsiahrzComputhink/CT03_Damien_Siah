@@ -29,7 +29,7 @@ function draw() {
     world.gravity.y = gravity;
     // Menu
     if (menu = true){
-        Menu.visible = false;
+        Menu.visible = true;
     }else {
         Menu.visible = false;
     }
