@@ -100,7 +100,7 @@ function draw() {
             gravity -= 0.5;
         }
 
-        if ( keyboard.presses("=")) { // Size 
+        if ( keyboard.presses("=")) { // Gravity Increase
             gravity += 0.5;
         }
     }
