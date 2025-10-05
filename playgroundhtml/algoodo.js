@@ -92,15 +92,15 @@ function draw() {
             elasticity -= 0.05;
         }
 
-        if ( keyboard.presses("d")) { // Elasticity Increase
+        if ( keyboard.presses("s")) { // Elasticity Increase
             elasticity += 0.05;
         }
 
-        if ( keyboard.presses("-")) { // Gravity Decrease
+        if ( keyboard.presses("z")) { // Gravity Decrease
             gravity -= 0.5;
         }
 
-        if ( keyboard.presses("=")) { // Gravity Increase
+        if ( keyboard.presses("x")) { // Gravity Increase
             gravity += 0.5;
         }
     }
