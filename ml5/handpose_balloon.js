@@ -18,6 +18,8 @@ function preload(){
 }
 
 function setup(){
+
+    
     createCanvas(VideoW, VideoH)
 
     let constraints = {
