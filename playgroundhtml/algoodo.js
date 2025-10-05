@@ -38,7 +38,7 @@ function draw() {
     background("black");
 
     // Text
-            textSize(20)
+    textSize(20)
     text("World Settings", 10,20)
 
     textSize(13)
