@@ -19,7 +19,7 @@ function setup() {
 
     // Draw the right rectangle.
     fill(c2);
-    Menu = rect(width / 2, height / 2, width, height, "static");
+    Menu = new Sprite(width / 2, height / 2, width, height, "static");
 
 }
 
