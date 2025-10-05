@@ -89,6 +89,8 @@ function draw() {
         }
     }
 
+    
+
     // Menu
     // if ( keyboard.presses("q")) {
     //     if (menu == true){
