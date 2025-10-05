@@ -32,6 +32,9 @@ function draw() {
     text("'-' or '+' to Adjust Size",10,70)
     text("Size - " + size,10,85)
 
+    textAlign(RIGHT);
+    text
+
 
     // Sprite Creation
     if ( keyboard.presses("R") || keyboard.presses("t") || keyboard.presses("y")) {
