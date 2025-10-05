@@ -14,9 +14,28 @@ function setup() {
 
     floor = new Sprite(width / 2, height, width, 50, "static");
 
+function setup() {
+  createCanvas(100, 100);
 
-    fill('black')
-    Menu = rect(width / 2, height / 2, width, height);
+  background(200);
+
+  // Create a p5.Color object using a hex color code.
+  let c1 = color('#0f0');
+
+  // Draw the left rectangle.
+  fill(c1);
+  noStroke();
+  rect(0, 10, 45, 80);
+
+  // Create a p5.Color object using a hex color code.
+  let c2 = color('#00ff00');
+
+  // Draw the right rectangle.
+  fill(c2);
+  rect(55, 10, 45, 80);
+
+  describe('Two bright green rectangles on a gray canvas.');
+}
 
 }
 
