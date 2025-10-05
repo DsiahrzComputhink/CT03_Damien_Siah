@@ -92,6 +92,10 @@ function draw() {
 
     // Menu
     if ( keyboard.presses("Q")) {
-        menu
+        if (menu = visible){
+            menu = false;
+        } else {
+            menu = true;
+        }
     }
 }
