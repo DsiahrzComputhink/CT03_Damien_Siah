@@ -62,7 +62,7 @@ function draw() {
             size -= 5;
         }
 
-        if ( keyboard.presses("=")) { // Size Decrease
+        if ( keyboard.presses("=") || keyboard.presses("+")) { // Size Decrease
             size += 5;
         }
     }
