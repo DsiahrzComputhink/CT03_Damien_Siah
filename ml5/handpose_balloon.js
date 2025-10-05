@@ -21,7 +21,8 @@ function setup(){
 
     fingerTip = new SpeechRecognitionResult();
     fingerTip.diameter = 60;
-    fingerTip.collider - 
+    fingerTip.collider = 'kinematic';
+    fingerTip.color = 
     createCanvas(VideoW, VideoH)
 
     let constraints = {
