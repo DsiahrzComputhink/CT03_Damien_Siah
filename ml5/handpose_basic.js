@@ -1,8 +1,8 @@
 let handPose;
 let VideoW = 640;
 let VideoH = 480;
-
 let video;
+let hands = [];
 
 function preload(){
     let options = {
@@ -14,7 +14,7 @@ function preload(){
     }
 
     // loading the handpose model
-    handPose = ml5.handpose(options);
+    handPose = ml5.handPose(options);
 }
 
 function setup(){
@@ -40,4 +40,24 @@ function setup(){
     video.hide();
 
     handPose.detectStart(video, gotHands);
+
+}
+
+function draw(){
+    image(video, 0, 0, VideoW, VideoH);
+
+    for(let i = 0; i < hands.length; i++){
+        let hand = hands[i]; // left or right
+
+        for(let j = 0; j < hands.keypoints.length; j++){
+            let keypoint = hands.keypoints[j];
+
+            circle(keypoint.x, keypoint.y, 10)
+        }
+
+    }
+}
+
+function gotHands(results){
+    hands = results;
 }
