@@ -30,7 +30,8 @@ function draw() {
     // Menu
     if (menu == true){
         Menu.visible = true;
-        text("Keybinds", 10,20)
+        textSize(13)
+        text("World Settings", 10,20)
     }else {
         Menu.visible = false;
     }
