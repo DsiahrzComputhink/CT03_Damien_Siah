@@ -17,9 +17,9 @@ function setup() {
 
     let c2 = color('#00ff00');
 
-  // Draw the right rectangle.
+    // Draw the right rectangle.
     fill(c2);
-    Menu = rect(width / 2, height / 2, width, height);
+    Menu = rect(width / 2, height / 2, width, height, "static");
 
 }
 
