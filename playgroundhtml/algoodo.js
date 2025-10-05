@@ -78,7 +78,7 @@ function draw() {
     }
 
     // Variable Adjustment
-    if ( keyboard.presses("=") || keyboard.presses("+") || keyboard.presses("-")) {
+    if ( keyboard.presses("=") || keyboard.presses("+") || keyboard.presses("-") || keyboard.presses("A") || keyboard.presses("-") || keyboard.presses("+") || keyboard.presses("-")) {
 
         if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
