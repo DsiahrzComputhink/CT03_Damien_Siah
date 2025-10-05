@@ -14,8 +14,8 @@ function setup() {
 
     floor = new Sprite(width / 2, height, width, 50, "static");
 
-    
-    square(30, 20, 55);
+
+    Menu = square(30, 20, 55);
 
 }
 
