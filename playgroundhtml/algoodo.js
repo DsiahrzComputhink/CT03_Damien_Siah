@@ -25,8 +25,8 @@ function draw() {
     textSize(13)
     fill('white')
     text("R - Circle", 10,20);
-    text("T - Ellipse", 10,35);
-    text("Y - Square", 10,50);
+    text("T - Square", 10,35);
+    text("Y - Ellipse", 10,50);
 
 
     // Sprite Creation
