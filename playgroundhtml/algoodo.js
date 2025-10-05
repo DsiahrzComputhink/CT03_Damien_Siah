@@ -7,15 +7,15 @@ let gravity = 10;
 let menu = false;
 
 function setup() {
-    console.log("e");
+    console.log("Loading...");
     //          w    h
     new Canvas(800, 500);
     background("blue");
 
     floor = new Sprite(width / 2, height, width, 50, "static");
 
-    // abc.diameter = 50;
-    // abc.y = 50;
+    
+    square(30, 20, 55);
 
 }
 
