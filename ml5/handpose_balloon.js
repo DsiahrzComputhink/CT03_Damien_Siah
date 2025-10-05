@@ -58,7 +58,7 @@ function draw(){
     // }
 
     if (hands.length > 0) {
-        let keypoint = handPose.keypoints[8]
+        let keypoint = handPose.keypoints[8];
         circle(keypoint.x, keypoint.y, 30);
     }
 }
