@@ -25,15 +25,16 @@ function draw() {
     textSize(13)
 
     fill('white')
+    
     text("R - Circle", 10,20);
     text("T - Square", 10,35);
     text("Y - Rectangle", 10,50);
 
     text("'-' or '+' to Adjust Size",10,70)
 
-    text("Keybinds",600, 5)
-    text("Size - " + size,600,20)
-    text("Elasticity - " + (elasticity * 100) + "%", 600, 35)
+    text("Keybinds",600, 20)
+    text("Size - " + size,600,35)
+    text("Elasticity - " + (elasticity * 100) + "%", 600, 50)
 
 
     // Sprite Creation
