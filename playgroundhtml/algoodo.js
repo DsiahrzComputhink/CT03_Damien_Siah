@@ -79,7 +79,7 @@ function draw() {
     }
 
     // Variable Adjustment
-    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("s") || keyboard.presses("z") || keyboard.presses("x")) {
+    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("d") || keyboard.presses("z") || keyboard.presses("c")) {
 
         if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
@@ -93,7 +93,7 @@ function draw() {
             elasticity -= 0.05;
         }
 
-        if ( keyboard.presses("s")) { // Elasticity Increase
+        if ( keyboard.presses("d")) { // Elasticity Increase
             elasticity += 0.05;
         }
 
@@ -101,7 +101,7 @@ function draw() {
             gravity -= 0.5;
         }
 
-        if ( keyboard.presses("x")) { // Gravity Increase
+        if ( keyboard.presses("c")) { // Gravity Increase
             gravity += 0.5;
         }
     }
