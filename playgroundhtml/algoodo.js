@@ -30,7 +30,7 @@ function draw() {
     text("Y - Ellipse", 10,50);
 
     text("'-' or '+' to Adjust Size",10,65)
-    text("Size - " + size,10,65)
+    text("Size - " + size,10,80)
 
 
     // Sprite Creation
