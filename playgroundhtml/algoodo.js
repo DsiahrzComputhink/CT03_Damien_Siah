@@ -57,21 +57,21 @@ function draw() {
             let s = new Sprite( mouseX, mouseY ) // Circle
             s.diameter = size;
             s.bounciness = elasticity;
-            s.layer = -1;
+            s.layer = -10;
         }
 
         else if ( keyboard.presses("t")) {
             let s = new Sprite(mouseX, mouseY, size, size); // Square
             s.collider = "dynamic";
             s.bounciness = elasticity;
-            s.layer = -1;
+            s.layer = -10;
         }
 
         else if ( keyboard.presses("y")) {
             let r = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
             r.collider = "dynamic";
             r.bounciness = elasticity;
-            r.layer = -1;
+            r.layer = -10;
         }
     }
 
