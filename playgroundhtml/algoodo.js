@@ -33,11 +33,10 @@ function draw() {
     background("black");
 
     // Text
-
-    textSize(13)
-
     fill('white')
+    textSize(13)
     text("Keybinds", 10,20)
+    textSize(13)
     text("R - Circle", 10,35);
     text("T - Square", 10,50);
     text("Y - Rectangle", 10,65);
@@ -46,7 +45,9 @@ function draw() {
     text("'A' or 'S' to Adjust Elasticity",10,100)
     text("'Z' or 'X' to Adjust Gravity",10,115)
 
+    textSize(13)
     text("Constants",10, 135)
+    textSize(13)
     text("Size - " + size,10, 150)
     text("Elasticity - " + (elasticity * 100) + "%", 10, 165)
     text("Gravity - " + gravity,10, 180)
