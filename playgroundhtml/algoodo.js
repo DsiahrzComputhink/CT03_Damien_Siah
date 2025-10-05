@@ -29,8 +29,8 @@ function draw() {
     text("T - Square", 10,35);
     text("Y - Ellipse", 10,50);
 
-    text("'-' or '+' to Adjust Size",10,65)
-    text("Size - " + size,10,80)
+    text("'-' or '+' to Adjust Size",10,70)
+    text("Size - " + size,10,85)
 
 
     // Sprite Creation
@@ -55,4 +55,7 @@ function draw() {
         }
     }
 
+    if ( keyboard.presses("+") || keyboard.presses("-")) {
+        
+    }
 }
