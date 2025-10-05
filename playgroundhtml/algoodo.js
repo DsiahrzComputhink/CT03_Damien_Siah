@@ -7,7 +7,7 @@ let gravity = 10;
 let menu = false;
 
 function setup() {
-    console.log("called once");
+    console.log("e");
     //          w    h
     new Canvas(800, 500);
     background("blue");
