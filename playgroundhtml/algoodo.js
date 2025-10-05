@@ -20,6 +20,12 @@ function setup() {
 }
 
 function draw() {
+
+    // Menu
+    if (){
+        
+    }
+
     background("black");
 
     // Text
@@ -72,3 +78,4 @@ function draw() {
             size += 5;
         }
     }
+}
