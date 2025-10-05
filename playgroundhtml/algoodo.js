@@ -43,7 +43,7 @@ function draw() {
     text("Y - Rectangle", 10,65);
 
     text("'-' or '+' to Adjust Size",10,85)
-    text("",10,100)
+    text("'A' or 'D' to Adjust Gravity",10,100)
 
     text("Constants",600, 20)
     text("Size - " + size,600,35)
