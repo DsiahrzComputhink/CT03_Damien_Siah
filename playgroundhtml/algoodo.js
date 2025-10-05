@@ -17,8 +17,7 @@ function setup() {
 
 
     // Draw the right rectangle.
-    Menu = new Sprite(width / 2, height / 2, width, height, "static");
-    Menu.setCollider("none"); // disables all collisions for this sprite
+    Menu = new Sprite(width / 2, height / 2, width, height, "none");
     Menu.color = color('rgba(0, 0, 0, 0.5)');
 
 }
