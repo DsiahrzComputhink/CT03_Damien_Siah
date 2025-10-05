@@ -78,9 +78,25 @@ function draw() {
     }
 
     // Variable Adjustment
-    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("s") || keyboard.presses("z") || keyboard.presses("-")) {
+    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("s") || keyboard.presses("z") || keyboard.presses("x")) {
 
         if ( keyboard.presses("-")) { // Size Decrease
+            size -= 5;
+        }
+
+        if ( keyboard.presses("=") || keyboard.presses("+")) { // Size Decrease
+            size += 5;
+        }
+
+                if ( keyboard.presses("-")) { // Size Decrease
+            size -= 5;
+        }
+
+        if ( keyboard.presses("=") || keyboard.presses("+")) { // Size Decrease
+            size += 5;
+        }
+
+                if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
         }
 
