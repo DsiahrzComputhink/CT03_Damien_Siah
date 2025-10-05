@@ -41,8 +41,8 @@ function draw() {
         }
 
         if ( keyboard.presses("t")) {
-            let e = ellipse(mouseX, mouseY, size, 80);
-            e.collider = "dynamic"
+            let e = ellipse(mouseX, mouseY, size, size * 1.5);
+            e.collider = "dynamic";
             e.bounciness = elasticity;
         }
     }
