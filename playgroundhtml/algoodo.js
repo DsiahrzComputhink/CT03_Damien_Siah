@@ -48,8 +48,8 @@ function draw() {
 
     text("Constants",10, 135)
     text("Size - " + size,10, 150)
-    text("Elasticity - " + (elasticity * 100) + "%", 10, 170)
-    text("Gravity - " + gravity,10, 175)
+    text("Elasticity - " + (elasticity * 100) + "%", 10, 165)
+    text("Gravity - " + gravity,10, 180)
 
 
     // Sprite Creation
