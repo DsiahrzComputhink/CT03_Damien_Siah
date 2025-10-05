@@ -33,13 +33,13 @@ function draw() {
     if ( keyboard.presses("R") || keyboard.presses("t") || keyboard.presses("y")) {
 
         if ( keyboard.presses("r")) {
-            let s = new Sprite( mouseX, mouseY ) // Sphere
+            let s = new Sprite( mouseX, mouseY ) // Circle
             s.diameter = size;
             s.bounciness = elasticity;
         }
 
         if ( keyboard.presses("t")) {
-            let e = new Sprite(mouseX, mouseY, size, size * 1.5);
+            let e = new Sprite(mouseX, mouseY, size, size); // Square
             e.collider = "dynamic";
             e.bounciness = elasticity;
         }
