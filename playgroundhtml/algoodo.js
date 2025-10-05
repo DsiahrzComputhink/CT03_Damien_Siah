@@ -56,13 +56,13 @@ function draw() {
     }
 
     // Variable Adjustment
-    if ( keyboard.presses("-") || keyboard.presses("+") || keyboard.presses("-")) {
+    if ( keyboard.presses("=") || keyboard.presses("+") || keyboard.presses("-")) {
 
         if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
         }
 
-        if ( keyboard.presses("+")) { // Size Decrease
+        if ( keyboard.presses("=")) { // Size Decrease
             size += 5;
         }
     }
