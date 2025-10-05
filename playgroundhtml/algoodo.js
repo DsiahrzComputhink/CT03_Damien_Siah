@@ -30,6 +30,8 @@ function draw() {
     // Menu
     if (menu == true){
         Menu.visible = true;
+        textSize(20)
+        text("World Settings", 10,20)
 
     }else {
         Menu.visible = false;
@@ -38,8 +40,6 @@ function draw() {
     background("black");
 
     // Text
-    textSize(20)
-    text("World Settings", 10,20)
 
     textSize(13)
 
