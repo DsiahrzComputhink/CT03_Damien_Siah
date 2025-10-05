@@ -22,8 +22,8 @@ function setup() {
 function draw() {
 
     // Menu
-    if (){
-        
+    if (menu = true){
+
     }
 
     background("black");
