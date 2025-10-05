@@ -44,13 +44,14 @@ function draw() {
     text("'-' or '+' to Adjust Size",10,85)
     text("'A' or 'D' to Adjust Elasticity",10,100)
     text("'Z' or 'C' to Adjust Gravity",10,115)
+    text("'Z' or 'C' to Adjust Gravity",10,115)
 
     textSize(14)
     text("Constants",10, 150)
     textSize(13)
     text("Size - " + size,10, 165)
     text("Elasticity - " + Math.round(elasticity * 100) + "%", 10, 180)
-    text("Gravity - " + gravity,10, 180)
+    text("Gravity - " + gravity,10, 195)
 
 
     // Sprite Creation
