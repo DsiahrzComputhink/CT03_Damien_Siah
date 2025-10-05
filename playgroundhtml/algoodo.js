@@ -96,8 +96,8 @@ function draw() {
             elasticity += 0.05;
         }
 
-        if ( keyboard.presses("-")) { // Size Decrease
-            gravity -= 5;
+        if ( keyboard.presses("-")) { // Gravity Decrease
+            gravity -= 0.5;
         }
 
         if ( keyboard.presses("=")) { // Size Decrease
