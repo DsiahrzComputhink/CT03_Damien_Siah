@@ -61,10 +61,10 @@ function draw() {
         }
 
         else if ( keyboard.presses("t")) {
-            let e = new Sprite(mouseX, mouseY, size, size); // Square
-            e.collider = "dynamic";
-            e.bounciness = elasticity;
-            e.layer = -1;
+            let s = new Sprite(mouseX, mouseY, size, size); // Square
+            s.collider = "dynamic";
+            s.bounciness = elasticity;
+            s.layer = -1;
         }
 
         else if ( keyboard.presses("y")) {
