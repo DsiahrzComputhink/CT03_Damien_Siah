@@ -32,8 +32,7 @@ function draw() {
     text("'-' or '+' to Adjust Size",10,70)
     text("Size - " + size,10,85)
 
-    textAlign(RIGHT);
-    text("Elasticity - " + elasticity, 300, )
+    text("Elasticity - " + elasticity, 300, 20)
 
 
     // Sprite Creation
