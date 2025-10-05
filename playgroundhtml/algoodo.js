@@ -27,7 +27,7 @@ function draw() {
     fill('white')
     text("R - Circle", 10,20);
     text("T - Square", 10,35);
-    text("Y - Ellipse", 10,50);
+    text("Y - Rectangle", 10,50);
 
     text("'-' or '+' to Adjust Size",10,70)
     text("Size - " + size,10,85)
