@@ -25,7 +25,7 @@ function setup() {
 function draw() {
 
     // Constants
-    world.gravity = 10
+    world.gravity = 10;
     // Menu
     if (menu = true){
 
