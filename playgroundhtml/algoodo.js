@@ -18,7 +18,7 @@ function setup() {
 
     // Draw the right rectangle.
     Menu = new Sprite(width / 2, height / 2, width, height, "static");
-    Menu.color = color('#0f0');
+    Menu.color = color('rgba(0, 0, 0, 0.18)');
 
 }
 
