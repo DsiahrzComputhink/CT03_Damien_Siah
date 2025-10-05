@@ -45,7 +45,7 @@ function draw() {
         }
 
         else if ( keyboard.presses("y")) {
-            let e = new Sprite(mouseX, mouseY, size, size); // Square
+            let e = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
             e.collider = "dynamic";
             e.bounciness = elasticity;
         }
