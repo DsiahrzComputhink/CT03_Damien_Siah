@@ -106,7 +106,7 @@ function draw() {
             gravity += 0.5;
         }
 
-        if (keyboard.presses("enter")) {
+        if (keyboard.presses("space")) {
             gravity = 10;
             elasticity = 0.25;
             size = 15;
