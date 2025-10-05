@@ -29,7 +29,7 @@ function draw() {
     text("T - Square", 10,35);
     text("Y - Ellipse", 10,50);
 
-    text("Size " + size,10,65)
+    text("Size - " + size,10,65)
 
 
     // Sprite Creation
