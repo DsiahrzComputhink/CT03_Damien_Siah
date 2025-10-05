@@ -109,7 +109,7 @@ function draw() {
         if (keyboard.presses("enter")) {
             gravity = 10;
             elasticity = 0.25;
-            
+            size = 15;
         }
     }
 
