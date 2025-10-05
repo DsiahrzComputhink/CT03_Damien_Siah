@@ -3,7 +3,7 @@ let ball;
 
 let size = 15;
 let elasticity = 0.25;
-world
+let gravity = 10
 
 function setup() {
     console.log("called once");
@@ -16,7 +16,6 @@ function setup() {
     // abc.diameter = 50;
     // abc.y = 50;
 
-    world.gravity.y = 10; // speed of dropping
 }
 
 function draw() {
