@@ -38,7 +38,13 @@ function draw() {
             s.bounciness = elasticity;
         }
 
-        if ( keyboard.presses("t")) {
+        else if ( keyboard.presses("t")) {
+            let e = new Sprite(mouseX, mouseY, size, size); // Square
+            e.collider = "dynamic";
+            e.bounciness = elasticity;
+        }
+
+        else if ( keyboard.presses("t")) {
             let e = new Sprite(mouseX, mouseY, size, size); // Square
             e.collider = "dynamic";
             e.bounciness = elasticity;
