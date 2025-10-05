@@ -47,8 +47,8 @@ function draw() {
     text("'Z' or 'X' to Adjust Gravity",10,115)
 
     text("Constants",10, 135)
-    text("Size - " + size,10, 145)
-    text("Elasticity - " + (elasticity * 100) + "%", 10, 160)
+    text("Size - " + size,10, 150)
+    text("Elasticity - " + (elasticity * 100) + "%", 10, 1)
     text("Gravity - " + gravity,10, 175)
 
 
