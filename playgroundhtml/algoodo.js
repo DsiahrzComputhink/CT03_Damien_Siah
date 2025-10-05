@@ -97,6 +97,7 @@ function draw() {
             console.log("menu is now false")
         } else {
             menu = true;
+            console.log("menu is now true")
         }
     }
 }
