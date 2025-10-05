@@ -14,13 +14,9 @@ function setup() {
 
     floor = new Sprite(width / 2, height, width, 50, "static");
 
-
-
-    // Draw the right rectangle.
     Menu = new Sprite(width / 2, height / 2, width, height, "none");
     Menu.color = color('rgba(0, 0, 0, 0.5)');
     Menu.visible = false;
-
 }
 
 function draw() {
@@ -28,11 +24,11 @@ function draw() {
     // Constants
     world.gravity.y = gravity;
     // Menu
-    if (menu == true){
-        Menu.visible = true;
-    }else {
-        Menu.visible = false;
-    }
+    // if (menu == true){
+    //     Menu.visible = true;
+    // }else {
+    //     Menu.visible = false;
+    // }
 
     background("black");
 
