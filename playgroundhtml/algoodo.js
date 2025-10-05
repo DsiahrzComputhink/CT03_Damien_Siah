@@ -89,4 +89,9 @@ function draw() {
             size += 5;
         }
     }
+
+    // Menu
+    if ( keyboard.presses("Q")) {
+        menu
+    }
 }
