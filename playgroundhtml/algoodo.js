@@ -46,9 +46,9 @@ function draw() {
     text("'A' or 'S' to Adjust Elasticity",10,100)
     text("'Z' or 'X' to Adjust Gravity",10,115)
 
-    text("Constants",600, 20)
-    text("Size - " + size,600,35)
-    text("Elasticity - " + (elasticity * 100) + "%", 600, 50)
+    text("Constants",10, 20)
+    text("Size - " + size,10,35)
+    text("Elasticity - " + (elasticity * 100) + "%", 10, 50)
     text("Gravity - " + gravity,600,65)
 
 
