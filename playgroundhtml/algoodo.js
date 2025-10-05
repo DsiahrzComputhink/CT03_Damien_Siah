@@ -23,10 +23,14 @@ function draw() {
 
     // Text
     textSize(13)
+
     fill('white')
     text("R - Circle", 10,20);
     text("T - Square", 10,35);
     text("Y - Ellipse", 10,50);
+
+    fill('white')
+    text("Size:", size)
 
 
     // Sprite Creation
