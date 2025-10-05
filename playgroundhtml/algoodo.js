@@ -44,7 +44,7 @@ function draw() {
     text("'-' or '+' to Adjust Size",10,85)
     text("'A' or 'D' to Adjust Elasticity",10,100)
     text("'Z' or 'C' to Adjust Gravity",10,115)
-    text("'Space' to Reset Constants",10,130)
+    text("'Enter' to Reset Constants",10,130)
 
     textSize(14)
     text("Constants",10, 150)
@@ -106,7 +106,7 @@ function draw() {
             gravity += 0.5;
         }
 
-        if (keyboard.presses("space")) {
+        if (keyboard.presses("enter")) {
             gravity = 10;
             elasticity = 0.25;
             size = 15;
