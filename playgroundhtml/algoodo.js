@@ -29,9 +29,9 @@ function draw() {
     world.gravity.y = gravity;
     // Menu
     if (menu = true){
-
+        Menu.visible = false;
     }else {
-        
+        Menu.visible = false;
     }
 
     background("black");
