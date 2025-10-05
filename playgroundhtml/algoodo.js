@@ -88,13 +88,13 @@ function draw() {
     }
 
     // Menu
-    if ( keyboard.presses("q")) {
-        if (menu == true){
-            menu = false;
-            console.log("menu is now false")
-        } else {
-            menu = true;
-            console.log("menu is now true")
-        }
-    }
+    // if ( keyboard.presses("q")) {
+    //     if (menu == true){
+    //         menu = false;
+    //         console.log("menu is now false")
+    //     } else {
+    //         menu = true;
+    //         console.log("menu is now true")
+    //     }
+    // }
 }
