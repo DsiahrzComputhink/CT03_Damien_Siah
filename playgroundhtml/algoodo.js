@@ -30,7 +30,7 @@ function draw() {
     text("T - Square", 10,50);
     text("Y - Rectangle", 10,65);
 
-    text("'-' or '+' to Adjust Size",10,70)
+    text("'-' or '+' to Adjust Size",10,85)
 
     text("Keybinds",600, 20)
     text("Size - " + size,600,35)
