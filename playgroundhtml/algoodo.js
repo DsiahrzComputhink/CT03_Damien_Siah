@@ -3,7 +3,8 @@ let ball;
 
 let size = 15;
 let elasticity = 0.25;
-let gravity = 10
+let gravity = 10;
+let menu = false;
 
 function setup() {
     console.log("called once");
@@ -31,7 +32,7 @@ function draw() {
     text("Y - Rectangle", 10,65);
 
     text("'-' or '+' to Adjust Size",10,85)
-    text("'-' or '+' to Adjust Size",10,85)
+    text("Q to open World Menu",10,100)
 
     text("Constants",600, 20)
     text("Size - " + size,600,35)
@@ -71,4 +72,3 @@ function draw() {
             size += 5;
         }
     }
-}
