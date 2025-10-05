@@ -15,11 +15,10 @@ function setup() {
     floor = new Sprite(width / 2, height, width, 50, "static");
 
 
-    let c2 = color('#00ff00');
 
     // Draw the right rectangle.
-    fill(c2);
     Menu = new Sprite(width / 2, height / 2, width, height, "static");
+    
 
 }
 
