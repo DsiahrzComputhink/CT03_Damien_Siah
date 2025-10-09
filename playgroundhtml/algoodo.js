@@ -109,6 +109,10 @@ function draw() {
             gravity += 0.5;
         }
 
+        if ( keyboard.presses("e")) { // Gravity Increase
+            gravity += 0.5;
+        }
+
         if (keyboard.presses("enter")) {
             gravity = 10;
             elasticity = 0.25;
