@@ -54,7 +54,7 @@ function draw() {
     text("Size - " + size,10, 180)
     text("Elasticity - " + Math.round(elasticity * 100) + "%", 10, 195)
     text("Gravity - " + gravity,10, 210)
-    text("Anchored - " + anchor,10, 210)
+    text("Anchored - " + anchor,10, 225)
 
 
     // Sprite Creation
