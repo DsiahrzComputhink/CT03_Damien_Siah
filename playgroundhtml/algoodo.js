@@ -109,7 +109,7 @@ function draw() {
             gravity += 0.5;
         }
 
-        if ( keyboard.presses("e")) { // Gravity Increase
+        if ( keyboard.presses("e")) { // Anchor Toggle
             if (anchor == false) {
                 anchor = true;
             } else {
