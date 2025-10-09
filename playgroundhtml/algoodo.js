@@ -110,7 +110,9 @@ function draw() {
         }
 
         if ( keyboard.presses("e")) { // Gravity Increase
-            gravity += 0.5;
+            if (anchor == false) {
+                anchor == true
+            }
         }
 
         if (keyboard.presses("enter")) {
