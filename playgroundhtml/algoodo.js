@@ -5,6 +5,7 @@ let size = 15;
 let elasticity = 0.25;
 let gravity = 10;
 let menu = false;
+let anchor = false;
 
 function setup() {
     console.log("Loading...");
