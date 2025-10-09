@@ -75,13 +75,19 @@ function draw() {
             s.collider = "dynamic";
             s.bounciness = elasticity;
             s.layer = -10;
+                        if (anchor == true){
+                s.collider = "static"
+            }
         }
 
         else if ( keyboard.presses("y")) {
-            let r = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
-            r.collider = "dynamic";
-            r.bounciness = elasticity;
-            r.layer = -10;
+            let s = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
+            s.collider = "dynamic";
+            s.bounciness = elasticity;
+            s.layer = -10;
+                        if (anchor == true){
+                s.collider = "static"
+            }
         }
     }
 
