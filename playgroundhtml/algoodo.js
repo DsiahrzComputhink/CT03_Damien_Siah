@@ -111,7 +111,9 @@ function draw() {
 
         if ( keyboard.presses("e")) { // Gravity Increase
             if (anchor == false) {
-                anchor == true
+                anchor = true;
+            } else {
+                anchor = false;
             }
         }
 
