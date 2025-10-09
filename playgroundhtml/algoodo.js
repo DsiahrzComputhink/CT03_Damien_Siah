@@ -65,6 +65,9 @@ function draw() {
             s.diameter = size;
             s.bounciness = elasticity;
             s.layer = -10;
+            if (anchor == true){
+                s.collider = "static"
+            }
         }
 
         else if ( keyboard.presses("t")) {
