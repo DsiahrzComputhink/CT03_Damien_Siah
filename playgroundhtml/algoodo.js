@@ -83,7 +83,7 @@ function draw() {
     }
 
     // Variable Adjustment
-    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("d") || keyboard.presses("z") || keyboard.presses("c") || keyboard.presses("enter")) {
+    if ( keyboard.presses("=") || keyboard.presses("-") || keyboard.presses("a") || keyboard.presses("d") || keyboard.presses("z") || keyboard.presses("c") || keyboard.presses("enter") || keyboard.presses("e")) {
 
         if ( keyboard.presses("-")) { // Size Decrease
             size -= 5;
