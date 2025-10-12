@@ -14,7 +14,7 @@ function setup(){
     colorPicker = createColorPicker("#63c1a6ff");
     colorPicker.position(120,375);
 
-    rectangle = new rect()
+    rectangle = new rect(width/2,height/2,50,50)
 }
 
 function draw(){
