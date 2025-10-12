@@ -68,7 +68,10 @@ function setup(){
     rightWall = new Sprite(width, height/2, 10, height, 'static');
 
     boundaryGroup = new Group;
-    boundaryGroup.add(topWall)
+    boundaryGroup.add(topWall);
+    boundaryGroup.add(bottomWall);
+    boundaryGroup.add(leftWall);
+    boundaryGroup.add(rightWall);
 }
 
 function draw(){
