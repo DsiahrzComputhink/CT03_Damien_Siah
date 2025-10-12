@@ -4,6 +4,8 @@ let VideoH = 480;
 let video;
 let hands = [];
 
+let balloon; // sprite
+
 function preload(){
     let options = {
         flipped: true,
