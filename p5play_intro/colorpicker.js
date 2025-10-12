@@ -7,9 +7,9 @@ let rectangle;
 function setup(){
     createCanvas(600,400);
     
-    // inputText = createInput();
-    // inputText.position(200,height - 80);
-    // inputText.input(updateText);
+    inputText = createInput();
+    inputText.position(200,height - 80);
+    inputText.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
     colorPicker.position(120,375);
@@ -23,12 +23,12 @@ function draw(){
     text("Pick a Color",20, 360)
     textSize(30)
     text("Your Name");
-    text("A")
+    text("Your Age")
 
-    // fill(0);
-    // textSize(28);
-    // textAlign(CENTER, CENTER);
-    // text(userText, width/2, 180)
+    fill(0);
+    textSize(28);
+    textAlign(CENTER, CENTER);
+    text(userText, width/2, 180)
 
     fill(255);
     rectangle = rect(50, 100, 500, 160, 50)
