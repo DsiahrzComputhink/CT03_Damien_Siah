@@ -5,7 +5,7 @@ let video;
 let hands = [];
 
 let balloon; // sprite
-let 
+let bottomWall, topWall, rightWal
 
 function preload(){
     let options = {
