@@ -49,7 +49,7 @@ function setup(){
     handPose.detectStart(video, gotHands);
 
     // balloon
-    AudioWorkletNode.gravity.y = 6;
+    world.gravity.y = 2;
 
     balloon = new Sprite();
     balloon.diameter = 60;
