@@ -2,5 +2,5 @@ function setup(){
 
 }
 function draw(){
-    TextSi
+    TextSize(30);
 }
