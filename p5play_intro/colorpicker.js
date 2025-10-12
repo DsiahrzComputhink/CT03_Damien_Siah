@@ -1,4 +1,5 @@
 let inputText;
+let inputAge
 let userText = "Your text here";
 let colorPicker;
 let rectangle;
@@ -8,6 +9,10 @@ function setup(){
     createCanvas(600,400);
     
     inputText = createInput();
+    inputText.position(200,height - 80);
+    inputText.input(updateText);
+
+        inputText = createInput();
     inputText.position(200,height - 80);
     inputText.input(updateText);
 
