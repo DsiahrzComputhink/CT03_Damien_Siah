@@ -6,12 +6,12 @@ let colorPicker;
 function setup(){
     createCanvas(600,400);
     
-    inputText = createInput();
-    inputText.position(200,height - 80);
-    inputText.input(updateText);
+    // inputText = createInput();
+    // inputText.position(200,height - 80);
+    // inputText.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
-    colorPicker.position(120,32);
+    colorPicker.position(120,350);
 }
 
 function draw(){
