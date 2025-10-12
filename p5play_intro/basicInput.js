@@ -11,7 +11,9 @@ function setup(){
 
 function draw(){
     background(220);
-    fill
+    fill(0);
+    TextSize(28);
+    textAlign(CENTER, CENTER)L
 }
 
 function updateText(){
