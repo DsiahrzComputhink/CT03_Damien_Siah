@@ -1,6 +1,7 @@
 let inputText;
 let userText = "Your text here";
 let colorPicker;
+let rectangle;
 
 
 function setup(){
