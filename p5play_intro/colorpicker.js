@@ -21,10 +21,10 @@ function draw(){
     fill(0);
     text("Pick a Color",20, 50)
 
-    fill(0);
-    textSize(28);
-    textAlign(CENTER, CENTER);
-    text(userText, width/2, 180)
+    // fill(0);
+    // textSize(28);
+    // textAlign(CENTER, CENTER);
+    // text(userText, width/2, 180)
 }
 
 function updateText(){
