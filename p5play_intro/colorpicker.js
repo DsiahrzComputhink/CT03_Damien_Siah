@@ -13,8 +13,6 @@ function setup(){
 
     colorPicker = createColorPicker("#63c1a6ff");
     colorPicker.position(120,375);
-
-    rectangle = rect(50, 100, 500, 160, 50)
 }
 
 function draw(){
@@ -28,6 +26,8 @@ function draw(){
     // textSize(28);
     // textAlign(CENTER, CENTER);
     // text(userText, width/2, 180)
+
+    rectangle = rect(50, 100, 500, 160, 50)
 }
 
 function updateText(){
