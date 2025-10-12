@@ -10,7 +10,8 @@ function setup(){
 }
 
 function draw(){
-    background(ColorPicker.value())
+    background(ColorPicker.value());
+    text
     background(220);
     fill(0);
     textSize(28);
