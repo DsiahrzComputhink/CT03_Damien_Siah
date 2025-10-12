@@ -1,8 +1,10 @@
 let inputText;
-let userText = "Y"
+let userText = "Your text here";
+
 function setup(){
 
 }
+
 function draw(){
     TextSize(30);
     text()
