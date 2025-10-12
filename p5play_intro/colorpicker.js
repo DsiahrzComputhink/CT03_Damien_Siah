@@ -19,7 +19,7 @@ function draw(){
     textSize(16);
     textAlign(LEFT);
     fill(0);
-    text("Pick a Color",20, 50)
+    text("Pick a Color",20, 320)
 
     // fill(0);
     // textSize(28);
