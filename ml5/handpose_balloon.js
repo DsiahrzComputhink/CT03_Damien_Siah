@@ -5,6 +5,7 @@ let video;
 let hands = [];
 
 let balloon; // sprite
+let 
 
 function preload(){
     let options = {
@@ -49,7 +50,7 @@ function setup(){
     handPose.detectStart(video, gotHands);
 
     // balloon
-    world.gravity.y = 2;
+    world.gravity.y = 6;
 
     balloon = new Sprite();
     balloon.diameter = 60;
