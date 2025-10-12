@@ -63,7 +63,7 @@ function setup(){
 
     // walls
     topWall = newSprite(width /2, 0, width, 10, 'static');
-    
+    bottomWall = newSprite
 }
 
 function draw(){
