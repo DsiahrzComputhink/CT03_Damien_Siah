@@ -14,7 +14,7 @@ function setup(){
 
     inputAge = createInput();
     inputAge.position(200,height - 80);
-    inputText.input(updateText);
+    inputAge.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
     colorPicker.position(120,375);
