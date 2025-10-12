@@ -12,8 +12,8 @@ function setup(){
     inputText.position(200,height - 80);
     inputText.input(updateText);
 
-        inputText = createInput();
-    inputText.position(200,height - 80);
+    inputText = createInput();
+    inputText.position(200,height - 150);
     inputText.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
