@@ -22,7 +22,8 @@ function draw(){
     fill(0);
     text("Pick a Color",20, 360)
     textSize(30)
-    text("")
+    text("Your Name");
+    text("A")
 
     // fill(0);
     // textSize(28);
