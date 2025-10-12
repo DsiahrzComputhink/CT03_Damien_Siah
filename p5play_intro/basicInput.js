@@ -7,5 +7,5 @@ function setup(){
 
 function draw(){
     TextSize(30);
-    text()
+    text(userText, hei)
 }
