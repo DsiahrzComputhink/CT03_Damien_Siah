@@ -4,9 +4,11 @@ let userText = "Your text here";
 function setup(){
     createCanvas(600,400);
     
-    // inputText = createInput();
-    // inputText.position(200,height - 80);
-    // inputText.input(updateText);
+    inputText = createInput();
+    inputText.position(200,height - 80);
+    inputText.input(updateText);
+
+    
 }
 
 function draw(){
@@ -16,11 +18,11 @@ function draw(){
     fill(0);
     text("Pick a Color",20, 50)
 
-    // background(220);
-    // fill(0);
-    // textSize(28);
-    // textAlign(CENTER, CENTER);
-    // text(userText, width/2, 180)
+    background(220);
+    fill(0);
+    textSize(28);
+    textAlign(CENTER, CENTER);
+    text(userText, width/2, 180)
 }
 
 function updateText(){
