@@ -11,7 +11,7 @@ function setup(){
     // inputText.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
-    colorPicker.position(120,350);
+    colorPicker.position(120,375);
 }
 
 function draw(){
@@ -19,7 +19,7 @@ function draw(){
     textSize(16);
     textAlign(LEFT);
     fill(0);
-    text("Pick a Color",20, 320)
+    text("Pick a Color",20, 35)
 
     // fill(0);
     // textSize(28);
