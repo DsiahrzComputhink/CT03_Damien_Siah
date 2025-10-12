@@ -62,6 +62,7 @@ function setup(){
     balloon.drag = 0.01;
 
     // walls
+    topWall = newSprite(width /2, 0, width, 10, 'static');
     
 }
 
