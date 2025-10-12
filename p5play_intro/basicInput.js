@@ -2,7 +2,7 @@ let inputText;
 let userText = "Your text here";
 
 function setup(){
-
+    
 }
 
 function draw(){
