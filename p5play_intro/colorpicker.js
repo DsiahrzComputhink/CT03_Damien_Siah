@@ -15,13 +15,12 @@ function setup(){
 }
 
 function draw(){
-    background(ColorPicker.value());
+    background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
     fill(0);
     text("Pick a Color",20, 50)
 
-    background(220);
     fill(0);
     textSize(28);
     textAlign(CENTER, CENTER);
