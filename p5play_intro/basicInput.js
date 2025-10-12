@@ -1,4 +1,5 @@
-let inputText
+let inputText;
+let userText = "Y"
 function setup(){
 
 }
