@@ -64,7 +64,7 @@ function setup(){
     // walls
     topWall = new Sprite(width /2, 0, width, 10, 'static');
     bottomWall = new Sprite(width/2, height, width, 10, 'static');
-    leftWall = new Sprite(0, height/2, 0, 10, 'static');
+    leftWall = new Sprite(0, height/2, 0, height, 'static');
 }
 
 function draw(){
