@@ -48,6 +48,8 @@ function setup(){
 
     handPose.detectStart(video, gotHands);
 
+    // balloon
+    
 }
 
 function draw(){
