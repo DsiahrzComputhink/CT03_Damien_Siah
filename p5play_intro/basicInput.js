@@ -13,7 +13,8 @@ function draw(){
     background(220);
     fill(0);
     TextSize(28);
-    textAlign(CENTER, CENTER)L
+    textAlign(CENTER, CENTER);
+    text(userText, width/2, 180)
 }
 
 function updateText(){
