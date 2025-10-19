@@ -119,6 +119,7 @@ function draw(){
     if (balloon.collides(fingerTip)){
         pointSound.play();
         console.log("collided")
+        score += 1;
     }
 }
 
