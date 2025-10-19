@@ -4,6 +4,7 @@ let VideoH = 480;
 let video;
 let hands = [];
 
+let fingerTip;
 let balloon; // sprite
 let bottomWall, topWall, rightWall, leftWall;
 
