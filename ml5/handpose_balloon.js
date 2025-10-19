@@ -93,7 +93,7 @@ function draw(){
     // }
     if (gameStarted === false) {
         textSize(28);
-        textAlgn(CENTER, CENTER);
+        textAlign(CENTER, CENTER);
         fill('black');
         textSize(20);
         text("Use your Index Finger to bounce the ball.",width/2, height/2, - 40)
