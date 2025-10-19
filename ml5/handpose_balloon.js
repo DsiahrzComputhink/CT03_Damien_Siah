@@ -122,6 +122,7 @@ function keyPressed(){
     if(key === ' '){
         gameStarted = true;
         gameOver = false;
+        score = 0;
 
         // resetting balloon state
         ballloon.x = width/2;
