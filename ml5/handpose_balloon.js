@@ -113,6 +113,8 @@ function draw(){
         } else {
             fingerTip.visible = false;
         }
+
+        if (fingerTip.collides(balloon)){}
     }
 }
 
