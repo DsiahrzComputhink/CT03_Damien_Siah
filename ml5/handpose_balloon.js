@@ -122,5 +122,11 @@ function keyPressed(){
     if(key === ' '){
         gameStarted = true;
         gameOver = false;
+
+        // resetting balloon state
+        ballloon.x = width/2;
+        balloon.y = 100;
+        balloon.vel.x = 0;
+        balloon.vel.y = 0;
     }
 }
