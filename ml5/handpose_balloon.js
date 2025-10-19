@@ -92,7 +92,8 @@ function draw(){
 
     // }
     if (gameStarted === false) {
-        
+        textSize(28);
+        textAlgn(CENTER, CENTER);
     }
     if (gameOver === false) {
         if (hands.length > 0) {
