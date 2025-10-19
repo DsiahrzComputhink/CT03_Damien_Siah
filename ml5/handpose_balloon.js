@@ -94,7 +94,9 @@ function draw(){
     if (gameStarted === false) {
         textSize(28);
         textAlgn(CENTER, CENTER);
-        fill(black)
+        fill('black');
+        textSize(20);
+        text()
     }
     if (gameOver === false) {
         if (hands.length > 0) {
