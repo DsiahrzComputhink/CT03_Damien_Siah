@@ -96,7 +96,8 @@ function draw(){
         textAlgn(CENTER, CENTER);
         fill('black');
         textSize(20);
-        text()
+        text("Use your Index Finger to bounce the ball.",width/2, height/2, - 40)
+        
     }
     if (gameOver === false) {
         if (hands.length > 0) {
