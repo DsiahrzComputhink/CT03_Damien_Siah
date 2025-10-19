@@ -121,6 +121,8 @@ function draw(){
         console.log("collided")
         score += 1;
     }
+
+    text("Press Space to Start the Game.",width/2, height/2);
 }
 
 function gotHands(results){
