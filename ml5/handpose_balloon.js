@@ -125,7 +125,7 @@ function draw(){
 
     textAlign(LEFT,CENTER)
     textSize(20)
-    text("Score: "+score,0, 20);
+    text("Score: "+score,3, 20);
 }
 
 function gotHands(results){
