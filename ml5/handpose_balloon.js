@@ -116,7 +116,7 @@ function draw(){
             fingerTip.visible = false;
         }
 
-        if (fingerTip.collides(balloon)){
+        if (balloon.collides(fingerTip)){
             pointSound.play();
             console.log("collided")
         }
