@@ -122,6 +122,7 @@ function draw(){
         score += 1;
     }
 
+    textAlign(LEFT,CENTER)
     text("Score: "+score,width/2, height/2);
 }
 
