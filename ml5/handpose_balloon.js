@@ -115,13 +115,11 @@ function draw(){
         } else {
             fingerTip.visible = false;
         }
-
-        if (balloon.collides(fingerTip)){
-            pointSound.play();
-            console.log("collided")
-        }
     }
-    
+    if (balloon.collides(fingerTip)){
+        pointSound.play();
+        console.log("collided")
+    }
 }
 
 function gotHands(results){
