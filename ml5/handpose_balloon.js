@@ -114,7 +114,9 @@ function draw(){
             fingerTip.visible = false;
         }
 
-        if (fingerTip.collides(balloon)){}
+        if (fingerTip.collides(balloon)){
+            pointsound.play();
+        }
     }
 }
 
