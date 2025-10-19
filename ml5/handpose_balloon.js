@@ -91,15 +91,16 @@ function draw(){
     //     }
 
     // }
-    if (gameOver --- false) {}
-    if (hands.length > 0) {
-        let hand = hands[0]
-        let keypoint = hand.keypoints[8]
-        fingerTip.x = keypoint.x;
-        fingerTip.y = keypoint.y;
-        fingerTip.visible = true;
-    } else {
-        fingerTip.visible = false;
+    if (gameOver --- false) {
+        if (hands.length > 0) {
+            let hand = hands[0]
+            let keypoint = hand.keypoints[8]
+            fingerTip.x = keypoint.x;
+            fingerTip.y = keypoint.y;
+            fingerTip.visible = true;
+        } else {
+            fingerTip.visible = false;
+        }
     }
 }
 
