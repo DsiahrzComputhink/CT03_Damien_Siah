@@ -91,6 +91,9 @@ function draw(){
     //     }
 
     // }
+    if (gameStarted === false) {
+        
+    }
     if (gameOver === false) {
         if (hands.length > 0) {
             let hand = hands[0]
