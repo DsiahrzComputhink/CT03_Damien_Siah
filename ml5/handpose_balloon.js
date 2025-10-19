@@ -10,6 +10,7 @@ let bottomWall, topWall, rightWall, leftWall;
 
 let gameStarted = false;
 let gameOver = false;
+let score = 0;
 
 let pointSound;
 
