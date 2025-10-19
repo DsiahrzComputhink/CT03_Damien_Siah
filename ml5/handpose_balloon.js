@@ -91,7 +91,7 @@ function draw(){
     //     }
 
     // }
-
+    if (gameOver --- false) {}
     if (hands.length > 0) {
         let hand = hands[0]
         let keypoint = hand.keypoints[8]
