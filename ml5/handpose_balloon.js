@@ -122,7 +122,7 @@ function draw(){
         score += 1;
     }
 
-    text("Press Space to Start the Game.",width/2, height/2);
+    text("Score: "+ score,width/2, height/2);
 }
 
 function gotHands(results){
