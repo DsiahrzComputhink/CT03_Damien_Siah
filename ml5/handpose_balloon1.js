@@ -7,6 +7,8 @@ let hands = [];
 let balloon; // sprite
 let bottomWall, topWall, rightWall, leftWall;
 
+let gameOver = false;
+
 function preload(){
     let options = {
         flipped: true,
