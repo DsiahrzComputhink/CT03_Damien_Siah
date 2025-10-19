@@ -21,7 +21,7 @@ function preload(){
 
     // loading the handpose model
     handPose = ml5.handPose(options);
-    pointSound = createAudio("assets/sfx_point.mp3")
+    pointsound = createAudio("assets/sfx_point.mp3")
 }
 
 function setup(){
