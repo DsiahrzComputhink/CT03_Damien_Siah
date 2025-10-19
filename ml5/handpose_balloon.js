@@ -123,7 +123,7 @@ function draw(){
     }
 
     textAlign(LEFT,CENTER)
-    text("Score: "+score,width/2, height/2);
+    text("Score: "+score,0, 0);
 }
 
 function gotHands(results){
