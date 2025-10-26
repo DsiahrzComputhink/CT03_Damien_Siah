@@ -127,7 +127,7 @@ function draw(){
         textAlign(CENTER, CENTER);
         text("Game Over", width/2, height/2);
         textSize(18);
-        text("Press Space to Restart.")
+        text("Press Space to Restart.", width/2, height/2 + 40);
     }
 
     // if (balloon.collides(fingerTip)){
