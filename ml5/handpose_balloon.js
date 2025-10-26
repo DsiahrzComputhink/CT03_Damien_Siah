@@ -122,7 +122,10 @@ function draw(){
         }
     }
 
-    if (gameOver)
+    if (gameOver === true) {
+        textSize(36)
+        
+    }
 
     // if (balloon.collides(fingerTip)){
     //     pointSound.play();
