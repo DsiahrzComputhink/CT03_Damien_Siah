@@ -139,7 +139,8 @@ function draw(){
         bounceCooldown = bounceDelay;
     }
 
-    
+
+    if (balloon.collides(bottomWall)) {}
 
 
 
