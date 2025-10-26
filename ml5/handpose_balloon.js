@@ -126,7 +126,7 @@ function draw(){
     }
 
     if (bounceCooldown > 0) {
-        
+        bounceCooldown 
     }
 
     textAlign(LEFT,CENTER)
