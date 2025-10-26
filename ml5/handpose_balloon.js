@@ -14,7 +14,7 @@ let score = 0;
 
 let pointSound;
 
-let bounceCooldown = 200
+let bounceCooldown = 200;
 
 function preload(){
     let options = {
@@ -125,7 +125,9 @@ function draw(){
         score += 1;
     }
 
-    if(bounce)
+    if (bounceCooldown > 0) {
+        
+    }
 
     textAlign(LEFT,CENTER)
     textSize(20)
