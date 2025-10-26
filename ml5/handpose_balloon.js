@@ -131,7 +131,7 @@ function draw(){
     }
 
     if (bounceCooldown <= 0 && balloon.collides(fingerTip)) {
-        
+        pointSound.play
     }
 
 
