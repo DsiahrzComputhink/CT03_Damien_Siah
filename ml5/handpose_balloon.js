@@ -142,6 +142,7 @@ function draw(){
 
     if (balloon.collides(bottomWall)) {
         gameOver = true;
+        balloon.vel = 0
     }
 
 
