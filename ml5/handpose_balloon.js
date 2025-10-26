@@ -139,6 +139,8 @@ function draw(){
         bounceCooldown = bounceDelay;
     }
 
+    
+
 
 
     textAlign(LEFT,CENTER)
