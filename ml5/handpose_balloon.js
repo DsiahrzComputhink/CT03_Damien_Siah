@@ -122,6 +122,8 @@ function draw(){
         }
     }
 
+    if (gameOver)
+
     // if (balloon.collides(fingerTip)){
     //     pointSound.play();
     //     console.log("collided")
