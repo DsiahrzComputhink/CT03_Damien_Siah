@@ -125,7 +125,7 @@ function draw(){
     if (gameOver === true) {
         textSize(36);
         textAlign(CENTER, CENTER);
-        
+        text
     }
 
     // if (balloon.collides(fingerTip)){
