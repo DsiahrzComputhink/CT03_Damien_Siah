@@ -25,9 +25,9 @@ function draw(){
     textSize(16);
     textAlign(LEFT);
     fill(0);
-    text("Pick a Color",20, 360)
     text("Your Name", 20, height - 110);
     text("Your Age", 20, height - 80)
+    text("Pick a Color",20, height - 50)
     textSize(30)
 
     fill(0);
