@@ -144,6 +144,7 @@ function draw(){
         gameOver = true;
         balloon.vel.x = 0;
         balloon.vel.y = 0;
+        balloon.collider = 'none';
     }
 
 
