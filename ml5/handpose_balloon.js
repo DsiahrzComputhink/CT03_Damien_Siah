@@ -12,7 +12,9 @@ let gameStarted = false;
 let gameOver = false;
 
 let score = 0;
-let bounceCooldown = 200;
+
+let boundeDelay = 200;
+let bounceCooldown = 0;
 
 let pointSound;
 
