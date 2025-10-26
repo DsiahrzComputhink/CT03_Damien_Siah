@@ -14,6 +14,8 @@ let score = 0;
 
 let pointSound;
 
+let 
+
 function preload(){
     let options = {
         flipped: true,
