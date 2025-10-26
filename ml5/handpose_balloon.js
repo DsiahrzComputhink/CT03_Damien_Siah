@@ -127,9 +127,10 @@ function draw(){
 
     if (bounceCooldown > 0) {
         bounceCooldown = bounceCooldown - deltaTime;
+        score -= 1;
     }
 
-    
+
 
     textAlign(LEFT,CENTER)
     textSize(20)
