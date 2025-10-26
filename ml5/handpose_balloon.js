@@ -136,7 +136,7 @@ function draw(){
         pointSound.play();
         console.log("collided");
         score ++;
-        bounceCooldown = bounceDelay
+        bounceCooldown = bounceDelay;
     }
 
 
