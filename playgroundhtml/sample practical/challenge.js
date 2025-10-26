@@ -1,6 +1,7 @@
 let inputText;
 let inputAge
-let userText = "Your text here";
+let userText = "Your Name";
+let userAge = "Age"
 let colorPicker;
 let rectangle;
 
