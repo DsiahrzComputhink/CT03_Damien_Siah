@@ -127,7 +127,6 @@ function draw(){
 
     if (bounceCooldown > 0) {
         bounceCooldown = bounceCooldown - deltaTime;
-        score -= 1;
     }
 
 
