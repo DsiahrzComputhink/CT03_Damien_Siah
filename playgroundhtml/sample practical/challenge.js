@@ -36,8 +36,8 @@ function draw(){
     fill(0);
     textSize(28);
     textAlign(CENTER, CENTER);
-    text(userText, width/2, 180)
-    text(userAge, width/2, 180)
+    text(userText, width/2, 180 - 30)
+    text(userAge, width/2, 180 + 30)
 
     fill(255);
 }
