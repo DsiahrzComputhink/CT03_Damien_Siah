@@ -131,7 +131,10 @@ function draw(){
     }
 
     if (bounceCooldown <= 0 && balloon.collides(fingerTip)) {
-        pointSound.play
+        pointSound.play();
+        console.log("collided");
+        score ++;
+        bounceCooldown = bounceDelay
     }
 
 
