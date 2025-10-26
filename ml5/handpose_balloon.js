@@ -123,7 +123,8 @@ function draw(){
     }
 
     if (gameOver === true) {
-        textSize(36)
+        textSize(36);
+        textAlign(CENTER, CENTER);
         
     }
 
