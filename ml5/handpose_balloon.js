@@ -140,7 +140,9 @@ function draw(){
     }
 
 
-    if (balloon.collides(bottomWall)) {}
+    if (balloon.collides(bottomWall)) {
+        gameOver = true;
+    }
 
 
 
