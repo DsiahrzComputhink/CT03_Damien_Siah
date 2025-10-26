@@ -126,7 +126,7 @@ function draw(){
     }
 
     if (bounceCooldown > 0) {
-        bounceCooldown 
+        bounceCooldown = bounceCooldown - deltaTime;
     }
 
     textAlign(LEFT,CENTER)
