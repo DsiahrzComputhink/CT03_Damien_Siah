@@ -10,11 +10,11 @@ let bottomWall, topWall, rightWall, leftWall;
 
 let gameStarted = false;
 let gameOver = false;
+
 let score = 0;
+let bounceCooldown = 200;
 
 let pointSound;
-
-let bounceCooldown = 200;
 
 function preload(){
     let options = {
