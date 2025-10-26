@@ -36,7 +36,7 @@ function draw(){
     text(userText, width/2, 180)
 
     fill(255);
-    rectangle = rect(50, 100, 500, 160, 50)
+    rectangle = rect(50, 100, 500, 160, 20)
 }
 
 function updateText(){
