@@ -43,5 +43,6 @@ function draw(){
 }
 
 function updateText(){
-    userText = this.value();
+    userText = inputText.value();
+    userAge = this.value();
 }
