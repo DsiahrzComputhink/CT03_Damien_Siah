@@ -129,6 +129,8 @@ function draw(){
         bounceCooldown = bounceCooldown - deltaTime;
     }
 
+    
+
     textAlign(LEFT,CENTER)
     textSize(20)
     text("Score: "+score,5, 20);
