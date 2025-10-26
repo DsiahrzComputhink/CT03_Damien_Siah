@@ -127,6 +127,7 @@ function draw(){
         textAlign(CENTER, CENTER);
         text("Game Over", width/2, height/2);
         textSize(18);
+        
     }
 
     // if (balloon.collides(fingerTip)){
