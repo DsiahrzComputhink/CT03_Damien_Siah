@@ -21,6 +21,7 @@ function setup(){
 }
 
 function draw(){
+    rectangle = rect(50, 100, 500, 160, 20)
     background(colorPicker.value());
     textSize(16);
     textAlign(LEFT);
@@ -36,7 +37,6 @@ function draw(){
     text(userText, width/2, 180)
 
     fill(255);
-    rectangle = rect(50, 100, 500, 160, 20)
 }
 
 function updateText(){
