@@ -119,15 +119,18 @@ function draw(){
             fingerTip.visible = false;
         }
     }
-    if (balloon.collides(fingerTip)){
-        pointSound.play();
-        console.log("collided")
-        score += 1;
-    }
+
+    // if (balloon.collides(fingerTip)){
+    //     pointSound.play();
+    //     console.log("collided")
+    //     score += 1;
+    // }
 
     if (bounceCooldown > 0) {
         bounceCooldown = bounceCooldown - deltaTime;
     }
+
+    i
 
 
 
