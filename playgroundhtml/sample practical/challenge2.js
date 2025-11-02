@@ -10,6 +10,7 @@ function setup(){
     createCanvas(400,200);
     
     textSize(20);
+    fill("white")
     textAlign(CENTER, CENTER);
     text("Enter a Noun", (width / 2) - 100,  height + 70);
 
