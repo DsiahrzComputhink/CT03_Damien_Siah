@@ -14,10 +14,10 @@ function setup(){
     //text(inputValue, 200, 100);
 
     inputNoun = createInput();
-    inputNoun.position(600,height + 70);
+    inputNoun.position(width / 2,height + 70);
 
     inputVerb = createInput();
-    inputVerb.position(600,height + 90);
+    inputVerb.position(width / 2,height + 90);
 
     inputAdj = createInput();
     inputAdj.position(600,height + 110);
