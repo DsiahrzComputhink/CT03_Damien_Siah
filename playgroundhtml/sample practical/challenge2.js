@@ -13,8 +13,8 @@ function setup(){
     textAlign(CENTER, CENTER);
     text(inputValue, 200, 100);
 
-    inp = createInput();
-    inputText.position(600,height + 70);
+    inputNoun = createInput();
+    inputNoun.position(600,height + 70);
     //inputText.input(updateText);
 
     submitButton = createButton("Show Input");
