@@ -1,10 +1,14 @@
-let inputText;
+let inputNoun;
 let submitButton;
 
 
 function setup(){
     createCanvas(400,200);
     
+    textSize(64);
+    textAlign(CENTER, CENTER);
+    text(inputValue, 200, 100);
+
     inputText = createInput();
     inputText.position(600,height + 70);
     //inputText.input(updateText);
