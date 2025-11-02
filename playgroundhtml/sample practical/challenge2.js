@@ -19,8 +19,8 @@ function setup(){
     inputVerb = createInput();
     inputVerb.position(600,height + 70);
 
-    inputNoun = createInput();
-    inputNoun.position(600,height + 70);
+    inputAdj = createInput();
+    inputAdj.position(600,height + 70);
 
     inputNoun = createInput();
     inputNoun.position(600,height + 70);
