@@ -1,6 +1,8 @@
 let inputNoun;
 let inputVerb;
-let inputAd
+let inputAdj;
+let inputAdverb;
+let inputPlace;
 let submitButton;
 
 
