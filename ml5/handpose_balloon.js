@@ -33,6 +33,7 @@ function preload(){
 }
 
 function setup(){
+    world.gravity.y = 0;
 
     fingerTip = new Sprite();
     fingerTip.diameter = 60;
@@ -102,6 +103,7 @@ function draw(){
 
     // }
     if (gameStarted === false) {
+
         textSize(28);
         textAlign(CENTER, CENTER);
         fill('black');
@@ -111,6 +113,7 @@ function draw(){
         text("Press Space to Start the Game.",width/2, height/2);
     }
     if (gameOver === false) {
+        world.gravity.y = 1;
         if (hands.length > 0) {
             let hand = hands[0]
             let keypoint = hand.keypoints[8]

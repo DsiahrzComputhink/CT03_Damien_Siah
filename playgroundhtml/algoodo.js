@@ -40,7 +40,7 @@ function draw() {
     textSize(13)
     text("R - Circle", 10,35);
     text("T - Square", 10,50);
-    text("Y - Rectangle", 10,65);
+    text("Y or U - Rectangle", 10,65);
 
     text("'-' or '+' to Adjust Size",10,85)
     text("'A' or 'D' to Adjust Elasticity",10,100)
@@ -58,7 +58,7 @@ function draw() {
 
 
     // Sprite Creation
-    if ( keyboard.presses("r") || keyboard.presses("t") || keyboard.presses("y")) {
+    if ( keyboard.presses("r") || keyboard.presses("t") || keyboard.presses("y") || keyboard.presses("u")) {
 
         if ( keyboard.presses("r")) {
             let s = new Sprite( mouseX, mouseY ) // Circle
@@ -82,6 +82,15 @@ function draw() {
 
         else if ( keyboard.presses("y")) {
             let s = new Sprite(mouseX, mouseY, size, size * 1.5); // Square
+            s.collider = "dynamic";
+            s.bounciness = elasticity;
+            s.layer = -10;
+                        if (anchor == true){
+                s.collider = "static"
+            }
+        }
+        else if ( keyboard.presses("u")) {
+            let s = new Sprite(mouseX, mouseY, size * 3, size); // Square
             s.collider = "dynamic";
             s.bounciness = elasticity;
             s.layer = -10;

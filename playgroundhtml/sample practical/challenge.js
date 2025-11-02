@@ -10,15 +10,15 @@ function setup(){
     createCanvas(600,400);
     
     inputText = createInput();
-    inputText.position(200,height - 110);
+    inputText.position(600,height + 70);
     inputText.input(updateText);
 
     inputAge = createInput();
-    inputAge.position(200,height - 80);
+    inputAge.position(600,height + 100);
     inputAge.input(updateText);
 
     colorPicker = createColorPicker("#63c1a6ff");
-    colorPicker.position(20 + 70,height - 50);
+    colorPicker.position(600,height + 130);
 }
 
 function draw(){
