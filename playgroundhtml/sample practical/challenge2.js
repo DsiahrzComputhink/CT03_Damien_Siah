@@ -22,10 +22,10 @@ function setup(){
     inputVerb.position(width / 2, height - 500);
 
     inputAdj = createInput();
-    inputAdj.position(width / 2,height - 460);
+    inputAdj.position(width / 2, height - 460);
 
     inputAdverb = createInput();
-    inputAdverb.position(width / 2,height - 420);
+    inputAdverb.position(width / 2, height - 420);
 
     inputPlace = createInput();
     inputPlace.position(width / 2,height - 380);
