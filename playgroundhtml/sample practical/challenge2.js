@@ -8,6 +8,7 @@ let submitButton;
 
 function setup(){
     createCanvas(600, 600);
+    background(100)
     
     textSize(200);
     fill("white")
