@@ -13,7 +13,7 @@ function setup(){
     textAlign(CENTER, CENTER);
     text(inputValue, 200, 100);
 
-    inputText = createInput();
+    inp = createInput();
     inputText.position(600,height + 70);
     //inputText.input(updateText);
 
