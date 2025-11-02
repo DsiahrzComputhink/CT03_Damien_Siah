@@ -11,7 +11,7 @@ function setup(){
     background(100)
     
     textSize(20);
-    fill("white")
+    fill("black")
     textAlign(CENTER, CENTER);
     text("Enter a Noun", (width / 2) - 150,  height - 540);
 
