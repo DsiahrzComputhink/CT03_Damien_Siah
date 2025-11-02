@@ -31,7 +31,7 @@ function setup(){
 
     submitButton = createButton("Show Input");
     submitButton.mousePressed(displayInput);
-    submitButton.position(inputNoun.x + inputText.width + 10, inputText.y);
+    submitButton.position(inputNoun.x + inputNoun.width + 10, inputNoun.y);
 }
 
 function draw(){
