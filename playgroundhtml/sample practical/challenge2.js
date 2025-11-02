@@ -9,9 +9,9 @@ let submitButton;
 function setup(){
     createCanvas(400,200);
     
-    textSize(64);
+    textSize(20);
     textAlign(CENTER, CENTER);
-    //text(inputValue, 200, 100);
+    text("Enter a Noun");
 
     inputNoun = createInput();
     inputNoun.position(width / 2,height + 70);
