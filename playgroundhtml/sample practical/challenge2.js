@@ -40,7 +40,7 @@ function draw(){
 
 function displayInput() {
     background(220);
-    const inputValue = inputText.value();
+    const inputValue = inputNoun.value();
     textSize(64);
     textAlign(CENTER, CENTER);
     text(inputValue, 200, 100);
