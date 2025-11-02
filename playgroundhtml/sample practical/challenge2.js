@@ -27,7 +27,7 @@ function setup(){
     inputAdverb.position(width / 2,height - 420);
 
     inputPlace = createInput();
-    inputPlace.position(width / 2,height + 150);
+    inputPlace.position(width / 2,height - 380);
     //inputText.input(updateText);
 
     submitButton = createButton("Show Input");
