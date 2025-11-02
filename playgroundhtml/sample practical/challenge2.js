@@ -12,7 +12,7 @@ function setup(){
     textSize(20);
     fill("white")
     textAlign(CENTER, CENTER);
-    text("Enter a Noun", (width / 2) - 100,  height + 70);
+    text("Enter a Noun", (width / 2) - 2,  height + 70);
 
     inputNoun = createInput();
     inputNoun.position(width / 2,height + 70);
