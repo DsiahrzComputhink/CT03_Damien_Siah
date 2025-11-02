@@ -20,13 +20,13 @@ function setup(){
     inputVerb.position(width / 2,height + 90);
 
     inputAdj = createInput();
-    inputAdj.position(600,height + 110);
+    inputAdj.position(width / 2,height + 110);
 
     inputAdverb = createInput();
-    inputAdverb.position(600,height + 130);
+    inputAdverb.position(width / 2,height + 130);
 
     inputPlace = createInput();
-    inputPlace.position(600,height + 150);
+    inputPlace.position(width / 2,height + 150);
     //inputText.input(updateText);
 
     submitButton = createButton("Show Input");
