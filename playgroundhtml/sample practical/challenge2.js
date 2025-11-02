@@ -17,16 +17,16 @@ function setup(){
     inputNoun.position(600,height + 70);
 
     inputVerb = createInput();
-    inputVerb.position(600,height + 70);
+    inputVerb.position(600,height + 90);
 
     inputAdj = createInput();
-    inputAdj.position(600,height + 70);
+    inputAdj.position(600,height + 110);
 
     inputAdverb = createInput();
-    inputAdverb.position(600,height + 70);
+    inputAdverb.position(600,height + 130);
 
     inputPlace = createInput();
-    inputPlace.position(600,height + 70);
+    inputPlace.position(600,height + 150);
     //inputText.input(updateText);
 
     submitButton = createButton("Show Input");
