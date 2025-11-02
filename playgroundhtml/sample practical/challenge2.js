@@ -7,7 +7,7 @@ function setup(){
     
     inputText = createInput();
     inputText.position(600,height + 70);
-    inputText.input(updateText);
+    //inputText.input(updateText);
 
     submitButton = createButton("Show Input");
     submitButton.mousePressed(displayInput);
