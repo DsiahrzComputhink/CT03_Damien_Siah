@@ -9,7 +9,7 @@ let submitButton;
 function setup(){
     createCanvas(400,200);
     
-    textSize(20);
+    textSize(200);
     fill("white")
     textAlign(CENTER, CENTER);
     text("Enter a Noun", (width / 2) - 2,  height + 70);
