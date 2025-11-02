@@ -18,13 +18,13 @@ function setup(){
     inputNoun.position(width / 2,height - 540);
 
     inputVerb = createInput();
-    inputVerb.position(width / 2,height - 540);
+    inputVerb.position(width / 2,height - 500);
 
     inputAdj = createInput();
-    inputAdj.position(width / 2,height + 110);
+    inputAdj.position(width / 2,height - 460);
 
     inputAdverb = createInput();
-    inputAdverb.position(width / 2,height + 130);
+    inputAdverb.position(width / 2,height - 420);
 
     inputPlace = createInput();
     inputPlace.position(width / 2,height + 150);
